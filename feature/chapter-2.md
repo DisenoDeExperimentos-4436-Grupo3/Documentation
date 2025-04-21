@@ -165,17 +165,17 @@ Resumen:<br>
 
 1.  Entrevista 1: <br>
     Datos del entrevistado <br>
-    Nombre:  <br>
+    Nombre: Diego <br>
     Apellidos: <br>
-    Edad:  <br>
-    Distrito: <br>
+    Edad: 22 <br>
+    Distrito: Puente Piedra<br>
 
-![Foto de entrevista](./assets/images/Entrevista-Fabricio.png)
+[![entrevista-Diego.png](https://i.postimg.cc/xTQ7P5x5/entrevista-Diego.png)](https://postimg.cc/DmCBvrK4)
 
-URL: [Link de entrevista](https://drive.google.com/file/d/1uXZ6G0zsHYuDO0gdae2g7U5mKxVTHGnG/view?usp=sharing "Entrevista 1")
+URL: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217804_upc_edu_pe/EYlzDLybn_RLj47ItGE5h8sBACQmRw-WWlpaAtlBSC9kqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wdqUzW "Entrevista 1")
 
-Inicio: <br>
-Duracion: 
+Inicio: 0:03<br>
+Duracion: 8:44
 
 Resumen:<br>
 
