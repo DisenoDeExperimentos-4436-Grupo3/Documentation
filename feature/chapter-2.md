@@ -17,7 +17,7 @@ Para poder tener un análisis completo sobre nuestro modelo de negocio además d
 
 | Nombre de <br>los Startups <br> o Empresas | | Nuestra startup| Competidor 1| Competidor 2| Competidor 3|
 | -- | -- | -- | -- | -- | -- |
-| Perfil                                     | Overview                                                      | Horizon <br> ![Logo Horizon](assets/images/imagesTB1/managewiselogo.png)                                                                                                                                                                                         | Wrike <br> ![Logo Wrike](assets/images/imagesTB1/wrikelogo.png)                                                                                                                                                                                                                                                  | Trello <br> ![Logo Trello](assets/images/imagesTB1/trellologo.png)                                                                                                                                 | ClickUp <br> ![Logo Click Up](assets/images/imagesTB1/clickuplogo.png)                                                                                                                                            |
+| Perfil                                     | Overview                                                      | Horizon <br> ![Logo Horizon](../assets/images/imagesTB1/managewiselogo.png)                                                                                                                                                                                         | Wrike <br> ![Logo Wrike](../assets/images/imagesTB1/wrikelogo.png)                                                                                                                                                                                                                                                  | Trello <br> ![Logo Trello](../assets/images/imagesTB1/trellologo.png)                                                                                                                                 | ClickUp <br> ![Logo Click Up](../assets/images/imagesTB1/clickuplogo.png)                                                                                                                                            |
 |                                            | Ventaja competitiva:<br>¿Qué valor ofrece<br> a los clientes? | Proporciona una interfaz intuitiva <br>y fácil de usar, en la que Lo usan<br> antes, durante y después del<br> Ciclo de Vida del Desarrollo de<br> Software.                                                                                                     | ofrece análisis predictivos,<br> automatización avanzada y <br>herramientas de colaboración <br>que permiten a los equipos<br> mejorar la productividad y <br>la visibilidad del proyecto<br> en tiempo real.                                                                                                    | Proporciona una interfaz <br>intuitiva y fácil de usar,<br> ideal para equipos pequeños<br> y startups que buscan <br>simplicidad en la gestión <br>de tareas.                                     | Proporciona una solución <br>altamente personalizable <br>que puede adaptarse a <br>diferentes necesidades <br>empresariales, integrando <br>gestión de tareas, tiempo <br>y recursos en una sola <br>plataforma. |
 | Perfil de Marketing                        | Mercado Objetivo                                              | Startups de tecnología que buscan<br> mejorar la eficiencia y la colaboración<br> en sus equipos de desarrollo                                                                                                                                                   | Empresas medianas a grandes,<br> así como equipos de proyectos <br>complejos que requieren <br>integración y colaboración <br>avanzadas.                                                                                                                                                                         | Equipos pequeños, startups<br> y empresas que necesitan <br>una herramienta <br>de gestión de proyectos <br>visual y simple.                                                                       | Startups, pequeñas y medianas <br>empresas que buscan una <br>herramienta flexible y completa <br>para la gestión de proyectos.                                                                                   |
 |                                            | Estrategias de Marketing                                      | Uso de marketing digital dirigido<br> a comunidades tecnológicas, con <br> pruebas gratuitas y asociaciones<br> estratégicas                                                                                                                                     | Wrike se posiciona como una <br>herramienta robusta y flexible <br>para equipos que necesitan <br>mejorar la eficiencia operativa <br>y la gestión de proyectos. <br>Su estrategia incluye <br>demostraciones personalizadas <br>y un enfoque en las <br>integraciones con otras <br>herramientas empresariales. | Se enfoca en la simplicidad <br>y la accesibilidad, <br>promocionando su facilidad <br>de uso y la posibilidad de <br>integrarse con herramientas <br>populares como Slack y <br>Google Workspace. | Se posiciona como una alternativa<br> más económica y todo-en-uno a <br>las herramientas tradicionales de <br>gestión de proyectos, con un <br>fuerte enfoque en la personalización<br> y la escalabilidad.       |
@@ -239,7 +239,7 @@ En resumen, los equipos de desarrollo buscan soluciones que mejoren la eficienci
 
 <p align="center">
 
-  <img src="assets/images/User-persona-1.png">
+  <img src="../assets/images/User-persona-1.png">
 
 </p>
 
@@ -247,7 +247,7 @@ En resumen, los equipos de desarrollo buscan soluciones que mejoren la eficienci
 
 <p align="center">
 
-<img src="assets/images/User-persona-2.png">
+<img src="../assets/images/User-persona-2.png">
 
 </p>
 
@@ -298,7 +298,7 @@ Al observar la matriz, podemos destacar que tanto Oscar como Leonardo consideran
 
    En la etapa final, el líder revisa el rendimiento del proyecto en comparación con los objetivos y evalúa áreas de mejora para futuros proyectos. El cierre puede generar motivación si el proyecto es exitoso, pero también puede haber inseguridad si los informes de desempeño no fueron claros. El feedback del cliente es esencial para asegurar mejoras continuas en futuros proyectos.
 
-![Anexo F](./assets/images/User%20Journey%20Mapping%20Lider.png)
+![Anexo F](../assets/images/User%20Journey%20Mapping%20Lider.png)
 
 **User Journey Mapping - Equipo de Desarrollo de Software**
 
@@ -315,7 +315,7 @@ Este recorrido muestra el proceso completo que experimenta un integrante del equ
 3.  Revisión y Entrega<br>
     En la fase final, el integrante revisa su código o entregables desarrollados y prueba las funcionalidades para asegurarse de que cumplen con los requisitos del cliente. Al finalizar la entrega, se siente alivio, aunque puede haber incertidumbre sobre si el resultado cumplirá con las expectativas del cliente o si surgirán problemas técnicos cerca del cierre.
 
-![Anexo G](./assets/images/User%20Journey%20Mapping%20Integrante%20Equipo.png)
+![Anexo G](../assets/images/User%20Journey%20Mapping%20Integrante%20Equipo.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -361,12 +361,12 @@ Este recorrido muestra el proceso completo que experimenta un integrante del equ
 
 **Segmento 1:** Lider o gerente de empresa de desarrollo de software en crecimiento(Product Owner y Scrum Master)
 
-![Anexo C](./assets/images/As%20-Is%20Lider.jpg)
+![Anexo C](../assets/images/As%20-Is%20Lider.jpg)
 Anexo C
 
 **Segmento 2:** Miembros de un equipo de Desarrollo de Software
 
-![Anexo D](./assets/images/As%20-Is%20integrante%20Equipo.jpg)
+![Anexo D](../assets/images/As%20-Is%20integrante%20Equipo.jpg)
 Anexo D
 
 ### 2.4. Ubiquitous Language

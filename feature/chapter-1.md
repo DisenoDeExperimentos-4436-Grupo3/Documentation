@@ -189,7 +189,7 @@ Nuestro objetivo es liderar el mercado con herramientas que no sólo aborden las
 
 - John Telésforo Arévalo Meza - U202117377
 
-| <p align="center"><img width="800" src="../assets/images/John_profile.jpg"> </p> | Soy John Arévalo, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
+| <p align="center"><img width="400" src="../assets/images/John_profile.jpg"> </p> | Soy John Arévalo, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
 | :---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  - 
@@ -199,12 +199,12 @@ Nuestro objetivo es liderar el mercado con herramientas que no sólo aborden las
 
 - Rodrigo Manuel Chirinos Zúñiga - u202217804
 
-| <p align="center"><img width="600" src = "https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb"> | Tengo 20 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript. |
+| <p align="center"><img width="300" src = "https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb"> | Tengo 20 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript. |
 | ----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  - 
 
-| <p align="center"><img width="180" height="180" src="../assets/images/"></p> |  |
+| <p align="center"><img width="180" src="../assets/images/"></p> |  |
 | ------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  – 

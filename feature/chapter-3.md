@@ -4,12 +4,12 @@
 
 **Segmento 1:** Lider o gerente de proyectos de software
 
-![Anexo A](./assets/images/To%20-Be%20Lider.jpg)
+![Anexo A](../assets/images/To%20-Be%20Lider.jpg)
 Anexo A
 
 **Segmento 2:** Miembro de un equipo de desarrollo de software
 
-![Anexo B](./assets/images/To%20-Be%20Integrante%20Equipo.jpg)
+![Anexo B](../assets/images/To%20-Be%20Integrante%20Equipo.jpg)
 Anexo B
 
 ### 3.2. User Stories
@@ -189,7 +189,7 @@ EPICS:
 
 ### 3.3. Impact Mapping
 
-![Anexo E](./assets/images/Impact%20Mapping%20Lider%20Integrante.jpg)
+![Anexo E](../assets/images/Impact%20Mapping%20Lider%20Integrante.jpg)
 Anexo E
 
 ### 3.4. Product Backlog
