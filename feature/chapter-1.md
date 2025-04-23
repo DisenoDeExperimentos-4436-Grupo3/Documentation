@@ -5,7 +5,7 @@ Product: ManageWise
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 <p align="center">
-  <img src="assets/images/upc-logo.png">
+  <img src="../assets/images/upc-logo.png">
 </p>
 
 ## Ingenieria de Software
@@ -189,27 +189,27 @@ Nuestro objetivo es liderar el mercado con herramientas que no sólo aborden las
 
 - John Telésforo Arévalo Meza - U202117377
 
-| <p align="center"><img width="300" src="assets/images/John_profile.jpg"> </p> | Soy John Arévalo, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
+| <p align="center"><img width="800" src="../assets/images/John_profile.jpg"> </p> | Soy John Arévalo, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimiento en lenguajes de programación como python y c++, y bases de datos como SQLServer y MongoDB. Desde pequeño me sentí atraído por la tecnología, por lo que me decidí a estudiar la carrera, además disfruto de jugar videojuegos con amigos en mi tiempo libre. |
 | :---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  - 
 
-| <p align="center"><img width="180" height="180" src="assets/images/Estefano_profile.jpg"></p> |  |
+| <p align="center"><img width="180" height="180" src="../assets/images/"></p> |  |
 | --------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 - Rodrigo Manuel Chirinos Zúñiga - u202217804
 
-| <p align="center"><img width="180" height="180" src = "https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb"> | Tengo 20 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript. |
+| <p align="center"><img width="600" src = "https://github.com/user-attachments/assets/9895e794-a88f-4436-a332-8d5c8112f9cb"> | Tengo 20 años, soy un estudiante de la carrera de Ingeniería de Software, considero que soy una persona responsable y de escucha activa. Estoy comprometido con mis compañeros en realizar un buen trabajo y así aprender todos en el proceso. También tengo conocimientos en programación en C++, HTML, CSS y JavaScript. |
 | ----------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  - 
 
-| <p align="center"><img width="180" height="180" src="assets/images/WASAAAA.jpg"></p> |  |
+| <p align="center"><img width="180" height="180" src="../assets/images/"></p> |  |
 | ------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 -  – 
 
-| <p align="center"><img width="300" src="https://hackmd.io/_uploads/SkU_5d9cR.png"> </p> |  |
+| <p align="center"><img width="300" src="../assets/images/"> </p> |  |
 | :-------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### 1.2. Solution Profile
@@ -276,7 +276,7 @@ Las personas llegaron a la situación de buscar una solución como ManageWise de
 **¿Cuánto cuesta este problema?**  
 La carencia de herramientas avanzadas para la gestión de proyectos en startups de desarrollo de software conlleva graves consecuencias.El Standish Group CHAOS Report 2020 revela que el 45% de los proyectos de software se retrasan significativamente, y aproximadamente el 19% se consideran fracasos completos debido a problemas en la gestión y falta de herramientas adecuadas.
 
-![alt text](assets/images/2_H_estadistica.png)
+![alt text](../assets/images/2_H_estadistica.png)
 
 Los costos operativos también se ven incrementados significativamente. Un análisis de Gartner indica que las empresas que no cuentan con herramientas adecuadas pueden enfrentar un aumento del 25% en sus costos operativos debido a ineficiencias. La insatisfacción con las herramientas actuales es alta, con un 40% de los equipos de desarrollo reportando descontento, según un estudio de Atlassian. Finalmente, un informe de Forrester revela que el 50% de las decisiones en proyectos de software se basan en datos insuficientes, lo que afecta la calidad de la toma de decisiones y el éxito general de los proyectos.
 
