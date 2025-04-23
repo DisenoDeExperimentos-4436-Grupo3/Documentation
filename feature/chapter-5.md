@@ -48,7 +48,7 @@ Con base en los requisitos, hemos seleccionado las siguientes tecnologías para 
   - **Propósito:** Diseño de prototipos y interfaces de usuario.
   - **Ruta del Figma**: https://www.figma.com/design/PQMlg7QzupwYT1ef3eXdEG/LandingPage-WireFrame-ManageWise?node-id=15-131&node-type=canvas&t=PXmYxR9lGN4kX4l0-0
 
-![FIGMA](assets/images/FIGMA2.png)
+![FIGMA](../assets/images/FIGMA2.png)
 
 **Software Development**
 **HTML:**
@@ -188,10 +188,10 @@ En los siguientes pasos se explicará cómo llevar a cabo la implementación de 
 **Deploy con GitHub Pages:**
 En primer lugar, accedemos al repositorio de GitHub donde se encuentra nuestro proyecto y luego navegamos hacia la configuración del repositorio.
 
-![Settings](assets/images/settings.png)
+![Settings](../assets/images/settings.png)
 
 Dentro del menú de ajustes, elegimos la opción "Pages".
-![Settings](assets/images/image.png)
+![Settings](../assets/images/image.png)
 
 **Control de Versiones**
 
@@ -228,7 +228,7 @@ El sprint planning es una reunion antes de cada sprint en la metodologia Scrum d
 #### 5.2.1.2 Sprint Backlog 1.
 
 Para el primer sprint backlog, recopilamos historias de usuario relacionadas con la página de inicio (landing page) . Para organizar y administrar estas historias de usuario, las dividimos en tareas fáciles de realizar y las asignamos a los miembros del equipo de manera efectiva, utilizamos la herramienta Trello. Nos concentramos en completar las historias de usuario durante este sprint, con el objetivo principal de crear una landing page completa con un diseño atractivo y fácil de usar. Gracias a Trello, pudimos colaborar efectivamente y seguir el progreso de las tareas, lo que nos permitió abordar y resolver
-![alt text](assets/TB1-image/Trelloo1.png)
+![alt text](../assets/TB1-image/Trelloo1.png)
 
 | sprint #| Sprint 1|||||||
 | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -319,31 +319,31 @@ Link Trello: https://trello.com/invite/b/66ddd34a3a8f75b32fbdaa52/ATTI22d7710f32
 En este Sprint, los miembros del equipo de desarrollo de software de Horizon han completado y desplegado la Landing Page. A continuación, mostramos imágenes que demuestran cómo nuestra página presenta de manera clara e intuitiva la información sobre nuestro producto y nuestra empresa.
 
 <p align="center">
-  <img src="assets/images/Execution-Evidence-for-Sprint-Review-1.png">
+  <img src="../assets/images/Execution-Evidence-for-Sprint-Review-1.png">
   <br>
   Vista general de la Landing Page, destacando el diseño limpio y moderno que permite a los usuarios navegar fácilmente por la información.
 </p>
 
 <p align="center">
-  <img src="assets/images/Execution-Evidence-for-Sprint-Review-2.png">
+  <img src="../assets/images/Execution-Evidence-for-Sprint-Review-2.png">
   <br>
   Sección de beneficios clave del producto, mostrando cómo se presentan de manera atractiva y accesible para atraer a los usuarios.
 </p>
 
 <p align="center">
-  <img src="assets/images/Execution-Evidence-for-Sprint-Review-3.png">
+  <img src="../assets/images/Execution-Evidence-for-Sprint-Review-3.png">
   <br>
   Sección de preguntas frecuentes, organizada por categorías, donde los usuarios pueden encontrar respuestas rápidas a sus dudas sobre el uso de la plataforma y área de contacto, mostrando el formulario que permite a los usuarios enviar mensajes directamente al equipo de soporte, facilitando la comunicación.
 </p>
 
 <p align="center">
-  <img src="assets/images/Execution-Evidence-for-Sprint-Review-4.png">
+  <img src="../assets/images/Execution-Evidence-for-Sprint-Review-4.png">
   <br>
   Diseño del formulario de iniciar sesión, que garantiza de forma sencilla acceder a la aplicación web.
 </p>
 
 <p align="center">
-  <img src="assets/images/Execution-Evidence-for-Sprint-Review-5.png">
+  <img src="../assets/images/Execution-Evidence-for-Sprint-Review-5.png">
   <br>
   Diseño del formulario de registro, que enfatiza la simplicidad y la facilidad de uso, asegurando que los nuevos usuarios puedan registrarse sin complicaciones.
 </p>
@@ -371,11 +371,11 @@ Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
 Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
 
 **Deploy del Landing Page**
-![deploy](assets/images/deploy_tb1.png)
+![deploy](../assets/images/deploy_tb1.png)
 **Capturas de Pantalla**
 
 - Repositorio de Landing Page:
-  ![alt text](assets/images/foto_repositorio.jpg)
+  ![alt text](../assets/images/foto_repositorio.jpg)
 
 **Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/Landing-page
 
@@ -392,8 +392,8 @@ En esta sección, se presenta un análisis detallado de la colaboración del equ
 
 **Landing Page**
 
-![Commits](assets/TB1-new/landingc1.jpeg)
-![Commits](assets/TB1-new/landingc2.jpeg)
+![Commits](../assets/TB1-new/landingc1.jpeg)
+![Commits](../assets/TB1-new/landingc2.jpeg)
 
 - Estefano Oscar Jaque Peña: 2
 - Diego Rolin Acuña Tomas: 1
@@ -403,13 +403,13 @@ En esta sección, se presenta un análisis detallado de la colaboración del equ
 
 **Report:**
 
-![alt text](assets/TB1-new/commitsall2.jpeg)
+![alt text](../assets/TB1-new/commitsall2.jpeg)
 
-![alt text](assets/TB1-new/commitall1.jpeg)
+![alt text](../assets/TB1-new/commitall1.jpeg)
 
-![alt text](assets/TB1-image/commitsreport3.jpeg)
+![alt text](../assets/TB1-image/commitsreport3.jpeg)
 
-![Commits](assets/TB1-image/commitsreport3.jpeg)
+![Commits](../assets/TB1-image/commitsreport3.jpeg)
 
 - Estefano Oscar Jaque Peña: 55
 - Diego Rolin Acuña Tomas: 52
@@ -443,7 +443,7 @@ En este Sprint 2, durante la reunión de planificación, el equipo seleccionará
 #### 5.2.2.2 Sprint Backlog 2.
 
 Para el segundo sprint backlog, recopilamos historias de usuario relacionadas a la aplicación web. Para organizar y administrar estas historias de usuario, las dividimos en tareas fáciles de realizar y las asignamos a los miembros del equipo de manera efectiva, utilizamos la herramienta Trello. Nos concentramos en completar las historias de usuario durante este sprint, con el objetivo principal de crear una aplicación web mas concreta y completa con un diseño atractivo y fácil de usar. Gracias a Trello, pudimos colaborar efectivamente y seguir el progreso de las tareas, lo que nos permitió abordar y resolver.
-![alt text](assets/TB1-image/Trelloo1.png)
+![alt text](../assets/TB1-image/Trelloo1.png)
 
 | Sprint #  | Sprint 2|||||||
 |--|--|--|--|--|--|--|--|
@@ -550,11 +550,11 @@ Durante este segundo sprint los integrantes del equipo desarrollaron los diferen
 * John Arevalo 
 <br>
 
-![alt text](assets/images/bounded-context-task.jpg)
+![alt text](../assets/images/bounded-context-task.jpg)
 
 <br>
 
-![alt text](assets/images/create-task2.png)
+![alt text](../assets/images/create-task2.png)
 <br>
 
 Link Video: https://drive.google.com/drive/folders/1rvTZbtVs2qm98oGLgsAnPNa0LdZUxVGQ?usp=drive_link
@@ -562,11 +562,11 @@ Link Video: https://drive.google.com/drive/folders/1rvTZbtVs2qm98oGLgsAnPNa0LdZU
 * Jose Alejo 
 <br>
 
-![alt text](assets/images/ManageWiseCalendar.png)
+![alt text](../assets/images/ManageWiseCalendar.png)
 
 <br>
 
-![alt text](assets/images/ManageWiseCalendar2.png)
+![alt text](../assets/images/ManageWiseCalendar2.png)
 <br>
 
 Link Video: https://drive.google.com/file/d/1v8EwJOrF5gchaASTJghXZPNo3dXT1mUW/view?usp=sharing
@@ -574,21 +574,21 @@ Link Video: https://drive.google.com/file/d/1v8EwJOrF5gchaASTJghXZPNo3dXT1mUW/vi
 * Estefano Jaque - bounded context Reportes
 <br>
 
-![alt text](assets/images/exevidencJaque.jpg)
+![alt text](../assets/images/exevidencJaque.jpg)
 
 Link Video: https://drive.google.com/file/d/11q8YnRJGMzfx-n6AbBIfxvugxmS4xuVw/view?usp=sharing
 
 * Valentino Sandoval - bounded context Reportes
 <br>
 
-![alt text](assets/images/TP_images/BDTools.jpeg)
+![alt text](../assets/images/TP_images/BDTools.jpeg)
 
 Link Video: https://drive.google.com/file/d/1EGZlBOQEw8RfEzKQKlg4hFatObwWQRFM/view?usp=sharing 
 
 - Diego Acuña - bounded context Members
   <br>
 
-![alt text](assets/images/BC-member/ManageWise-members-1.png)
+![alt text](../assets/images/BC-member/ManageWise-members-1.png)
 
 Link Video: https://drive.google.com/file/d/13PZa8b2W9nk5ZUygtHGwDKG9wxmd99qW/view?usp=sharing
 
@@ -643,7 +643,7 @@ A continuación, se presentan algunas capturas de pantalla que muestran la inter
 
 **Captura 1**: Visualización de la lista de reportes `/api/tools`.
 
-![alt text](assets/images/reportes_endpoint.png)
+![alt text](../assets/images/reportes_endpoint.png)
 
 ### Repositorio y Commits
 
@@ -677,11 +677,11 @@ Para la entrega del segundo sprint, se desplego la landing page, de manera compl
 
 Link landing page: https://horizon-managewise.github.io/LandingPage/
 
-![alt text](assets/images/Execution-Evidence-for-Sprint-Review-4.png)
-![alt text](assets/images/Execution-Evidence-for-Sprint-Review-5.png)
-![alt text](assets/images/Execution-Evidence-for-Sprint-Review-1.png)
-![alt text](assets/images/Execution-Evidence-for-Sprint-Review-2.png)
-![alt text](assets/images/Execution-Evidence-for-Sprint-Review-3.png)
+![alt text](../assets/images/Execution-Evidence-for-Sprint-Review-4.png)
+![alt text](../assets/images/Execution-Evidence-for-Sprint-Review-5.png)
+![alt text](../assets/images/Execution-Evidence-for-Sprint-Review-1.png)
+![alt text](../assets/images/Execution-Evidence-for-Sprint-Review-2.png)
+![alt text](../assets/images/Execution-Evidence-for-Sprint-Review-3.png)
 
 <br>
 
@@ -689,59 +689,59 @@ Link landing page: https://horizon-managewise.github.io/LandingPage/
 
 * John Arevalo  
 
-![alt text](assets/images/bounded-context-task.jpg)
+![alt text](../assets/images/bounded-context-task.jpg)
 
 Link: https://daos-2402-managewise-tasks.web.app/tasks
 
 * Estefano Oscar Jaque Peña  
 **Internacionalización:**  
 English:
-![alt text](assets/images/TP_images/ENReports.png)
+![alt text](../assets/images/TP_images/ENReports.png)
 Español:
-![alt text](assets/images/TP_images/ESReports.png)
+![alt text](../assets/images/TP_images/ESReports.png)
 **ADD Reports:**
-![alt text](assets/images/TP_images/ADDReports.png)
-![alt text](assets/images/TP_images/ADDReports2.png)
+![alt text](../assets/images/TP_images/ADDReports.png)
+![alt text](../assets/images/TP_images/ADDReports2.png)
 
 **EDIT Reports:**
-![alt text](assets/images/TP_images/EDITReports.png)
+![alt text](../assets/images/TP_images/EDITReports.png)
 
-![alt text](assets/images/TP_images/EDITReports2.png)
+![alt text](../assets/images/TP_images/EDITReports2.png)
 
 **DELETE Reports**  
 Se eliminara el report que tiene todas las partes con PRUEBA EDIT
 
-![alt text](assets/images/TP_images/EDITReports2.png)
+![alt text](../assets/images/TP_images/EDITReports2.png)
 
-![alt text](assets/images/TP_images/DELETEReports.png)
+![alt text](../assets/images/TP_images/DELETEReports.png)
 
 **Link:**  
 https://managewise-reports.web.app
 
 * Jose Alejo  
 
-![alt text](assets/images/ManageWiseCalendar.png)
+![alt text](../assets/images/ManageWiseCalendar.png)
 
-![alt text](assets/images/ManageWiseCalendar2.png)
+![alt text](../assets/images/ManageWiseCalendar2.png)
 
 Link: https://managewisecalendar.web.app/calendar/activities
 
 
 * Valentino Sandoval
 **ADD Tools:**
-![alt text](assets/images/TP_images/ADDTOOLS1.jpeg)
-![alt text](assets/images/TP_images/ADDTOOLS2.jpeg)
+![alt text](../assets/images/TP_images/ADDTOOLS1.jpeg)
+![alt text](../assets/images/TP_images/ADDTOOLS2.jpeg)
 
 
 
 **EDIT Tools:**
-![alt text](assets/images/TP_images/EDIT.jpeg)
+![alt text](../assets/images/TP_images/EDIT.jpeg)
 
 
 **DELETE Tools**  
 Se eliminara el report que tiene todas las partes con PRUEBA EDIT
 
-![alt text](assets/images/TP_images/DELETE.jpeg)
+![alt text](../assets/images/TP_images/DELETE.jpeg)
 
 Link: 
 
@@ -751,7 +751,7 @@ https://managewise-vsp.web.app
 - Diego Acuña - bounded context Members
   <br>
 
-![alt text](assets/images/BC-member/ManageWise-members-1.png)
+![alt text](../assets/images/BC-member/ManageWise-members-1.png)
 
 Link : https://managewise-si729-member.web.app/member/members
 
@@ -765,7 +765,7 @@ Link : https://managewise-si729-member.web.app/member/members
 | John Arevalo| Diseño e implementacion de bounded context Tareas|
 | Diego Acuña|Diseño e implementacion de bounded context Miembros|
 
-![alt text](assets/images/Insigths.jpg)
+![alt text](../assets/images/Insigths.jpg)
 
 ### 5.2.3 Sprint 3
 
@@ -790,7 +790,7 @@ En este Sprint 3, durante la reunión de planificación, el equipo seleccionará
 
 #### 5.2.3.2 Sprint Backlog 3.
 Para el tercer sprint backlog, recopilamos historias de usuario relacionadas al Backend. Para organizar y administrar estas historias de usuario, las dividimos en tareas fáciles de realizar y las asignamos a los miembros del equipo de manera efectiva, utilizamos la herramienta Trello. Nos concentramos en completar las historias de usuario durante este sprint. Gracias a Trello, pudimos colaborar efectivamente y seguir el progreso de las tareas, lo que nos permitió abordar y resolver.
-![alt text](assets/TB1-image/Trelloo1.png)
+![alt text](../assets/TB1-image/Trelloo1.png)
 
 | Sprint # | Sprint 3|||||||
 |--|--|--|--|--|--|--|--|
@@ -942,13 +942,13 @@ Link Trello: https://trello.com/invite/b/66ddd34a3a8f75b32fbdaa52/ATTI22d7710f32
 Para el backend, optamos por genrar un .jar del proyecto, con ayuda del comando mvn clean package, para posteriormente subir este proyecto a un repositorio y conectarlo con microsoft azure mediate github.
 
 String connector para ingresar a la base de datos de postgress
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure1.jpg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure1.jpg)
 
 Dominio del servicio, asi como el repositorio del mismo
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure2.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure2.png)
 
 Repositorio con los comandos en workflows.yml
-![Ejemplo de Imagen](assets/TB2/backlog/backend/github.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/github.png)
 
 
 
@@ -986,52 +986,52 @@ Link del repositorio del testing: https://github.com/Horizon-ManageWise/Testing
 
 - Acontinuación se entrega el enlace a la landing page desplegada, actualizada y la última version: https://horizon-managewise.github.io/LandingPage/
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan1.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan1.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan2.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan2.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan3.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan3.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan4.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan4.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan5.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan5.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan6.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan6.jpeg)
 
 - **INICIO DE SESION**
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan7.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan7.jpeg)
 
 - **REGISTRO DE USUARIO**
 
-![Ejemplo de Imagen](assets/TB2/backlog/Landingpage/lan8.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/Landingpage/lan8.jpeg)
 
 ## FrontEnd
 
 - **Bounded Context: Stadistics**
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es1.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es1.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es2.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es2.jpeg)
 
 - **Bounded Context: Backlog**
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es3.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es3.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es4.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es4.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es5.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es5.jpeg)
 
 
 - **Bounded Context: Issues**
 
 Alumno: Estefano Oscar Jaque Peña - U202225466
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es6.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es6.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es7.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es7.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es8.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es8.jpeg)
 
 video explicativo: En el About the product 
 https://drive.google.com/drive/folders/11fY4sH9mdNNPkHBJyJAXibVjLx6tnq7-?usp=sharing
@@ -1042,15 +1042,15 @@ link deploy: https://managewise-reports-f0302.web.app/issues
 
 - **Bounded Context: Meeting**
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es9.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es9.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es10.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es10.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es11.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es11.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es12.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es12.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/front/es13.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/front/es13.jpeg)
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review.
 
@@ -1068,8 +1068,8 @@ Link al repositorio de backend: https://github.com/Horizon-ManageWise/managewise
 | Epics | DELETE| /api/v1/members/{id}| Delete an Member| Remove an specific Member| DeleteMember|
 | Epics | PUT| /api/v1/members/{id}| Update an Member| Update an specific Member| UpdateMember|
 
-![Ejemplo de Imagen](assets/TB2/backlog/members/swagger3.png)
-![Ejemplo de Imagen](assets/TB2/backlog/members/pgadmin.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/members/swagger3.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/members/pgadmin.png)
 
 **EpicsController**
 
@@ -1104,11 +1104,11 @@ Link al repositorio de backend: https://github.com/Horizon-ManageWise/managewise
 | User Stories  | DELETE| /api/v1/user-stories/{id}| Delete user story| Remove a specific user story| DeleteUserStory|
 | User Stories  | POST| /api/v1/user-stories/{id}/task-items/{taskid} | Create a new task| Add a new task to a specific user story | CreateTaskInUserStory |
 
-![Ejemplo de Imagen](assets/TB2/backlog/swagger1.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/swagger1.png)
 
-![Ejemplo de Imagen](assets/TB2/backlog/swagger2.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/swagger2.png)
 
-![Ejemplo de Imagen](assets/TB2/backlog/pgadmin.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/pgadmin.png)
 
 <h3> Meeting Bounded Context</h3>
 
@@ -1133,13 +1133,13 @@ Link al repositorio de backend: https://github.com/Horizon-ManageWise/managewise
 | Recordings | DELETE     | /api/recordings/{recordingId}        | Delete a recording             | Remove a specific recording          | DeleteRecording         |
 
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/back1.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/back1.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/back2.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/back2.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/backe3.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/backe3.jpeg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/backen4.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/backen4.jpeg)
 
 
 <h3> Issue Bounded Context</h3>
@@ -1156,11 +1156,11 @@ Link al repositorio de backend: https://github.com/Horizon-ManageWise/managewise
 | Issues | GET       | /api/v1/issues/{issueId}/events      | Get issue events          | Retrieve events for a specific issue | getAllEventsByIssueId |
 | Issues | POST      | /api/v1/issues/{issueId}/events      | Create a new event        | Add a new event to a specific issue | createEvent     |
 
-![alt text](assets/TB2/backlog/issues/swagger.png)
+![alt text](../assets/TB2/backlog/issues/swagger.png)
 
-![alt text](assets/TB2/backlog/issues/pgadmin4.png) 
+![alt text](../assets/TB2/backlog/issues/pgadmin4.png) 
 
-![alt text](assets/TB2/backlog/issues/getissuebyid.png)
+![alt text](../assets/TB2/backlog/issues/getissuebyid.png)
 
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review.
 
@@ -1173,15 +1173,15 @@ Link al repositorio de backend: https://github.com/Horizon-ManageWise/managewise
 
 Landing Page Para la Landing Page se ha implementado utilizando GitHub Pages, lo que facilita su acceso y gestión.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des1.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des1.jpeg)
 
 - En la seccion pages, dentro de la configuracion del repositorio, escoger la rama deseada y seleccionar save para hacer el deploy de esta.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des2.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des2.jpeg)
 
 - Pasados unos minutos se generará el link para acceder a la landing page.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des3.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des3.jpeg)
 
 - Adicionalmente Podemos seleccionar use your GitHub pages website en las opciones de about del repositorio, para poder acceder de una manera mas rapida al link.
 
@@ -1193,11 +1193,11 @@ Link
 
 Para el backend, optamos por genrar un .jar del proyecto, con ayuda del comando mvn clean package, para posteriormente subir este proyecto a un repositorio y conectarlo con microsoft azure mediate github.
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure1.jpg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure1.jpg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure2.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure2.png)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/github.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/github.png)
 
 
 #### 5.2.3.8 Team Collaboration Insights during Sprint.
@@ -1210,9 +1210,9 @@ Landing Page: Cada integrante aportó en diferentes aspectos del diseño y desar
 
 **Landing Page**
 
-![Commits](assets/TB1-new/landingc1.jpeg)
+![Commits](../assets/TB1-new/landingc1.jpeg)
 
-![Commits](assets/TB1-new/landingc2.jpeg)
+![Commits](../assets/TB1-new/landingc2.jpeg)
 
 - Estefano Oscar Jaque Peña: 2
 - John Telesforo Arevalo Meza: 10
@@ -1229,9 +1229,9 @@ Landing Page: Cada integrante aportó en diferentes aspectos del diseño y desar
 
 ## Frontend:
 
-![alt text](assets/TB2/backlog/commil1.jpeg)
+![alt text](../assets/TB2/backlog/commil1.jpeg)
 
-![alt text](assets/TB2/backlog/commil2.jpeg)
+![alt text](../assets/TB2/backlog/commil2.jpeg)
 
 - Estefano Oscar Jaque Peña: 3
 - John Telesforo Arevalo Meza: 5
@@ -1268,7 +1268,7 @@ En este Sprint 4, durante la reunión de planificación, el equipo seleccionará
 
 ### 5.2.4.2. Sprint Backlog 4
 
-![alt text](assets/TB1-image/Trelloo1.png)
+![alt text](../assets/TB1-image/Trelloo1.png)
 
 
 | Sprint # | Sprint 4 |||||||
@@ -1350,31 +1350,31 @@ En este bounded context members se muestra una lista donde se puede editar o eli
 
 **FRONTEND**
 
-![alt text](assets/TF/members1.jpg)
+![alt text](../assets/TF/members1.jpg)
 
 **BACKEND**
 
-![alt text](assets/TF/meeting88.png)
+![alt text](../assets/TF/meeting88.png)
 
 **FRONTEND**
 
-![alt text](assets/TF/members3.jpg)
+![alt text](../assets/TF/members3.jpg)
 
 **BACKEND**
 
-![alt text](assets/TF/members4.jpg)
+![alt text](../assets/TF/members4.jpg)
 
 **FRONTEND**
 
-![alt text](assets/TF/members5.jpg)
+![alt text](../assets/TF/members5.jpg)
 
 **BACKEND**
 
-![alt text](assets/TF/members6.jpg)
+![alt text](../assets/TF/members6.jpg)
 
 **BACKEND**
 
-![alt text](assets/TF/members7.jpg)
+![alt text](../assets/TF/members7.jpg)
 
 
 ## **MEETING BOUNDED CONTEXT**
@@ -1383,27 +1383,27 @@ En este bounded context meeting, se conecta con el bounded context Members al mo
 
 **FRONTEND**
 
-![alt text](assets/TF/meeting1.png)
+![alt text](../assets/TF/meeting1.png)
 
 **BACKEND**
 
-![alt text](assets/TF/meetingB.png)
+![alt text](../assets/TF/meetingB.png)
 
 **FRONTEND**
 
-![alt text](assets/TF/meeting2.png)
+![alt text](../assets/TF/meeting2.png)
 
 **BACKEND**
 
-![alt text](assets/TF/meeting3.png)
+![alt text](../assets/TF/meeting3.png)
 
 **FRONTEND**
 
-![alt text](assets/TF/meeting4.png)
+![alt text](../assets/TF/meeting4.png)
 
 **BACKEND**
 
-![alt text](assets/TF/meeting5.png)
+![alt text](../assets/TF/meeting5.png)
 
 
 ## **ISSUES BOUNDED CONTEXT**
@@ -1412,27 +1412,27 @@ En este bounded context Issues, se realiza , siguiendo el PATRON ACL, la validac
 HIGH,LOW,MEDIUM para el priority del issues y TO_DO, IN_PROGRESS y DONE para el status , por ultimo se debe poner las fechas de creacion(createdIn) y resolutionDate que es una estimación en si de la fecha limite para la resolucion del problema como un Date DD-MM-YYYY.
 
 Aca se observa como se crea un issues desde el front:
-![alt text](assets/TF/is1.png)
+![alt text](../assets/TF/is1.png)
 
-![alt text](assets/TF/is2.png)
+![alt text](../assets/TF/is2.png)
 
 **BACKEND**
 Get de Issues:
-![alt text](assets/TF/is3.png)
+![alt text](../assets/TF/is3.png)
 
 **FRONTEND**
 Para añadir un evento, le damos click a añadir evento y ponemos los datos , luego de ello cuando se valide que es usuario que lo crea existe entonces se crea el evento , se puede ver la viosualizacion en back y front.
-![alt text](assets/TF/is4.png)
+![alt text](../assets/TF/is4.png)
 
-![alt text](assets/TF/is5.png)
+![alt text](../assets/TF/is5.png)
 
 **INTERNALIZACIÓN**
 se pued ver en español ahora, en la anteriores fotos se encontraba en ingles.
-![alt text](assets/TF/is6.png)
+![alt text](../assets/TF/is6.png)
 
 **FILTROS DE BUSQUEDA**
 Se puede filtrar la busqueda tanto por Nombre de sprints como por prioridad ded Issue
-![alt text](assets/TF/is7.png)
+![alt text](../assets/TF/is7.png)
 
 **BACKLOG BOUNDED CONTEXT**
 
@@ -1440,15 +1440,15 @@ Se muestra la ultima version del Backend del bounded context BACKLOG. Donde se p
 
 **FRONTEND**
 
-![alt text](assets/TF/ep1.png)
+![alt text](../assets/TF/ep1.png)
 
-![alt text](assets/TF/ep2.png)
+![alt text](../assets/TF/ep2.png)
 
-![alt text](assets/TF/ep3.png)
+![alt text](../assets/TF/ep3.png)
 
 **BACKEND**
 
-![alt text](assets/TF/ep5.png)
+![alt text](../assets/TF/ep5.png)
 
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
@@ -1465,11 +1465,11 @@ Se muestra la ultima version del Backend del bounded context Members, en donde s
 
 **BACKEND**
 
-![alt text](assets/TF/membersBACK.jpg)
+![alt text](../assets/TF/membersBACK.jpg)
 
-![alt text](assets/TF/members8.jpg)
+![alt text](../assets/TF/members8.jpg)
 
-![alt text](assets/TF/members9.jpg)
+![alt text](../assets/TF/members9.jpg)
 
 
 ## **MEETING BOUNDED CONTEXT**
@@ -1478,11 +1478,11 @@ Se muestra la ultima version del Backend del bounded context Meeting, en donde s
 
 **BACKEND**
 
-![alt text](assets/TF/meetingBACK.png)
+![alt text](../assets/TF/meetingBACK.png)
 
-![alt text](assets/TF/meeting3.png)
+![alt text](../assets/TF/meeting3.png)
 
-![alt text](assets/TF/meeting5.png)
+![alt text](../assets/TF/meeting5.png)
 
 
 ## **ISSUES BOUNDED CONTEXT**
@@ -1491,45 +1491,45 @@ Se muestra la ultima version del Backend del bounded context Issues, en donde se
 
 **BACKEND**
 
-![alt text](assets/TF/is8.png)
+![alt text](../assets/TF/is8.png)
 
 Post:
 Se puede añadir y dentro de esto se genera las validaciones del existsBy para que no se cree un mismo issue asignado a un mismo SPRINT 
 y la validacion del PATRON ACL fetchMemberIdByFullName para que no se genere un Issue el Sprint asociado no ha sido creado,de la misma manera con Member que debe ser creado previamente para poder nombrar al creador del issue y al que se le asigna el Issue(fetchMemberIdByFullName) ademas que no se puede crear un Issue si
 no se ha puesto el estado y prioridad de manera correcta , por ele LOW o TO_DO
 
-![alt text](assets/TF/fetchissue.png)
+![alt text](../assets/TF/fetchissue.png)
 
-![alt text](assets/TF/is9.png)
+![alt text](../assets/TF/is9.png)
 
 Get:
 Se puede obtener todos los issues
-![alt text](assets/TF/is10.png)
+![alt text](../assets/TF/is10.png)
 
 Put:
 Se puede actualizar y se valida los existBy ademas de el uso del patron ACL para la validacion del member existente 
 
-![alt text](assets/TF/updissu.png)
+![alt text](../assets/TF/updissu.png)
 
-![alt text](assets/TF/putissue.jpg)
+![alt text](../assets/TF/putissue.jpg)
 
 geteventbyIssuId:
 Se puede obtener el evento generado y se puede visualizar segun el id que insertes.
-![alt text](assets/TF/getevent.jpg)
+![alt text](../assets/TF/getevent.jpg)
 
 post event:
 Se puede añadir el evento en base al id del issue que ya fue creado, para la creacion de este evento tambien se usa la validacion con fetch que viene 
-![alt text](assets/TF/eventpsot.jpg)
+![alt text](../assets/TF/eventpsot.jpg)
 
 **BACKLOG BOUNDED CONTEXT**
 
 **BACKEND**
 
-![alt text](assets/TF/ep5.png)
+![alt text](../assets/TF/ep5.png)
 
-![alt text](assets/TF/ep6.png)
+![alt text](../assets/TF/ep6.png)
 
-![alt text](assets/TF/ep7.png)
+![alt text](../assets/TF/ep7.png)
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
@@ -1537,15 +1537,15 @@ Se puede añadir el evento en base al id del issue que ya fue creado, para la cr
 
 Landing Page Para la Landing Page se ha implementado utilizando GitHub Pages, lo que facilita su acceso y gestión.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des1.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des1.jpeg)
 
 - En la seccion pages, dentro de la configuracion del repositorio, escoger la rama deseada y seleccionar save para hacer el deploy de esta.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des2.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des2.jpeg)
 
 - Pasados unos minutos se generará el link para acceder a la landing page.
 
-![Ejemplo de Imagen](assets/TB2/backlog/des3.jpeg)
+![Ejemplo de Imagen](../assets/TB2/backlog/des3.jpeg)
 
 - Adicionalmente Podemos seleccionar use your GitHub pages website en las opciones de about del repositorio, para poder acceder de una manera mas rapida al link.
 
@@ -1557,19 +1557,19 @@ Link
 
 Para el backend, optamos por genrar un .jar del proyecto, con ayuda del comando mvn clean package, para posteriormente subir este proyecto a un repositorio y conectarlo con microsoft azure mediate github.
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure1.jpg)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure1.jpg)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/azure2.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/azure2.png)
 
-![Ejemplo de Imagen](assets/TB2/backlog/backend/github.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/backend/github.png)
 
 
 **Frontend**
 A continuación, se mostrara como se desplego el frontend.
 
-![Ejemplo de Imagen](resources/deployFrontend.png)
+![Ejemplo de Imagen](../resources/deployFrontend.png)
 
-![Ejemplo de Imagen](resources/deployFrontend1.png)
+![Ejemplo de Imagen](../resources/deployFrontend1.png)
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -1582,9 +1582,9 @@ Landing Page: Cada integrante aportó en diferentes aspectos del diseño y desar
 
 **Landing Page**
 
-![Commits](assets/TB1-new/landingc1.jpeg)
+![Commits](../assets/TB1-new/landingc1.jpeg)
 
-![Commits](assets/TB1-new/landingc2.jpeg)
+![Commits](../assets/TB1-new/landingc2.jpeg)
 
 - Estefano Oscar Jaque Peña: 2
 - John Telesforo Arevalo Meza: 10
@@ -1594,9 +1594,9 @@ Landing Page: Cada integrante aportó en diferentes aspectos del diseño y desar
 
 ## Frontend:
 
-![alt text](assets/TB2/backlog/commil1.jpeg)
+![alt text](../assets/TB2/backlog/commil1.jpeg)
 
-![alt text](assets/TB2/backlog/commil2.jpeg)
+![alt text](../assets/TB2/backlog/commil2.jpeg)
 
 - Estefano Oscar Jaque Peña: 3
 - John Telesforo Arevalo Meza: 5
@@ -1605,9 +1605,9 @@ Landing Page: Cada integrante aportó en diferentes aspectos del diseño y desar
 
 **Backend:**
 
-![alt text](assets/TB2/backlog/commil1.jpeg)
+![alt text](../assets/TB2/backlog/commil1.jpeg)
 
-![alt text](assets/TB2/backlog/commil2.jpeg)
+![alt text](../assets/TB2/backlog/commil2.jpeg)
 
 
 - Estefano Oscar Jaque Peña: 
@@ -1649,7 +1649,7 @@ Preguntas para los dos segmentos objetivos:
 
 **Entrevista 1**
 
-![Ejemplo de Imagen](assets/TB2/backlog/members/entrevista.jpg)
+![Ejemplo de Imagen](../assets/TB2/backlog/members/entrevista.jpg)
 
 <br>
 
@@ -1664,7 +1664,7 @@ Descripción: Daniel, trabajador de Interbank de proyectos agiles, comenta que l
 
 **Entrevista 2**
 
-![Ejemplo de Imagen](assets\TB2\backlog\image.png)
+![Ejemplo de Imagen](../assets\TB2\backlog\image.png)
 
 Link de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a962_upc_edu_pe/ETp--oNNCMFJrlkuaOLrETcBhNihuWwdEYy-9cwQN_QZLw?e=MnJYup&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -1678,7 +1678,7 @@ Descripción: Verónica Paredes, gerente de proyectos en una empresa de desarrol
 
 **Entrevista 3**
 
-![Ejemplo de Imagen](assets/TB2/backlog/entrevista4.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/entrevista4.png)
 Link de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117377_upc_edu_pe/Eag6qkayGchJg_ZbkkIuD8YB-xIlWf2UnIK2Q0bHAWHG4A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ck5ywT
 
 
@@ -1693,7 +1693,7 @@ Rodrigo Acosta,miembro de un equipo de desarrollo de software, considera que la 
 
 **Entrevista 4**
 
-![Ejemplo de Imagen](assets/TB2/backlog/entrevista5.png)
+![Ejemplo de Imagen](../assets/TB2/backlog/entrevista5.png)
 Link de entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117377_upc_edu_pe/EVEYapnve1VIioPVnF-sbf8BUjm5g79MM0cykRFXY7nEyg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wsp8dA
 
 | Nombres     | Apellidos       | Edad | Distrito   | Inicio | Duración |
@@ -1708,7 +1708,7 @@ Nora Castro, ex lider de un equipo de desarrollo de software, aprecia cómo la a
 
 **Entrevista 5**
 
-![alt text](assets/TB2/backlog/issues/entrevistapamelavela.png)
+![alt text](../assets/TB2/backlog/issues/entrevistapamelavela.png)
  
 Link de entrevista: https://drive.google.com/drive/folders/1p2jdkr7SQGiYPJ_uFR3mbG-xpH33JxCm?usp=sharing 
 

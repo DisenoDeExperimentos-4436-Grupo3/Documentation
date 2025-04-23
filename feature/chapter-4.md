@@ -10,11 +10,11 @@ En este capítulo se mostrará el desarrollo de las interfaces y procesos relaci
 
 Para los colores de la aplicación “MANAGEWISE” utilizamos una corta variedad de colores vivos, enfocado en los caminos que brinda nuestro logo. Hubo variaciones en PC, ya que se decidió darle espacio a la interfaz y a la simplicidad de está. Además, utilizamos colores importantes para llamar la atención del usuario. Esto se debe a que el mayor público se encuentra en estos dispositivos y se necesita de mayor visibilidad de la app.
 
-![alt text](assets/images/Colors.png)
+![alt text](../assets/images/Colors.png)
 
 **Logo:**
 
-![alt text](assets/images/logo1.png)
+![alt text](../assets/images/logo1.png)
 
 **Tipografía:**
 
@@ -30,15 +30,15 @@ En formato general se utiliza 30px y Sulphur point como tipografía del programa
 
 **• Interlineado:** 1,1
 
-![alt text](assets/images/imagwse.png)
+![alt text](../assets/images/imagwse.png)
 
 **Weights:**
 
-![alt text](assets/images/222.png)
+![alt text](../assets/images/222.png)
 
 **Nomenclature:**
 
-![alt text](assets/images/333.png)
+![alt text](../assets/images/333.png)
 
 **Example:**
 
@@ -102,7 +102,7 @@ Se inicia accediendo a la plataforma "ManageWise" desde la landing page, donde s
 
 - Issues: En esta sección, el usuario puede crear nuevos reportes de issues (problemas o errores) y añadir un historial para monitorear el progreso de cada problema a lo largo del tiempo.
 
-![information-architecture](assets/TB1-image/information-architecture.png)
+![information-architecture](../assets/TB1-image/information-architecture.png)
 
 **Miembro del equipo de desarrollo:**  
 Este segmento tiene acceso a las mismas secciones de la plataforma, pero su capacidad se limita a la visualización de información. Puede acceder a las estadísticas del proyecto, ver la timeline, consultar el product y sprint backlog, revisar el Scrum Board y los issues, pero no puede editar ni gestionar ningún aspecto del proyecto, a exepción de actualizar el historial en issues. En la sección de Meeting, puede unirse a reuniones y acceder a los enlaces proporcionados por el Scrum Master, pero no puede agregar o modificar enlaces.
@@ -300,17 +300,17 @@ La landing page cuenta con diferentes secciones:
 - Footer: Enlaces a las redes sociales de la plataforma.
 - Preguntas Frecuentes: Se muestra las preguntas frecuentes que suelen hacernos al momento de utilizar nuestra aplicación web
   <br>
-  <img src="assets/images/WireframeDesktopWebBrowser.png">
+  <img src="../assets/images/WireframeDesktopWebBrowser.png">
   <br>
 
 Apartado de registro:  
 <br>
-<img src="assets/images/Wireframe-DesktopWebBrowser-Registro.png">
+<img src="../assets/images/Wireframe-DesktopWebBrowser-Registro.png">
 <br>
 
 Apartado de inicio de sesión:  
 <br>
-<img src="assets/images/Wireframe-DesktopWebBrowser-InicioSesion.png">
+<img src="../assets/images/Wireframe-DesktopWebBrowser-InicioSesion.png">
 <br>
 
 </p>
@@ -320,20 +320,20 @@ Apartado de inicio de sesión:
 <p align="center">
 Se cuenta con un hamburger menu, el cual puede ser desplegado por el usuario y en donde se ecuentran los links de navegación.<br>
 
-<img width=300px src="assets/images/Wireframe-MobileWebBrowser-Menu.png">
+<img width=300px src="../assets/images/Wireframe-MobileWebBrowser-Menu.png">
 <br>
 
 Se cuenta con las mismas secciones que para desktop web browser (Hero o header, Descripción general, Beneficios, Nosotros, preguntas frecuentes), las cuales tienen la misma finalidad, pero en este caso se adaptan a la pantalla; permitiendo así acceso óptimo a la información.
 <br>
-<img width=300px src="assets/images/Wireframe-MobileWebBrowser.png">
+<img width=300px src="../assets/images/Wireframe-MobileWebBrowser.png">
 <br>
 
 El formulario de registro se adapta a la pantalla<br>
-<img width=300px src="assets/images/Wireframe-MobileWebBrowser-Resgistro.png">
+<img width=300px src="../assets/images/Wireframe-MobileWebBrowser-Resgistro.png">
 <br>
 
 El formulario de inicio de sesión se adapta a la pantalla<br>
-<img width=300px src="assets/images/Wireframe-MobileWebBrowser-InicioSesion.png">
+<img width=300px src="../assets/images/Wireframe-MobileWebBrowser-InicioSesion.png">
 <br>
 
 </p>
@@ -355,17 +355,17 @@ La landing page cuenta con diferentes secciones:
 - Preguntas Frecuentes: Se muestra las preguntas mas recurrentes de la aplicación lo cual le da a saber al usuario algunas respuestas de lo que es nuestra aplicación y lo facil de usar.
 - Footer: Enlaces a las redes sociales de la plataforma.
   <br>
-  <img src="assets/images/Mockup-DesktopWebBrowser.png">
+  <img src="../assets/images/Mockup-DesktopWebBrowser.png">
   <br>
 
 Apartado de registro, en donde el usuario deberá ingresar los datos necesarios de la manera que vea conveniente.  
 <br>
-<img src="assets/TB1-image/registrarse.png">
+<img src="../assets/TB1-image/registrarse.png">
 <br>
 
 Apartado de inicio de sesión, en donde el usuario ingresa el correo y contraseña asociados a la cuenta.  
 <br>
-<img src="assets/TB1-image/iniciar-sesion.png">
+<img src="../assets/TB1-image/iniciar-sesion.png">
 <br>
 
 </p>
@@ -376,22 +376,22 @@ Apartado de inicio de sesión, en donde el usuario ingresa el correo y contrase�
 
 Se cuenta con un hamburger menu, el cual puede ser desplegado por el usuario y en donde se encuentran los links de navegación.  
 <br>
-<img width=300px src="assets/images/Mockup-MobileWebBrowser-Menu.png">
+<img width=300px src="../assets/images/Mockup-MobileWebBrowser-Menu.png">
 <br>
 
 Se cuenta con las mismas secciones que para desktop web browser (Hero o header, Descripción general, Beneficios, Nosotros, Preguntas Frecuentes), las cuales tienen la misma finalidad, pero en este caso se adaptan a la pantalla, permitiendo así un acceso óptimo a la información.  
 <br>
-<img width=300px src="assets/images/Mockup-MobileWebBrowser.png">
+<img width=300px src="../assets/images/Mockup-MobileWebBrowser.png">
 <br>
 
 El formulario de registro se adapta a la pantalla del dispositivo, permitiendo de esta manera una navegación fluida.  
 <br>
-<img width=300px src="assets/images/Mockup-MobileWebBrowser-Resgistro.png">
+<img width=300px src="../assets/images/Mockup-MobileWebBrowser-Resgistro.png">
 <br>
 
 El formulario de inicio de sesión se adapta a la pantalla del dispositivo, permitiendo de esta manera una navegación fluida.  
 <br>
-<img width=300px src="assets/images/Mockup-MobileWebBrowser-InicioSesion.png">
+<img width=300px src="../assets/images/Mockup-MobileWebBrowser-InicioSesion.png">
 <br>
 
 </p>
@@ -405,49 +405,49 @@ En esta parte se explorará el diseño de la experiencia que tendrán los usuari
 <p align="center">
 
 La sección de Proyectos es la principal, en donde el usuario podrá visualizar los diferentes proyectos que ha creado y en caso desearlo, crear uno nuevo. Además de contar con una breve descripción de la app general.  
-<img src="assets/images/wireframes/Home.png">
+<img src="../assets/images/wireframes/Home.png">
 <br>
 <br>
 
 En la sección Backlog, el usuario podrá visualizar el product backlog y puede crear un sprint backlog, añadiendo backlog items a este. Además cuenta con una vista Backlog items, en donde en caso tener permisos, puede gestionar estos.
-<img src="assets/images/wireframes/backlog.png">
+<img src="../assets/images/wireframes/backlog.png">
 <br>
 Vista Backlog Items
-<img src="assets/images/wireframes/backlog-items.png">
+<img src="../assets/images/wireframes/backlog-items.png">
 <br>
 <br>
 
 En la sección Members, el usuario visualiza a los diferentes miembros del equipo, puediendo añadir mas en caso desearlo. Además en caso seleccionar Groups, podrá gestionar estos.
-<img src="assets/images/wireframes/members.png">
+<img src="../assets/images/wireframes/members.png">
 <br>
 Vista Groups
-<img src="assets/images/wireframes/members-groups.png">
+<img src="../assets/images/wireframes/members-groups.png">
 <br>
 <br>
 
 En la sección de Statistics, el usuario podrá visualizar diferentes datos estadísticos sobre el proyecto y en caso seleccionar Timeline, podra ver el cronograma de este.
-<img src="assets/images/wireframes/statistics.png">
+<img src="../assets/images/wireframes/statistics.png">
 <br>
 Vista Timeline
-<img src="assets/images/wireframes/statistics-timeline.png">
+<img src="../assets/images/wireframes/statistics-timeline.png">
 <br>
 <br>
 
 En la sección Meeting el usuario podrá visualizar si se encuentra activa alguna reunión e ingresar a esta.
-<img src="assets/images/wireframes/meeting.png">
+<img src="../assets/images/wireframes/meeting.png">
 <br>
 <br>
 
 En la sección Issues, el usuario crear reportes sobre incidencias, además de visualizar los ya existentes.Ademas ,puede añadir eventos dentro del historial de eventos de cambios para el issue , de esta manera mantiene informado a los miembros.
-<img src="assets/images/wireframes/issues.png">
+<img src="../assets/images/wireframes/issues.png">
 <br>
 <br>
 
 En la sección Board, el usuario será capaz visualizar un tablero scrum, en donde podrá visualizar quién es el encargado de cada item, además de, en caso de tener permisos, poder editar el estado de los items.
-<img src="assets/images/wireframes/board.png">
+<img src="../assets/images/wireframes/board.png">
 <br>
 Vista de Miembros asignados
-<img src="assets/images/wireframes/board-members.png">
+<img src="../assets/images/wireframes/board-members.png">
 <br>
 
 </p>
@@ -456,59 +456,59 @@ Vista de Miembros asignados
 
 ##### User goal: Registrar un nuevo usuario
 
-<p align="center"><img src="assets/images/wireflow1.png"></p>
+<p align="center"><img src="../assets/images/wireflow1.png"></p>
 
 ##### User goal: Iniciar sesión
 
-<p align="center"><img src="assets/images/wireflow2.png"></p>
+<p align="center"><img src="../assets/images/wireflow2.png"></p>
 
 ##### User goal: Acceso a meeting
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-.png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-.png"></p>
 
 ##### User goal: Agregar un nuevo miembro
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(1).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(1).png"></p>
 
 ##### User goal: Crear un nuevo grupo
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(2).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(2).png"></p>
 
 ##### User goal: Crear un nuevo backlog item
 
-<p align="center"><img src="assets/images/wireflow//Wireflow-(3).png"></p>
+<p align="center"><img src="../assets/images/wireflow//Wireflow-(3).png"></p>
 
 ##### User goal: Editar un backlog item
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(4).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(4).png"></p>
 
 ##### User goal: Eliminar un backlog item
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(5).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(5).png"></p>
 
 ##### User goal: Crear un sprint
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(6).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(6).png"></p>
 
 ##### User goal: Acceder a metricas del proyecto
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(7).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(7).png"></p>
 
 ##### User goal: Acceder a la timeline del proyecto
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(8).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(8).png"></p>
 
 ##### User goal: Acceder al tablero scrum
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(9).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(9).png"></p>
 
 ##### User goal: Acceder a Issues
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(10).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(10).png"></p>
 
 ##### User goal: Eliminar un backlog item
 
-<p align="center"><img src="assets/images/wireflow/Wireflow-(5).png"></p>
+<p align="center"><img src="../assets/images/wireflow/Wireflow-(5).png"></p>
 
 #### 4.4.3. Web Applications Mock-ups
 
@@ -518,30 +518,30 @@ Los siguientes mockups ofrecen una vista previa del diseño y estructural visual
 
 La sección de Statistics es fundamental, en donde el product Owner y Scrum Master podrá visualizar las estadisticas en base a los sprints de las historias de usuario. Tanto tambien se podrá saber si el sprint se esta elaborando bien en temas de avance.
 <br>
-<img src="assets/images/mockups/statistics.png">
+<img src="../assets/images/mockups/statistics.png">
 <br>
 En en el apartado Estado de TimeLine, en lo cual el product Owner y Scrum Master podrá colocar en que tiempo se completo las historias de usuario en en esquema del tiempo por sprints.
-<img src="assets/images/mockups/timeline.png">
+<img src="../assets/images/mockups/timeline.png">
 <br>
 En la sección Backlog permite gestionar y mover historias de usuario entre el product backlog y el sprint backlog, con la opción de iniciar sprints una vez las historias estén listas.
-<img src="assets/images/mockups/backlog.png">
+<img src="../assets/images/mockups/backlog.png">
 <br>
 En la sección Board permite gestionar visualmente las User Stories, moviéndolas entre las columnas TO DO, IN PROGRESS, y DONE, con opciones para agregar, editar, eliminar y filtrar las tareas por prioridad.
-<img src="assets/images/mockups/board.png">
+<img src="../assets/images/mockups/board.png">
 <br>
-<img src="assets/images/mockups/board-members.png">
+<img src="../assets/images/mockups/board-members.png">
 <br>
 <br>
 En en el apartado Meeting, el Scrum Master o el Product Owner se registrara las reuniones y se podra planificar a que dia y hora estara dicha reunion.
-<img src="assets/images/mockups/meeting.png">
+<img src="../assets/images/mockups/meeting.png">
 <br>
 <br>
 
 La sección Members permite al project manager gestionar el equipo de desarrollo, invitando, removiendo miembros y asignándolos a grupos de trabajo, facilitando la colaboración en tareas específicas.
-<img src="assets/images/mockups/members-users.png">
+<img src="../assets/images/mockups/members-users.png">
 <br>
 <br>
-<img src="assets/images/mockups/members-groups.png">
+<img src="../assets/images/mockups/members-groups.png">
 <br>
 <br>
 
@@ -551,63 +551,63 @@ La sección Members permite al project manager gestionar el equipo de desarrollo
 
 ##### User goal: Como usuario quiero poder iniciar sesión en ManageWise. Para lograrlo, completar el formulario, en caso de usar datos válidos, podre iniciar sesión, caso contrario, el formulario se reinicia.
 
-<p align="center"><img src="assets/images/Userflow1.png"></p>
+<p align="center"><img src="../assets/images/Userflow1.png"></p>
 
 ##### User goal: Como usuario quiero poder registrarme en ManageWise. Para lograrlo, ingreso mi usuario y contraseña en el formulario, en caso sean válidos, ingresaré a la plataforma, de lo contrario, el formulario se reinicia.
 
-<p align="center"><img src="assets/images/Userflow2.png"></p>
+<p align="center"><img src="../assets/images/Userflow2.png"></p>
 
 ##### User goal: Como scrum master o product owner, quiero poder agregar backlog items al sprint backlog. Para logralo selcciono add items en el sprint backlog, ingreso el id de este y selecciono add, en caso ingrese un dato incorrecto, el formulario se reiniciara.
 
-<p align="center"><img src="assets/images/userflow/Userflow-.png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-.png"></p>
 
 ##### User goal: Como miembro product owner, quiero poder crear backlog items para reflejar los requisitos y necesidades del cliente. Para lograrlo, dentro de la sección backlog, selecciono backlog items, y en en el item deseado, selecciono create. En caso llene el formulario de forma correcta y seleccione create, el item se creara y en caso contrario, el formulario se cerrará.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(1).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(1).png"></p>
 
 ##### User goal: Como miembro product owner, quiero poder editar backlog items para ajustar los requisitos. Para lograrlo, dentro de la sección backlog, selecciono backlog items, y en en el item deseado, selecciono edit. En caso llene el formulario de forma correcta y seleccione save, el item se actualizara y en caso contrario, el formulario se cerrará.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(2).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(2).png"></p>
 
 ##### User goal: Como miembro product owner, quiero poder eliminar backlog items para no tener requisitos innecesarios. Para lograrlo, dentro de la sección backlog, selecciono backlog items, y en en el item deseado, selecciono delete. En caso llene el formulario de forma correcta y seleccione delete, el item se eliminará y en caso contrario, el formulario se cerrará.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(3).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(3).png"></p>
 
 ##### User goal: Como miembro del equipo de desarrollo quiero poder acceder a las reuniones, para asi contribuír con el equipo. Para lograrlo, selecciono Meetings en el menu lateral izquierdo e ingreso al meeting deseado, en caso no este disponible, se mostrará un mensaje.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(4).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(4).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo, quiero poder eliminar un reporte de incidencias. Para lograrlo, estando en la sección issues, selecciono el boton de eliminar en el reporte deseado y posteriormente confirmo, en caso no lo haga, se cancelará la acción.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(5).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(5).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo, quiero poder editar un reporte de incidencias. Para lograrlo, estando en la sección issues, selecciono el boton de editar en el reporte deseado y posteriormente relleno el formulario de forma correcta y selecciono update, en caso no lo haga, se cancelará la acción.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(6).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(6).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo, quiero poder crear un reporte de incidencias. Para lograrlo, estando en la sección issues, selecciono el boton de crear reporte de incidencias y posteriormente relleno el formulario y confirmo, en caso no lo haga, se cancelará la acción.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(7).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(7).png"></p>
 
 ##### User goal: Como scrum master o product owner, quiero poder agregar nuevos miembros al equipo. Para lograrlo, estando en la sección members, selecciono invite member y paso a la persona el link de invitación o simplemenente ingreso el user name de esta.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(8).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(8).png"></p>
 
 ##### User goal: Como scrum master o product owner, quiero poder crear subgrupos para así separar a los miembros según el perfil de cada uno. Para lograrlo, estando en la sección members, selecciono groups y posteriormente create group, relleno el formulario y confirmo, caso contrario se cancelará la acción.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(9).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(9).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo, quiero observar el tablero scrum del proyecto. Para lograrlo, selecciono board en el menu lateral izquierdo.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(10).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(10).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo quiero poder observar metricas sobre el proyecto. Para lograrlo, selecciono statistics en el menu lateral izquierdo.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(11).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(11).png"></p>
 
 ##### User goal: Como miembro de equipo de desarrollo, quiero poder observar la timeline del proyecto, para asi estar al tanto de límites. Para lograrlo, selecciono Statistics en el menu lateral izquierdo y posteriormente selecciono Timeline.
 
-<p align="center"><img src="assets/images/userflow/Userflow-(12).png"></p>
+<p align="center"><img src="../assets/images/userflow/Userflow-(12).png"></p>
 
 ### 4.5. Web Applications Prototyping
 
@@ -619,29 +619,29 @@ Link del video: https://drive.google.com/drive/folders/12NAEuYcQpbOkQ6pO8YS2SoGi
 
 <br>
 
-![prototipo](/assets/images/prototype.png)
+![prototipo](../assets/images/prototype.png)
 
 ### 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagram
 
-![alt text](assets/images/domain-driven/ContextDiagram.png)
+![alt text](../assets/images/domain-driven/ContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-![alt text](assets/images/domain-driven/ContainerDiagram.png)
+![alt text](../assets/images/domain-driven/ContainerDiagram.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 
 #### **Component: Backlog management**
 
-![alt text](assets/images/domain-driven/ComponentsDiagram.png)
+![alt text](../assets/images/domain-driven/ComponentsDiagram.png)
 
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
 
-![alt text](assets/TB1-image/diagramclass.png)
+![alt text](../assets/TB1-image/diagramclass.png)
 
 LINK diagrama de clases:
 https://lucid.app/lucidchart/a8574ee7-c46c-4f80-ab16-b2b91cd5abde/edit?viewport_loc=941%2C706%2C2376%2C1266%2CHWEp-vi-RSFO&invitationId=inv_aaac668a-b1fb-479d-93c9-5c7af375894a
@@ -810,4 +810,4 @@ Descripción: Colección de los miembros de un proyecto.
 
 Para la elección de cómo relacionar las entidades, primero nos basamos en buscar tablas principales. Por ejemplo, en el sistema de gestión de proyectos, las entidades principales incluyen Clientes, Empleados, Proyectos, Tareas y Requisitos. Basándonos en ellas como punto de partida es que se nos hizo más sencillo y lógico la relación con las otras entidades. Esto nos ayudó a modelar eficazmente los datos y asegurar la coherencia de la información en nuestra aplicación.
 
-![alt text](assets/images/HorizonDBVF.png)
+![alt text](../assets/images/HorizonDBVF.png)
