@@ -117,9 +117,9 @@ Estas preguntas están diseñadas para llevar la conversación de manera lógica
    Edad: 25 años <br>
    Distrito: San Isidro <br>
 
-![Foto de entrevista](assets/images/S.png)
+![Foto de entrevista 1](/assets/images/entravista_alessandro.PNG)
 
-URL: [Link de entrevista](https://drive.google.com/file/d/1WrxFb_8KqRk6mWSrgUbvFpkfpjyIU0vI/view?usp=sharing)
+URL: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EdSkRkzT4BZBsKmgPdo-YusBvR9tU1-4Omwxihv5JeMNiw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GPrpi4)
 
 Inicio: 0:19<br>
 Duracion: 5:14
@@ -135,7 +135,7 @@ Diego nos comenta que su empresa se encarga de desarrollar soluciones web para P
     Edad:  <br>
     Distrito:  <br>
 
-![Foto de entrevista](assets/images/Entrevista-Maria.png)
+![Foto de entrevista](/assets/images/Entrevista-Maria.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/1URH3QIgHteG1cNFRdPeFrunflBu3zA8j/view?usp=sharing "Entrevista 2")
 
@@ -152,7 +152,7 @@ Resumen:<br>
     Edad:  <br>
     Distrito:  <br>
 
-![Entrevista Nora](assets/images/entrevista_Nora.png)
+![Entrevista Nora](/assets/images/entrevista_Nora.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/11xswJuEZQy51WRqAmZDu0KfjyF-6rV-F/view?usp=sharing "Entrevista 3")
 
@@ -188,7 +188,7 @@ Diego nos comenta que su equipo se enfoca más en desarrollo web y móvil. Los p
     Edad:  <br>
     Distrito:  <br>
 
-![alt text](assets/images/Entrevista-Agustin.png)
+![alt text](/assets/images/Entrevista-Agustin.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/1GgzFpXSX2uaFr_GiZCo5utxRtd5Z-t24/view?usp=sharing "Entrevista 2")
 
@@ -205,7 +205,7 @@ Resumen:<br>
     Edad:  <br>
     Distrito:  <br>
 
-![alt text](assets/images/entrevista_Rodrigo.png)
+![alt text](/assets/images/entrevista_Rodrigo.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/1aZ94C1wixcfQNa_dZCZSkIKiBnpPf91i/view?usp=sharing "Entrevista 3")
 
