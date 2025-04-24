@@ -112,19 +112,20 @@ Estas preguntas están diseñadas para llevar la conversación de manera lógica
 
 1. Entrevista 1: <br>
    Datos del entrevistado <br>
-   Nombre:  <br>
-   Apellidos: <br>
-   Edad:  <br>
-   Distrito:  <br>
+   Nombre: Carlos  <br>
+   Apellidos: Rincon <br>
+   Edad: 25 años <br>
+   Distrito: San Isidro <br>
 
 ![Foto de entrevista](assets/images/S.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/1WrxFb_8KqRk6mWSrgUbvFpkfpjyIU0vI/view?usp=sharing)
 
-Inicio: 0:00<br>
-Duracion: 
+Inicio: 0:19<br>
+Duracion: 5:14
 
 Resumen:<br>
+Diego nos comenta que su empresa se encarga de desarrollar soluciones web para PYMES y star-ups,su rol se enfoca más gestion de producto y el marco agil,se encarga de coordinar equipos y definir prioridades. Los principales desafíos que tienen es escalar sin perder agilidad, y estan trabajando mejorando la planificacion de preyectos.Considera cruciales que la herramienta tenga facilidad de integración, de uso y personalización. Aunque han trabajo con proveedores de herramientas de software, la experiencia no ha sido satisfactoria porque no se acomodan a sus necesidades específicas. Es clave tener una herramienta que se adapte, ya que cada empresa tiene procesos y necesidades unicas.
 
 
 2.  Entrevista 2: <br>
