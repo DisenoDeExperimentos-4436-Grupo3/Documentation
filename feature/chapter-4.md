@@ -448,7 +448,21 @@ En la sección Issues, el usuario crear reportes sobre incidencias, además de v
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams.
 
-
+<img src="../assets/images/mobile-wireflow/wireflow1.jpg">
+<br>
+El usuario se dirige a registrar, rellena el formulario, es redirigido a login e ingresa su usuario y contraseña para acceder a la app.
+<br>
+<br>
+<img src="../assets/images/mobile-wireflow/wireflow2.jpg">
+<br>
+Una vez el usuario este dentro de la app, se dirige al menu desplegable, selecciona statistics y visualiza la linea de tiempo del proyecto.
+<br>
+<br>
+<img src="../assets/images/mobile-wireflow/wireflow3.jpg">
+<br>
+Una vez el usuario este dentro de la app, estando en la sección backlog, se dirige a items, y create en la zona de historias de usuario, llena y acepta el formulario para poder agregar asi una nueva us.
+<br>
+<br>
 
 #### 4.4.3. Mobile Applications Mock-ups.
 
@@ -483,18 +497,50 @@ La sección Members permite al project manager gestionar el equipo de desarrollo
 
 #### 4.4.4. Mobile Applications User Flow Diagrams.
 
-
+<img src="../assets/images/mobile-userflow/userflow1.jpg">
+<br>
+El lider del proyecto se dirige al menu, ingresa a meeting y popsteriormente, actualiza y acepta alguna de las reuniones predefinidas por la aplicacion.
+<br>
+<br>
+<img src="../assets/images/mobile-userflow/userflow2.jpg">
+<br>
+Una vez el usuario este dentro de la app, a la vista items, edita una historia de usuario y agrega una nueva task.
+<br>
+<br>
+<img src="../assets/images/mobile-userflow/userflow3.jpg">
+<br>
+El usuario se dirige al menu, selecciona issues, y una vez en esta sección, presiona en view more, sobre el issue deseado.
+<br>
+<br>
 
 ### 4.5. Mobile Applications Prototyping.
 
-
-
 #### 4.5.1. Android Mobile Applications Prototyping.
 
+Prototipo movil android:
+<br>
+<img src="../assets/images/mobile-wireflow/mobile-prototype.png">
+<br>
+<br>
 
+link: [Prototype](https://www.figma.com/proto/mz9XRI1PRFgIvEPIuqHzgd/webapp-managewis?page-id=571%3A4620&node-id=895-2553&p=f&viewport=-241%2C217%2C0.06&t=xRZac2MJoYvWpbs9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=593%3A8064)
+
+<br>
+<br>
 
 #### 4.5.2. iOS Mobile Applications Prototyping.
 	
+
+Prototipo movil ios:
+<br>
+<img src="../assets/images/mobile-wireflow/mobile-prototype.png">
+<br>
+<br>
+
+link: [Prototype](https://www.figma.com/proto/mz9XRI1PRFgIvEPIuqHzgd/webapp-managewis?page-id=571%3A4620&node-id=895-2553&p=f&viewport=-241%2C217%2C0.06&t=xRZac2MJoYvWpbs9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=593%3A8064)
+
+<br>
+<br>
 
 ### 4.6. Web Applications UX/UI Design
 
