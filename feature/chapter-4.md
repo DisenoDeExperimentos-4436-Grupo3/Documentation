@@ -81,13 +81,60 @@ La principal estética tanto de la página web como de la aplicación será mini
 
 ### 4.1.3. Mobile Style Guidelines.
 
-
-
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
 
+**Colores:**
+- Utilizar la paleta de colores vivos definida para la aplicación “MANAGEWISE”, asegurando consistencia con el logo y el diseño general.
+- Compatibilidad con el modo oscuro de iOS, utilizando colores dinámicos para adaptarse automáticamente.
+
+**Tipografía:**
+- Fuente: Sulphur Point, siguiendo la misma fuente utilizada en el diseño general.
+- Tamaño base: 17 pt para texto principal, con variaciones según jerarquía.
+- Interlineado: 1.2 para mejorar la legibilidad.
+
+**Diseño General:**
+- Seguir las Human Interface Guidelines de Apple.
+- Diseño minimalista, destacando el contenido sobre los elementos visuales.
+- Uso de componentes nativos de UIKit para garantizar una experiencia fluida y familiar.
+
+**Elementos Gráficos:**
+- Resaltar el producto con una estética minimalista y una paleta de colores limitada.
+- Incorporar el logo de “MANAGEWISE” en las pantallas principales.
+
+**Interacción:**
+- Gestos nativos como deslizar para eliminar o retroceder.
+- Feedback háptico para interacciones clave.
+
+**Diseño Responsive:**
+- Adaptar el diseño a diferentes tamaños de pantalla (iPhone SE, iPhone 14, etc.) utilizando Auto Layout.
+
 
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+**Colores:**
+- Utilizar la paleta de colores vivos definida para la aplicación “MANAGEWISE”, asegurando consistencia con el logo y el diseño general.
+- Compatibilidad con el modo oscuro de Android, utilizando colores dinámicos definidos en el tema.
+
+**Tipografía:**
+- Fuente: Sulphur Point, siguiendo la misma fuente utilizada en el diseño general.
+- Tamaño base: 16 sp para texto principal, con variaciones según jerarquía.
+- Interlineado: 1.5 para mejorar la legibilidad.
+
+**Diseño General:**
+- Seguir las guías de Material Design para garantizar una experiencia coherente y moderna.
+- Diseño minimalista, destacando el contenido sobre los elementos visuales.
+- Uso de componentes estándar de Material Design como botones flotantes y tarjetas.
+
+**Elementos Gráficos:**
+- Resaltar el producto con una estética minimalista y una paleta de colores limitada.
+- Incorporar el logo de “MANAGEWISE” en las pantallas principales.
+
+**Interacción:**
+- Feedback visual y táctil para interacciones clave.
+
+**Diseño Responsive:**
+- Adaptar el diseño a diferentes tamaños de pantalla.
 
 ### 4.2. Information Architecture
 
