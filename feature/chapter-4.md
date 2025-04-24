@@ -79,6 +79,16 @@ La principal estética tanto de la página web como de la aplicación será mini
 
 - Se facilitarán enlaces a recursos visuales, como imágenes de marca y gráficos, para que el equipo pueda acceder a ellos de manera sencilla. Además, se incluirán enlaces de descarga para las fuentes y archivos de diseño utilizados en el sitio web.
 
+### 4.1.3. Mobile Style Guidelines.
+
+
+
+#### 4.1.3.1. iOS Mobile Style Guidelines.
+
+
+
+#### 4.1.3.2. Android Mobile Style Guidelines.
+
 ### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
@@ -396,9 +406,40 @@ El formulario de inicio de sesión se adapta a la pantalla del dispositivo, perm
 
 </p>
 
-### 4.4. Web Applications UX/UI Design
+### 4.4. Mobile Applications UX/UI Design
 
-#### 4.4.1. Web Applications Wireframes
+
+
+#### 4.4.1. Mobile Applications Wireframes.
+
+
+
+#### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+
+
+#### 4.4.3. Mobile Applications Mock-ups.
+
+
+
+#### 4.4.4. Mobile Applications User Flow Diagrams.
+
+
+
+### 4.5. Mobile Applications Prototyping.
+
+
+
+#### 4.5.1. Android Mobile Applications Prototyping.
+
+
+
+#### 4.5.2. iOS Mobile Applications Prototyping.
+	
+
+### 4.6. Web Applications UX/UI Design
+
+#### 4.6.1. Web Applications Wireframes
 
 En esta parte se explorará el diseño de la experiencia que tendrán los usuarios al interactuar con la aplicación web. Tanto la ubicación de elementos, como las fuentes y colores, están pensados para ofrecer al usuario una experiencia visualmente atractia y fluida.
 
@@ -452,7 +493,7 @@ Vista de Miembros asignados
 
 </p>
 
-#### 4.4.2. Web Applications Wireflow Diagrams
+#### 4.6.2. Web Applications Wireflow Diagrams
 
 ##### User goal: Registrar un nuevo usuario
 
@@ -510,7 +551,7 @@ Vista de Miembros asignados
 
 <p align="center"><img src="../assets/images/wireflow/Wireflow-(5).png"></p>
 
-#### 4.4.3. Web Applications Mock-ups
+#### 4.6.3. Web Applications Mock-ups
 
 Los siguientes mockups ofrecen una vista previa del diseño y estructural visual de la aplicación web antes de su desarrollo final. Gracias a estos mockups podemos visualizar como se dispondrán los diferentes elementos en la interaz, garantizando que el diseño sea claro e intuitivo.
 
@@ -547,7 +588,7 @@ La sección Members permite al project manager gestionar el equipo de desarrollo
 
 </p>
 
-#### 4.4.4. Web Applications User Flow Diagrams
+#### 4.6.4. Web Applications User Flow Diagrams
 
 ##### User goal: Como usuario quiero poder iniciar sesión en ManageWise. Para lograrlo, completar el formulario, en caso de usar datos válidos, podre iniciar sesión, caso contrario, el formulario se reinicia.
 
@@ -609,7 +650,7 @@ La sección Members permite al project manager gestionar el equipo de desarrollo
 
 <p align="center"><img src="../assets/images/userflow/Userflow-(12).png"></p>
 
-### 4.5. Web Applications Prototyping
+### 4.7. Web Applications Prototyping
 
 El prototipo de la aplicación busca ofrecer una experiencia intuitiva para la gestión de proyectos. Las principales decisiones de interacción se centraron en la accesibilidad, permitiendo a usuarios seleccionados, en este caso los líderes, crear, editar y visualizar tareas fácilmente. Además, secciones como Proyectos, Herramientas, Seguridad y Reportes están diseñadas para asegurar una navegación clara y eficiente, optimizando la colaboración y el seguimiento del progreso en tiempo real.
 
@@ -621,34 +662,34 @@ Link del video: https://drive.google.com/drive/folders/12NAEuYcQpbOkQ6pO8YS2SoGi
 
 ![prototipo](../assets/images/prototype.png)
 
-### 4.6. Domain-Driven Software Architecture
+### 4.8. Domain-Driven Software Architecture
 
-### 4.6.1. Software Architecture Context Diagram
+### 4.8.1. Software Architecture Context Diagram
 
 ![alt text](../assets/images/domain-driven/ContextDiagram.png)
 
-### 4.6.2. Software Architecture Container Diagrams
+### 4.8.2. Software Architecture Container Diagrams
 
 ![alt text](../assets/images/domain-driven/ContainerDiagram.png)
 
-### 4.6.3. Software Architecture Components Diagrams
+### 4.8.3. Software Architecture Components Diagrams
 
 #### **Component: Backlog management**
 
 ![alt text](../assets/images/domain-driven/ComponentsDiagram.png)
 
-### 4.7. Software Object-Oriented Design
+### 4.9. Software Object-Oriented Design
 
-#### 4.7.1. Class Diagrams
+#### 4.9.1. Class Diagrams
 
 ![alt text](../assets/TB1-image/diagramclass.png)
 
 LINK diagrama de clases:
 https://lucid.app/lucidchart/a8574ee7-c46c-4f80-ab16-b2b91cd5abde/edit?viewport_loc=941%2C706%2C2376%2C1266%2CHWEp-vi-RSFO&invitationId=inv_aaac668a-b1fb-479d-93c9-5c7af375894a
 
-### 4.8. Database Design
+### 4.10. Database Design
 
-### 4.7.1. Database Dictionary
+### 4.10.1. Database Dictionary
 
 Este es el formato que deberán seguir nuestras colecciones en MongoDB para replicar nuestras entidades de la base de datos.
 
@@ -806,7 +847,7 @@ Descripción: Colección de los miembros de un proyecto.
 | projectId | int | Identificador unico de un proyecto |
 | memberId | varchar(150) | Identificador unico de un miembro |
 
-#### 4.8.2. Database Diagram
+#### 4.10.2. Database Diagram
 
 Para la elección de cómo relacionar las entidades, primero nos basamos en buscar tablas principales. Por ejemplo, en el sistema de gestión de proyectos, las entidades principales incluyen Clientes, Empleados, Proyectos, Tareas y Requisitos. Basándonos en ellas como punto de partida es que se nos hizo más sencillo y lógico la relación con las otras entidades. Esto nos ayudó a modelar eficazmente los datos y asegurar la coherencia de la información en nuestra aplicación.
 
