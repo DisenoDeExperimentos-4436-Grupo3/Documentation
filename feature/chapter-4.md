@@ -420,7 +420,34 @@ El formulario de inicio de sesión se adapta a la pantalla del dispositivo, perm
 
 #### 4.4.3. Mobile Applications Mock-ups.
 
+<p align="center">
 
+La sección de Statistics es fundamental, en donde el product Owner y Scrum Master podrá visualizar las estadisticas en base a los sprints de las historias de usuario. Tanto tambien se podrá saber si el sprint se esta elaborando bien en temas de avance.
+<br>
+<img src="../assets/images/movil-statistics.png">
+<br>
+En la sección Backlog permite gestionar y mover historias de usuario entre el product backlog y el sprint backlog, con la opción de iniciar sprints una vez las historias estén listas.
+<br>
+<img src="../assets/images/movil-backlog.png">
+<br>
+<img src="../assets/images/movil-backlog-us.png">
+<br>
+<br>
+En en el apartado Meeting, el Scrum Master o el Product Owner se registrara las reuniones y se podra planificar a que dia y hora estara dicha reunion.
+<br>
+<img src="../assets/images/movil-meeting.png">
+<br>
+<br>
+
+La sección Members permite al project manager gestionar el equipo de desarrollo, invitando, removiendo miembros y asignándolos a grupos de trabajo, facilitando la colaboración en tareas específicas.
+<br>
+<img src="../assets/images/movil-members.png">
+<br>
+<img src="../assets/images/movil-members.png">
+<br>
+<br>
+
+</p>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams.
 
