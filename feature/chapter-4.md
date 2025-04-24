@@ -408,11 +408,43 @@ El formulario de inicio de sesión se adapta a la pantalla del dispositivo, perm
 
 ### 4.4. Mobile Applications UX/UI Design
 
-
-
 #### 4.4.1. Mobile Applications Wireframes.
 
+En la sección Backlog, el usuario podrá visualizar el product backlog y puede crear un sprint backlog, añadiendo backlog items a este. Además cuenta con una vista Backlog items, en donde en caso tener permisos, puede gestionar estos.
+<br>
+<img src="../assets/images/wireframes/movil-backlog.png">
+<br>
+Vista Backlog Items
+<br>
+<img src="../assets/images/wireframes/movil-backlog-us.png">
+<br>
+<br>
 
+En la sección Members, el usuario visualiza a los diferentes miembros del equipo, puediendo añadir mas en caso desearlo. Además en caso seleccionar Groups, podrá gestionar estos.
+<br>
+<img src="../assets/images/wireframes/movil-members.png">
+<br>
+<br>
+
+En la sección de Statistics, el usuario podrá visualizar diferentes datos estadísticos sobre el proyecto y en caso seleccionar Timeline, podra ver el cronograma de este.
+<br>
+<img src="../assets/images/wireframes/movil-statistics.png">
+<br>
+<br>
+
+En la sección Meeting el usuario podrá visualizar si se encuentra activa alguna reunión e ingresar a esta.
+<br>
+<img src="../assets/images/wireframes/movil-meeting.png">
+<br>
+<br>
+
+En la sección Issues, el usuario crear reportes sobre incidencias, además de visualizar los ya existentes.Ademas ,puede añadir eventos dentro del historial de eventos de cambios para el issue , de esta manera mantiene informado a los miembros.
+<br>
+<img src="../assets/images/wireframes/movil-issues.png">
+<br>
+<br>
+
+</p>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams.
 
