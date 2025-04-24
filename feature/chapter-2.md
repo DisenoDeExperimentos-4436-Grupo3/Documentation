@@ -178,7 +178,7 @@ Inicio: 0:03<br>
 Duracion: 8:44
 
 Resumen:<br>
-
+Diego nos comenta que su equipo se enfoca más en desarrollo web y móvil. Los principales desafíos que tienen es la falta de visibilidad sobre el progreso de los miembros, el control de versiones. También han tenido problemas con la sincronización de los trabajos. Considera cruciales que la herramienta tenga facilidad de integración, de uso y personalización. Aunque han trabajo con proveedores de herramientas de software, la experiencia no ha sido satisfactoria porque no se acomodan a sus necesidades específicas.  Define que a su equipo les resulta fácil adaptarse a otra herramienta pero necesitan capacitaciones para garantizar que el equipo se adoptar de la mejor manera la herramienta. Explica que una plataforma que facilite la retroalimentación continua en tiempo real ayudaría en la comunicación y aceleraría el proceso de mejora.
 
 2.  Entrevista 2: <br>
     Datos del entrevistado <br>
