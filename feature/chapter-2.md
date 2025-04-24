@@ -125,42 +125,25 @@ Inicio: 0:19<br>
 Duracion: 5:14
 
 Resumen:<br>
-Diego nos comenta que su empresa se encarga de desarrollar soluciones web para PYMES y star-ups,su rol se enfoca más gestion de producto y el marco agil,se encarga de coordinar equipos y definir prioridades. Los principales desafíos que tienen es escalar sin perder agilidad, y estan trabajando mejorando la planificacion de preyectos.Considera cruciales que la herramienta tenga facilidad de integración, de uso y personalización. Aunque han trabajo con proveedores de herramientas de software, la experiencia no ha sido satisfactoria porque no se acomodan a sus necesidades específicas. Es clave tener una herramienta que se adapte, ya que cada empresa tiene procesos y necesidades unicas.
+Carlos nos comenta que su empresa se encarga de desarrollar soluciones web para PYMES y star-ups,su rol se enfoca más gestion de producto y el marco agil,se encarga de coordinar equipos y definir prioridades. Los principales desafíos que tienen es escalar sin perder agilidad, y estan trabajando mejorando la planificacion de preyectos.Considera cruciales que la herramienta tenga facilidad de integración, de uso y personalización. Aunque han trabajo con proveedores de herramientas de software, la experiencia no ha sido satisfactoria porque no se acomodan a sus necesidades específicas. Es clave tener una herramienta que se adapte, ya que cada empresa tiene procesos y necesidades unicas.
 
 
 2.  Entrevista 2: <br>
     Datos del entrevistado <br>
-    Nombre: <br>
+    Nombre: Nora <br>
     Apellidos: <br>
-    Edad:  <br>
-    Distrito:  <br>
-
-![Foto de entrevista](/assets/images/Entrevista-Maria.png)
-
-URL: [Link de entrevista](https://drive.google.com/file/d/1URH3QIgHteG1cNFRdPeFrunflBu3zA8j/view?usp=sharing "Entrevista 2")
-
-Inicio: <br>
-Duracion: 
-
-Resumen:<br>
-
-
-3.  Entrevista 3: <br>
-    Datos del entrevistado <br>
-    Nombre:  <br>
-    Apellidos: <br>
-    Edad:  <br>
-    Distrito:  <br>
+    Edad:  45 <br>
+    Distrito: Magdalena del Mar <br>
 
 ![Entrevista Nora](/assets/images/entrevista_Nora.png)
 
 URL: [Link de entrevista](https://drive.google.com/file/d/11xswJuEZQy51WRqAmZDu0KfjyF-6rV-F/view?usp=sharing "Entrevista 3")
 
-Inicio: <br>
-Duracion: 
+Inicio: 0:40 <br>
+Duracion: 5:39
 
 Resumen:<br>
-
+La entrevista con Nora reveló aspectos importantes sobre la gestión y flujo de trabajo. Se destacó que el trabajo en equipo es fundamental para el éxito de un proyecto, y que contar con herramientas de gestión y seguimiento efectivas es crucial para mantener la coordinación y el progreso del equipo. Además, se considera que, tecnologías emergentes serían de mucha ayuda. En un futuro, se espera que este tipo de tecnologías sumadas a herramientas existentes puedan ayudar a su adaptación para diferentes modelos de negocio y a agilizar el trabajo.
 
 **Segmento 2: Equipo de Desarrollo de Software**
 
@@ -180,39 +163,6 @@ Duracion: 8:44
 
 Resumen:<br>
 Diego nos comenta que su equipo se enfoca más en desarrollo web y móvil. Los principales desafíos que tienen es la falta de visibilidad sobre el progreso de los miembros, el control de versiones. También han tenido problemas con la sincronización de los trabajos. Considera cruciales que la herramienta tenga facilidad de integración, de uso y personalización. Aunque han trabajo con proveedores de herramientas de software, la experiencia no ha sido satisfactoria porque no se acomodan a sus necesidades específicas.  Define que a su equipo les resulta fácil adaptarse a otra herramienta pero necesitan capacitaciones para garantizar que el equipo se adoptar de la mejor manera la herramienta. Explica que una plataforma que facilite la retroalimentación continua en tiempo real ayudaría en la comunicación y aceleraría el proceso de mejora.
-
-2.  Entrevista 2: <br>
-    Datos del entrevistado <br>
-    Nombre: <br>
-    Apellidos: <br>
-    Edad:  <br>
-    Distrito:  <br>
-
-![alt text](/assets/images/Entrevista-Agustin.png)
-
-URL: [Link de entrevista](https://drive.google.com/file/d/1GgzFpXSX2uaFr_GiZCo5utxRtd5Z-t24/view?usp=sharing "Entrevista 2")
-
-Inicio: <br>
-Duracion: 
-
-Resumen:<br>
-
-
-3.  Entrevista 3: <br>
-    Datos del entrevistado <br>
-    Nombre:  <br>
-    Apellidos: <br>
-    Edad:  <br>
-    Distrito:  <br>
-
-![alt text](/assets/images/entrevista_Rodrigo.png)
-
-URL: [Link de entrevista](https://drive.google.com/file/d/1aZ94C1wixcfQNa_dZCZSkIKiBnpPf91i/view?usp=sharing "Entrevista 3")
-
-Inicio: <br>
-Duracion: 
-
-Resumen:<br>
 
 
 ### 2.2.3. Análisis de entrevistas
