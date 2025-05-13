@@ -985,5 +985,152 @@ Backend Commits (similar a Frontend):
 ![alt text](../assets/TB2/backlog/commil2.jpeg) <!-- Asumiendo que la imagen es representativa -->
 (Las cuentas individuales para Backend no estaban desglosadas con números exactos en S3/S4, pero se indica participación de todos)
 
+### 5.2.4 Acuerdo de Servicio - SaaS
+
+# Acuerdo de Servicio SaaS (ManageWise)
+
+**Última actualización: 12/05/2025**
+
+Este Acuerdo de Servicio regula el uso de la plataforma ManageWise, desarrollada por un equipo de estudiantes de la Universidad Privada de Ciencias Aplicadas – UPC, con sede en Lima, Perú. Al acceder y utilizar nuestro software, el usuario acepta los siguientes términos y condiciones.
+
+---
+
+## ¿Qué es ManageWise?
+
+**ManageWise** es una solución SaaS (Software as a Service) desarrollada por estudiantes de la UPC que busca mejorar la eficiencia, colaboración y transparencia en el desarrollo ágil de software dentro de startups tecnológicas. A través de una plataforma web, ManageWise centraliza la gestión de tareas, planificación de sprints, reuniones y seguimiento del rendimiento del equipo, permitiendo a los usuarios enfocarse en entregar valor de forma iterativa e incremental.
+
+### Propósito Principal
+
+El objetivo de ManageWise es ofrecer una herramienta especializada para la **gestión ágil de proyectos**, diseñada para equipos que siguen la metodología Scrum u otras variantes ágiles. La plataforma actúa como un espacio digital donde se puede:
+
+- Crear y administrar historias de usuario, épicas y tareas.
+- Planificar sprints y asignar responsabilidades.
+- Registrar incidencias y su evolución.
+- Programar reuniones con su respectiva grabación.
+- Visualizar estadísticas del equipo para una toma de decisiones basada en datos.
+
+### ¿Cómo funciona?
+
+Una vez registrado, el usuario accede a un entorno colaborativo donde puede gestionar su proyecto de manera estructurada. Algunas de las funcionalidades clave incluyen:
+
+- **Backlog estructurado** por épicas, user stories y tareas con prioridad, esfuerzo estimado y estado.
+- **Gestión de Sprints**, con herramientas para creación, asignación y visualización de progreso.
+- **Reuniones integradas** con soporte para enlaces de videollamada y archivos adjuntos.
+- **Sistema de incidencias** para reportar, rastrear y resolver bugs o sugerencias.
+- **Visualización de rendimiento**: reportes gráficos sobre velocidad, cumplimiento y eficiencia del equipo.
+- **Gestión de miembros**, roles y permisos según el marco Scrum: Product Owner, Scrum Master y Developers.
+
+### Valor Diferencial
+
+ManageWise se distingue de otras herramientas de gestión por estar:
+
+- **Especializado en metodologías ágiles**, con flujos de trabajo ya adaptados a Scrum.
+- **Pensado para startups**, brindando simplicidad, foco en resultados y rápida adopción.
+- **Desarrollado por estudiantes para estudiantes y emprendedores**, lo que asegura una experiencia centrada en la usabilidad y necesidades reales del usuario.
+- **Enfoque formativo y pedagógico**, ideal para equipos que están en proceso de aprender o consolidar sus prácticas ágiles.
+
+### Usuarios ideales
+
+- Startups tecnológicas en etapa temprana.
+- Equipos académicos o universitarios que desarrollan proyectos colaborativos.
+- Desarrolladores independientes que trabajan en equipos Scrum.
+- Product Owners que necesitan visibilidad y control del backlog.
+- Scrum Masters que gestionan planificación y ejecución de sprints.
+
+---
+
+## 1. Definiciones
+
+- **“Plataforma”**: ManageWise, aplicación web para gestión de iniciativas y proyectos bajo modelo SaaS.  
+- **“Usuario”**: Persona natural o jurídica que accede, se registra o utiliza la plataforma.  
+- **“Equipo de desarrollo”**: Grupo responsable del diseño y operación de ManageWise.  
+- **“Servicio”**: Acceso y uso de funcionalidades como backlog, tareas, roles SCRUM, reuniones e incidencias.
+
+---
+
+## 2. Alcance del Servicio
+
+ManageWise proporciona herramientas para startups tecnológicas, incluyendo:
+
+- Gestión de backlog (épicas, user stories, tasks)  
+- Asignación de sprints  
+- Administración de miembros  
+- Videoconferencias y grabaciones  
+- Gestión de incidencias  
+- Reportes y métricas  
+
+El servicio se ofrece “tal cual” y puede cambiar con el tiempo.
+
+---
+
+## 3. Registro y Acceso
+
+Se requiere registro para acceder a todas las funciones. Los usuarios son responsables de sus credenciales y veracidad de sus datos.
+
+---
+
+## 4. Uso Aceptable
+
+El usuario se compromete a:
+
+- No usar el servicio para fines ilegales o fraudulentos.  
+- No interferir con la operación del sistema.  
+- No revender el servicio sin permiso.
+
+---
+
+## 5. Soporte Técnico
+
+- **Correo:** soporte@managewise.app  
+- **Horario:** Lunes a viernes, 9:00 a.m. a 6:00 p.m. (GMT-5)
+
+---
+
+## 6. Cancelación y Reembolsos
+
+El servicio es gratuito en esta etapa. En versiones futuras con pagos, no se realizarán reembolsos salvo errores técnicos comprobados.
+
+---
+
+## 7. Propiedad Intelectual
+
+Todo el contenido es propiedad del equipo de desarrollo. Está prohibida su reproducción sin autorización.
+
+---
+
+## 8. Protección de Datos Personales
+
+Cumplimos con la Ley N.º 29733 del Perú y, en caso aplicable, con GDPR.  
+Solicitudes sobre datos personales: **privacidad@managewise.app**
+
+---
+
+## 9. Limitación de Responsabilidad
+
+No nos hacemos responsables por pérdida de datos o daños indirectos derivados del uso del servicio.
+
+---
+
+## 10. Modificaciones al Acuerdo
+
+Este acuerdo puede ser modificado. Su uso continuo implica aceptación de los nuevos términos.
+
+---
+
+## 11. Legislación Aplicable y Jurisdicción
+
+Este acuerdo se rige por las leyes del Perú. Cualquier disputa será resuelta en los tribunales de Lima Metropolitana.
+
+---
+
+## 📬 Contacto
+
+Consultas legales o técnicas:  
+**legal@managewise.app**  
+**soporte@managewise.app**
+
+
+
+
 ### 5.3 Video About-the-Product.
 Link del vídeo: 
