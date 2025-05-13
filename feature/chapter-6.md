@@ -22,6 +22,22 @@ Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que
 
 #### 6.1.3. Core Behavior-Driven Development
 
+[![tests](/assets/images/TP_images/Behavior-Driven.png)](https://postimg.cc/NLCgR303)
+
+<br>
+
+![test-us09](/assets/images/TP_images/CreacionUS.png)
+
+<br>
+
+![test-us12](/assets/images/TP_images/CreacionEP.png)
+
+<br>
+
+![test-us16](/assets/images/TP_images/CreacionTask.png)
+
+<br>
+
 #### 6.1.4. Core System Tests.
 
 ## US01 - Vista General de Beneficios y Funcionalidades
