@@ -139,24 +139,24 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 ### Conclusiones
 
 - John Telesforo Arevalo Meza: <br>
-  ------<br>
+  Cada miembro fortaleció competencias clave en tecnologías como Spring Boot, Angular, Selenium y herramientas de integración continua como GitHub Actions.
+  <br>
 
 - Michael Stefano Carmelino Dueñas <br>
- ----
+ Se logró una visión integral del ciclo de vida del software, desde el análisis y diseño, hasta las pruebas automatizadas y despliegue continuo.
  <br>
   
-
 - Rodrigo Manuel Chirinos Zúñiga <br>
-  -----
+  La aplicación de Scrum y la segmentación en User Stories permitió una mejor organización del trabajo, priorización de tareas y colaboración constante entre los integrantes.
   <br>
  
 - Fabian Alonso Reyes Trujillano <br>
-  -----
+  Se comprendió el impacto de automatizar pruebas y despliegues para garantizar entregas más rápidas, confiables y sostenibles.
  <br>
-
+ 
 - Alessandro Netto Zevallos Linares<br>
-  ----
-   <br>
+  El proyecto reforzó la importancia del trabajo en equipo, el versionado con Git y el uso de herramientas colaborativas para mantener sincronizado el avance del desarrollo.
+  <br>
 
 
 ### Bibliografia

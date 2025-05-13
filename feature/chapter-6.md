@@ -19,6 +19,23 @@ Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que
 
 
 #### 6.1.2. Core Integration Tests.
+Las Core Integration Tests son fundamentales para asegurar que los controladores interactúen correctamente con otros componentes del sistema, como servicios y bases de datos. Al evaluar escenarios de error, estas pruebas garantizan que el sistema maneje adecuadamente situaciones inesperadas y responda con los códigos de estado correctos. Esto mejora la experiencia del usuario, facilita la depuración y contribuye a desarrollar un software confiable y de alta calidad.
+
+**Backlog Controller Test**
+[![Backlog-Controller-Test.png](https://i.postimg.cc/MKh4wC7v/Backlog-Controller-Test.png)](https://postimg.cc/XpkxcDDb)
+
+**Iam Controller Test**
+[![Iam-Controller-Test.png](https://i.postimg.cc/kgKHgTsw/Iam-Controller-Test.png)](https://postimg.cc/CRM7vHWf)
+
+**Issues Controller Test**
+[![Issues-Controller-Test.png](https://i.postimg.cc/q7r5h2Zr/Issues-Controller-Test.png)](https://postimg.cc/gxMD1LWt)
+
+**Meeting Controller Test**
+[![Meeting-Controller-Test.png](https://i.postimg.cc/GpjSk9Zy/Meeting-Controller-Test.png)](https://postimg.cc/zLVjNDDz)
+
+**Members Controller Test**
+[![Members-Controller-Test.png](https://i.postimg.cc/2689TrDX/Members-Controller-Test.png)](https://postimg.cc/2qMxSp34)
+
 
 #### 6.1.3. Core Behavior-Driven Development
 
