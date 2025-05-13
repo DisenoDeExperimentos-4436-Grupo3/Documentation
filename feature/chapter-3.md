@@ -187,12 +187,7 @@ EPICS:
 | TS010    | Endpoint para sign in|
 
 
-### 3.3. Impact Mapping
-
-![Anexo E](../assets/images/Impact%20Mapping%20Lider%20Integrante.jpg)
-Anexo E
-
-### 3.4. Product Backlog
+### 3.3. Product Backlog
 
 | #Orden | User Story ID | Título                                                  | Descripción                                                                                                 | Story Points <br> (1/2/3/5/8) |
 | ------ | ------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | :---------------------------: |
@@ -253,3 +248,9 @@ Anexo E
 
 
 LINK PIVOTAL TRACKER : https://www.pivotaltracker.com/projects/2716327
+
+
+### 3.4. Impact Mapping
+
+![Anexo E](../assets/images/Impact%20Mapping%20Lider%20Integrante.jpg)
+Anexo E
