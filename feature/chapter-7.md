@@ -73,6 +73,53 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 
 #### 7.3.2. Production Deployment Pipeline Components.
 
+#### Componentes del Pipeline de la Base de Datos (Render + PostgreSQL)
+
+1. **Gestión de Migraciones Automáticas:**  
+   A través de Spring Boot y sus herramientas de persistencia (JPA/Hibernate), el sistema aplica automáticamente los cambios en las entidades al esquema de la base de datos PostgreSQL desplegado en Render. Esto garantiza que los modelos del backend estén siempre sincronizados con la estructura de datos en producción.
+
+2. **Backups Automáticos:**  
+   Render gestiona copias de seguridad periódicas de la base de datos PostgreSQL. Antes de ejecutar migraciones críticas o durante despliegues importantes, Render permite restaurar versiones anteriores de la base de datos, reduciendo el riesgo ante errores imprevistos.
+
+3. **Monitoreo del Rendimiento:**  
+   Render proporciona un panel de monitoreo que permite al equipo de desarrollo observar el uso de CPU, memoria y tráfico de la base de datos. Se pueden configurar alertas automáticas en caso de degradación del rendimiento o fallas en el servicio.
+
+4. **Validación de Esquema y Datos:**  
+   Después de las migraciones, se ejecutan pruebas de integración y validaciones de esquema para asegurar que las nuevas estructuras (tablas, relaciones, columnas) se hayan creado correctamente. Estas pruebas están integradas en el pipeline de GitHub Actions.
+
+5. **Despliegue Automatizado y Sincronizado:**  
+   Los cambios en el modelo de datos se despliegan automáticamente a la base de datos productiva mediante migraciones controladas y validadas. Esto permite mantener una sincronización constante entre el backend y la base de datos sin intervención manual.
+
+
+#### Componentes del Pipeline del Backend (Render para Spring Boot)
+
+1. **Integración Continua con GitHub Actions:**  
+   Al hacer un push a la rama `develop`, GitHub Actions ejecuta automáticamente pruebas unitarias e integración del backend desarrollado en Spring Boot. Si todo es exitoso, Render detecta los cambios y ejecuta el despliegue.
+
+2. **Construcción de Imagen Docker:**  
+   El backend es contenerizado con Docker. Las imágenes son construidas automáticamente y almacenadas en Docker Hub. Esto garantiza un entorno consistente entre desarrollo, staging y producción.
+
+3. **Despliegue en Render:**  
+   Render toma la nueva imagen del backend y la despliega en el entorno de producción. Este proceso es completamente automático y puede realizarse múltiples veces al día si hay cambios disponibles.
+
+4. **Monitoreo y Alertas en Tiempo Real:**  
+   El backend desplegado es monitoreado constantemente. Render permite observar logs en tiempo real y configurar alertas para notificar al equipo ante errores 5xx, caídas de servicio o comportamientos anómalos.
+
+
+#### Componentes del Pipeline del Frontend (Vercel para Angular)
+
+1. **Compilación Automática del Frontend:**  
+   Vercel está integrado directamente con GitHub. Al detectar nuevos commits en la rama `develop`, inicia automáticamente el proceso de construcción de la aplicación Angular en modo producción.
+
+2. **Pruebas Automatizadas:**  
+   Antes del despliegue, se ejecutan pruebas unitarias para verificar el correcto funcionamiento de los componentes del frontend. En versiones futuras, se incluirán pruebas E2E como parte del flujo.
+
+3. **Despliegue en Vercel:**  
+   Si las pruebas son exitosas, Vercel publica automáticamente la nueva versión del frontend en producción. El contenido es servido desde su CDN global, lo cual mejora el rendimiento y disponibilidad para los usuarios.
+
+4. **Invalidación de Caché:**  
+   Vercel gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
+
 
 
 ### Conclusiones
