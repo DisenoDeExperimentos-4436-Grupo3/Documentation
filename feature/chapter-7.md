@@ -7,9 +7,46 @@
 
 ### 7.2. Continuous Delivery
 
+El objetivo de la estrategia de Continuous Delivery (CD) en ManageWise es mantener el software en un estado constante de disponibilidad para ser desplegado en producción, con altos estándares de calidad y trazabilidad. Si bien no se realiza un despliegue automático inmediato (como en Continuous Deployment), se asegura que cada versión del software pase por validaciones y esté lista para ser liberada cuando se apruebe.
+
 #### 7.2.1. Tools and Practices.
 
+**Herramientas utilizadas:**
+
+- **GitHub Actions**: Utilizado para definir y ejecutar workflows de CI/CD. En el caso de CD, se configura el pipeline para realizar pruebas automáticas y generar artefactos listos para producción, dejando el despliegue en espera de una aprobación manual.
+- **Docker**: Se emplea para contenerizar la aplicación, asegurando que los entornos de desarrollo, staging y producción sean coherentes y repetibles.
+- **Trello** o **Jira**: Herramientas de gestión de tareas para coordinar el proceso de revisión y autorización del despliegue, estableciendo puntos de control antes del pase a producción.
+- **Railway/Render/Netlify (según el entorno de despliegue)**: Se configuran ambientes intermedios (como staging) donde se despliega automáticamente después del pipeline, pero la liberación a producción requiere intervención humana.
+
+**Prácticas implementadas:**
+
+- **Feature Branching y Pull Requests**: Todo nuevo desarrollo se realiza en ramas independientes y se integran a `main` tras una revisión y validación automatizada.
+- **Pipeline de Validación en Staging**: Los cambios se despliegan automáticamente en un entorno de staging donde se pueden realizar pruebas manuales, regresivas o de aceptación antes de su aprobación para producción.
+- **Despliegue Semiautomático**: El pipeline prepara y entrega el build listo para producción, pero el despliegue final requiere una aprobación manual dentro del repositorio o por gestión del equipo.
+- **Aprobación Manual**: Una etapa del pipeline queda en espera hasta que un miembro autorizado (Scrum Master o responsable técnico) aprueba el despliegue. Esto proporciona un mayor control y supervisión.
+- **Rollback Manual**: En caso de errores críticos, se cuenta con mecanismos para realizar rollbacks controlados por el equipo técnico desde versiones etiquetadas previamente.
+
 #### 7.2.2. Stages Deployment Pipeline Components.
+
+**Integración Continua (CI):**
+
+Cada vez que se hace `push` a una rama de desarrollo, el pipeline ejecuta pruebas unitarias, de integración y de linting. Si todas las validaciones son exitosas, se genera un artefacto listo para ser probado en staging.
+
+**Validación en Staging:**
+
+Se despliega automáticamente en un entorno de staging tras la CI. Aquí se hacen pruebas funcionales, validación de criterios de aceptación y pruebas exploratorias por parte del equipo QA o desarrolladores asignados.
+
+**Despliegue Manual a Producción:**
+
+Una vez validado el entorno de staging, un desarrollador o administrador aprueba manualmente el paso final del pipeline. El sistema está listo para producción, pero el despliegue no se realiza hasta que se confirme explícitamente.
+
+**Monitoreo y Feedback:**
+
+Durante y después del despliegue en staging o producción, se habilitan herramientas de monitoreo (por ejemplo, logs de servidor o alertas de error) que permiten validar el comportamiento del sistema y recoger retroalimentación antes del pase completo.
+
+**Control de Aprobación:**
+
+La etapa final del pipeline espera confirmación humana. Solo un miembro autorizado puede activar la última acción de despliegue, asegurando control total sobre la liberación en entornos productivos.
 
 ### 7.3. Continuous deployment
 
