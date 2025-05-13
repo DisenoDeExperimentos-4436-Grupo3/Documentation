@@ -13,7 +13,26 @@
 
 ### 7.3. Continuous deployment
 
+El objetivo principal de Continuous deployment es que los cambios realizados y aprobados en el código (que pasen todas las pruebas de validación) pasen de manera automática desde el desarrollo hasta la producción, evitando asi la intervención manual
+
 #### 7.3.1. Tools and Practices.
+
+Practicas y herramientas para el despliegue continuo:
+
+**Tools:**
+
+* GitHub Actions: Para automatizar el pipeline de CI/CD. Estas herramientas permiten configurar workflows que incluyen la ejecución de pruebas y el despliegue automático a diferentes entornos (desarrollo, staging, producción).
+* Docker: Para contenerizar la aplicación backend (Spring Boot). Nos permite crear images y subirlas en Docker.hub, empaquetando asi todas las dependencias necesarias para correr la aplicación.
+* Render: Como plataforma para despliegue de base de datos de PostgreSQL.
+* Render: Esta plataforma se encargará del despliegue automático del backend en Spring Boot, ofreciendo monitoreo y escalabilidad automática.
+* Vercel: Para el frontend en Angular, automatiza los despliegues de la aplciación al conectarse con github actions.
+
+**Practices:**
+
+* Utilizamos una estrategia de ramas en Git donde los desarrolladores trabajan en nuevas
+funcionalidades dentro de ramas separadas. Una vez completadas y probadas, estas ramas se
+fusionan a la rama develop, que es la encargada de gestionar los despliegues a producción.
+
 
 #### 7.3.2. Production Deployment Pipeline Components.
 
