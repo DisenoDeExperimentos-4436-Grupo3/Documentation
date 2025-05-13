@@ -3,6 +3,20 @@
 
 #### 7.1.1. Tools and Practices.
 
+La integración continua (CI) es una práctica fundamental en el desarrollo del sistema **ManageWise**, permitiendo que cada cambio realizado en el código se valide automáticamente mediante la ejecución de pruebas. Este enfoque reduce significativamente los errores en producción y garantiza una base de código estable y confiable.
+
+Durante el desarrollo se han aplicado principios de **Desarrollo Orientado por Pruebas (TDD)** y **Desarrollo Orientado por Comportamiento (BDD)**. Estas metodologías aseguran que tanto la lógica del sistema como su comportamiento funcional estén alineados con los requerimientos del negocio y validados desde etapas tempranas.
+
+A continuación, se describen las principales herramientas utilizadas en el proceso de integración continua:
+
+| Herramienta     | Tipo                          | Descripción                                                                                       | Propósito                                                                                         |
+|-----------------|-------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **JUnit**       | Pruebas Unitarias (TDD)        | Framework utilizado en el backend (Spring Boot) para realizar pruebas unitarias automatizadas.    | Validar funcionalidades clave de los servicios del sistema, como se evidencia en `IssuesServiceTest`. |
+| **Mockito**     | Simulaciones / Mocking (TDD)   | Biblioteca utilizada para simular dependencias externas en las pruebas unitarias.                 | Aislar el comportamiento de clases para asegurar pruebas confiables y rápidas.                   |
+| **Gherkin**     | Lenguaje de especificación BDD | Lenguaje utilizado para definir escenarios en archivos `.feature`, como los de la US09.           | Facilita la colaboración entre desarrolladores, testers y stakeholders no técnicos.              |
+| **Selenium**    | Pruebas E2E (Core System Tests) | Framework utilizado para realizar pruebas automatizadas de la interfaz web desarrollada en Angular. | Verificar la correcta funcionalidad de los flujos de usuario desde el navegador.                 |
+| **GitHub Actions** | Automatización de CI/CD    | Plataforma de automatización que ejecuta los pipelines en cada push o pull request.               | Integrar compilación, pruebas y despliegue automático del sistema.                              |
+
 #### 7.1.2. Build & Test Suite Pipeline Components.
 
 ### 7.2. Continuous Delivery
