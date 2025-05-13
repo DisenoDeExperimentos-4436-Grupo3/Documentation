@@ -297,42 +297,42 @@ Como miembro del equipo, quiero visualizar una lista de todas las incidencias, p
 **User Story:**  
 Como miembro del equipo, quiero editar una incidencia existente, para actualizar su información o cambiar su estado.
 
----
+![](/assets/images/CoreSystemTests/US37.PNG)
 
 ## US38 - Eliminar una Incidencia
 
 **User Story:**  
 Como miembro del equipo, quiero eliminar una incidencia, cuando ya ha sido resuelta y no es necesaria.
 
----
+![](/assets/images/CoreSystemTests/US38.PNG)
 
 ## US39 - Ver Reporte de una Incidencia
 
 **User Story:**  
 Como miembro del equipo, quiero ver un reporte detallado de una incidencia específica, para comprender completamente su contexto, resolución y acciones tomadas.
 
----
+![](/assets/images/CoreSystemTests/US39.PNG)
 
 ## US40 - Ver Historial de una Incidencia
 
 **User Story:**  
 Como miembro del equipo, quiero ver un historial completo de una incidencia, incluyendo todos los cambios, comentarios y archivos adjuntos, para entender su evolución y resolución.
 
----
+![](/assets/images/CoreSystemTests/US40.PNG)
 
 ## US41 - Creación Automática de Eventos de una Incidencia
 
 **User Story:**  
 Como miembro del equipo, quiero que automáticamente al llenar el reporte del issue que quiero agregar, se añadan los eventos de creación y asignación del issue.
 
----
+![](/assets/images/CoreSystemTests/US41.PNG)
 
 ## US42 - Filtrar Incidencias por Sprint y Prioridad
 
 **User Story:**  
 Como miembro del equipo, quiero poder filtrar las incidencias por el Sprint al que están asociadas y por su Prioridad, para poder visualizar solo aquellas que son relevantes para mi trabajo.
 
----
+![](/assets/images/CoreSystemTests/US42.PNG)
 
 ## US43 - Sign In
 
