@@ -218,9 +218,9 @@ Nuestro objetivo es liderar el mercado con herramientas que no sólo aborden las
 | <p align="center"><img width="500" src="../assets/images/michaelcarmelino.jpg"></p> | Estoy en la carrera de ing de software. Actualmente en 7mo ciclo, me encuentro haciendo actualmente mis prácticas pre profesionales. Me gusta mucho lo que es el aprendizaje costante sobre nuevas tecnologías y el uso de IA para la rapidez de esto. Actualmente lo que más uso es React con Vite y Tailwind, me gusta mucho escuchar musica mientras me traslado de lugar a lugar y de vez en cuando ir a conciertos |
 | ------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
--  – 
+-  Fabian Alonso Reyes Trujillano - U202218233 
 
-| <p align="center"><img width="300" src="../assets/images/"> </p> |  |
+| <p align="center"><img width="300" src="../assets/images/perfil_fabian.jpeg"></p> | Me llamo Fabian tengo 20 años. Soy estudiante de la carrera de ingenieria de software. Soy una persona segura de sí misma, capaz de tomar decisiones importantes y brindar ideas rápidas para solucionar un problema. Tengo conocimientos intermedios en C++, Python, HTML. |
 | :-------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### 1.2. Solution Profile

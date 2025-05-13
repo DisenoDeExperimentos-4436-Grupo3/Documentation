@@ -839,167 +839,271 @@ Link del video: https://drive.google.com/drive/folders/12NAEuYcQpbOkQ6pO8YS2SoGi
 LINK diagrama de clases:
 https://lucid.app/lucidchart/a8574ee7-c46c-4f80-ab16-b2b91cd5abde/edit?viewport_loc=941%2C706%2C2376%2C1266%2CHWEp-vi-RSFO&invitationId=inv_aaac668a-b1fb-479d-93c9-5c7af375894a
 
-### 4.10. Database Design
+#### 4.9.2. Class Diagrams
+## Diagrama de Clases
 
-### 4.10.1. Database Dictionary
+#### Clase: Company
+**Atributos:**
+- `nombre`: string
+- `observaciones`: string
+- `proyectos`: array de `Project`
 
-Este es el formato que deberán seguir nuestras colecciones en MongoDB para replicar nuestras entidades de la base de datos.
+**Métodos:**
+- `CrearProyecto()`
+- `ObtenerProyecto()`
+- `ActualizarProyecto()`
 
-**User**  
-Descripción: Colección que representa a los empleados o usuarios del sistema.
-| Campo | Tipo de dato | Descripción |
-|-----------|----------------|------------------------------------------|
-| id | int | Identificador único del usuario |
-| email | nvarchar(150) | Correo electronico del usuario |
-| phone | nvarchar(50) | Numero telefonico del usuario |
-| password | nvarchar(150) | Contraseña del usuario |
+**Relaciones:**
+- `owns` (1-a-muchos): `Project`
 
-**Issue**  
-Descripción: Colección que representa los reportes de errores de un proyecto creado por un desarrollador.
-| Campo | Tipo de dato | Descripción |
-|------------|----------------|------------------------------------------|
-| id | int | Identificador del reporte de issue |
-| title | varchar(150) | Titulo del reporte de issue |
-| description | varchar(500) | Descripcion del issue |
-| status | varchar(50) | Estado del issue |
-| priority | varchar(50) | Prioridad del issue |
-| creationDate | date | Fecha de creacion del reporte de issue |
-| resolutionDate | date | Fecha de resolucion del issue |
-| sprintId | int | Identificador del sprint asociado al issue |
-| madeBy | varchar(150) | Nombre del creador del reporte de issue|
-| assignedId | int | Identificador del miembro asignado a resolver el reporte |
+---
 
-**Event**  
-Descripción: Colección que representa los eventos para el historial eventos de cambios dentro de un issue .
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| issueId | int | Identificador del reporte asociado |
-| id | int | Identificador único del evento |
-| creationDate | date | Fecha de creacion del evento |
-| madeBy | varchar(150) | Nombre del creador del evento |
-| description | varchar(500) | Descripcion del evento |
+#### Clase: Project
+**Atributos:**
+- `projectID`: int
+- `nombre`: string
+- `descripcion`: string
+- `fechaCreacion`: date
+- `fechaInicio`: date
+- `fechaFin`: date
+- `estado`: string
+- `miembros`: array de `Member`
+- `sprints`: array de `Sprint`
+- `backlog`: `Backlog`
 
-**Sprint**  
-Descripción: Colección que representa los sprint de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|--|--|--|
-| id | int | Identificador único del sprint |
-| name | varchar(150) | Nombre del sprint |
-| status | varchar(50) | Estado del sprint |
-| startDate | date | Fecha de inicio del sprint |
-| endDate | date | Fecha de cierre del sprint |
-| projectId | int | Identificador del proyecto asociado al sprint |
+**Métodos:**
+- `CrearSprint()`
+- `ObtenerSprint()`
+- `ActualizarSprint()`
 
-**Meeting**  
-Descripción: Colección que representa las reuniones de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador de la reunion |
-| title | varchar(150) | Titulo de la reunion |
-| date | date | Fecha de la reunion |
-| time | time | Duracion de la reunion |
-| link | varchar(150) | Link de la reunion |
-| recordingLink | varchar(150) | Link de la grabacion de la reunion |
-| hostId | int | Identificador del creador de la reunion |
+**Relaciones:**
+- `has_members` (muchos-a-muchos): `Member`
+- `has_sprints` (1-a-muchos): `Sprint`
+- `has_backlog` (1-a-1): `Backlog`
 
-**Statistic**  
-Descripción: Colección que representa las estadisticas de un sprint.
-| Campo | Tipo de dato | Descripción |
-|-------------|----------------|------------------------------------------|
-| id | int | Identificador unico de las estadisticas |
-| sprintId | int | Identificador del sprint |
+---
 
-**Member**  
-Descripción: Colección que almacena los miembros de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|---------------|----------------|------------------------------------------|
-| userId | int | Identificador único del miembro y identificador del User que hereda sus atributos |
-| roleId | int | Identificador del rol del miembro |
-| biography | varchar(500) | Biografia del miembro |
-| lastname | varchar(150) | Apellido del miembro |
-| firstname | nvarchar(150) | Nombre del miembro |
+#### Clase: User
+**Atributos:**
+- `userID`: int
+- `nombre`: string
+- `email`: string
+- `contrasena`: string
 
-**Project**  
-Descripción: Colección que los proyectos que el sistema guarda.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador del proyecto asociado |
-| name | nvarchar(255)| Nombre del proyecto |
-| description | datetime | Descripcion del proyecto |
-| startDate | int | Fecha de inicio del proyecto |
-| status | int | Estado del proyecto |
-| companyId | int | Identificador de la compañia asociada |
+**Métodos:**
+- `CrearCuenta()`
+- `ObtenerCuenta()`
+- `ActualizarCuenta()`
 
-**Company**  
-Descripción: Colección que representa los usuarios Compañia que pueden crear proyectos.
-| Campo | Tipo de dato | Descripción |
-|------------|----------------|------------------------------------------|
-| name | varchar(150) | Nombre de la compañia |
-| userId | int | Identificador único de la compañia y identificador del User que hereda sus atributos |
+**Relaciones:**
+- `is_a` (1-a-1): `Member`
 
-**Task**  
-Descripción: Colección que almacena las tareas de un user story.
-| Campo | Tipo de dato | Descripción |
-|------------|----------------|------------------------------------------|
-| id | int | Identificador de la tarea |
-| name | int | Nombre de la tarea |
-| description | int | Descripcion de la tarea |
-| status | int | Estado de la tarea |
-| startDate | int | Fecha de inicio de la tarea |
-| endDate | int | Fecha de cierre de la tarea |
-| userStorieId | int | Identificador del user storie asociado a la tarea |
-| memberId | int | Identificador del miembro que hara la tarea |
+---
 
-**UserStorie**  
-Descripción: Colección de los user stories relacionados a las epicas de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador unico del user storie |
-| title | varchar(150) | Titulo del User Storie |
-| description | varchar(500) | Descripcion del user storie |
-| status | varchar(150) | Estado del user storie |
-| epicId | int | Identificador de la epica asociada |
-| backlogId | int | Identificador del backlog asociado |
-| effort | varchar(150) | Explicacion del esfuerzo para cumplirlo |
+#### Clase: Member
+**Atributos:**
+- `memberID`: int
+- `roles`: string
+- `permissions`: array de string
+- `apellido`: string
+- `nombreCompleto`: string
 
-**Backlog**  
-Descripción: Colección del backlog para los user stories en un sprint.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador unico del backlog |
-| projectId | int | Identificador del projecto asociado |
-| sprintId | int | Identificador del sprint asociado |
+**Relaciones:**
+- `assigned_to` (muchos-a-muchos): `Project`
+- `participates_in` (muchos-a-muchos): `Meeting`
+- `manages` (1-a-muchos): `AffiliatedMember`
 
-**Role**  
-Descripción: Colección de los roles que un miembro del equipo puede tener.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador unico del rol |
-| name | varchar(150) | Nombre del rol |
+---
 
-**Epic**  
-Descripción: Colección de los epicas de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| id | int | Identificador unico de la epica |
-| name | varchar(150) | Nombre de la epica |
-| description | varchar(500) | Descripcion de la epica |
+#### Clase: Meeting
+**Atributos:**
+- `meetingID`: int
+- `nombre`: string
+- `fecha`: date
+- `horaInicio`: time
+- `horaFin`: time
+- `lugar`: string
+- `agenda`: string
+- `participantes`: array de `Member`
+- `notas`: string
 
-**Participation**  
-Descripción: Colección de los participantes de una reunion.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| meetingId | int | Identificador unico de una reunion |
-| memberId | varchar(150) | Identificador unico de un miembro |
+**Métodos:**
+- `CrearReunion()`
+- `ObtenerReunion()`
+- `ActualizarReunion()`
 
-**MembersInProject**  
-Descripción: Colección de los miembros de un proyecto.
-| Campo | Tipo de dato | Descripción |
-|--------------|----------------|------------------------------------------|
-| projectId | int | Identificador unico de un proyecto |
-| memberId | varchar(150) | Identificador unico de un miembro |
+**Relaciones:**
+- `has_participants` (muchos-a-muchos): `Member`
 
-#### 4.10.2. Database Diagram
+---
+
+#### Clase: Sprint
+**Atributos:**
+- `sprintID`: int
+- `nombre`: string
+- `fechaInicio`: date
+- `fechaFin`: date
+- `descripcion`: string
+- `estado`: string
+- `tareas`: array de `Task`
+- `eventos`: array de `Event`
+
+**Métodos:**
+- `CrearTarea()`
+- `ObtenerTarea()`
+- `ActualizarTarea()`
+
+**Relaciones:**
+- `belongs_to` (muchos-a-1): `Project`
+- `has_tasks` (1-a-muchos): `Task`
+- `has_events` (1-a-muchos): `Event`
+
+---
+
+#### Clase: Task
+**Atributos:**
+- `taskID`: int
+- `nombreTask`: string
+- `descripcion`: string
+- `estado`: string
+- `prioridad`: string
+- `fechaCreacion`: date
+- `fechaEstimada`: date
+- `fechaFin`: date
+- `responsable`: `Member`
+- `storyPoint`: int
+
+**Métodos:**
+- `Obtener()`
+- `Actualizar()`
+
+**Relaciones:**
+- `belongs_to` (muchos-a-1): `Sprint`
+- `associated_with` (muchos-a-muchos): `UserStory`
+
+---
+
+#### Clase: UserStory
+**Atributos:**
+- `storyID`: int
+- `titulo`: string
+- `descripcion`: string
+- `prioridad`: string
+- `estado`: string
+- `fechaCreacion`: date
+- `fechaAceptacion`: date
+- `valorNegocio`: int
+
+**Métodos:**
+- `EliminarUserStory()`
+- `ObtenerUserStory()`
+- `ActualizarUserStory()`
+
+**Relaciones:**
+- `part_of` (muchos-a-1): `Backlog`
+- `related_to` (muchos-a-muchos): `Task`
+- `belongs_to` (muchos-a-1): `Epic`
+
+---
+
+#### Clase: Epic
+**Atributos:**
+- `epicID`: int
+- `nombreEpic`: string
+- `descripcion`: string
+- `fechaInicio`: date
+- `fechaFin`: date
+
+**Métodos:**
+- `Insertar()`
+
+**Relaciones:**
+- `contains` (1-a-muchos): `UserStory`
+- `part_of` (muchos-a-1): `Backlog`
+
+---
+
+#### Clase: Backlog
+**Atributos:**
+- `backlogID`: int
+- `nombre`: string
+- `descripcion`: string
+- `userStories`: array de `UserStory`
+- `epics`: array de `Epic`
+
+**Relaciones:**
+- `belongs_to` (1-a-1): `Project`
+- `contains_stories` (1-a-muchos): `UserStory`
+- `contains_epics` (1-a-muchos): `Epic`
+
+---
+
+#### Clase: Issues
+**Atributos:**
+- `issueID`: int
+- `titulo`: string
+- `descripcion`: string
+- `fechaCreacion`: date
+- `prioridad`: string
+- `estado`: string
+- `resolucion`: string
+- `fechaResolucion`: date
+- `responsable`: `Member`
+
+**Métodos:**
+- `ResolverIssue()`
+- `ObtenerIssue()`
+- `ActualizarIssue()`
+
+**Relaciones:**
+- `related_to` (muchos-a-muchos): `Event`
+
+---
+
+#### Clase: Event
+**Atributos:**
+- `eventID`: int
+- `tipo`: string
+- `fecha`: date
+- `descripcion`: string
+
+**Métodos:**
+- `AgregarEvento()`
+
+**Relaciones:**
+- `belongs_to` (muchos-a-1): `Sprint`
+- `related_to` (muchos-a-muchos): `Issues`
+
+---
+
+#### Clase: AffiliatedMember
+**Atributos:**
+- `affiliatedID`: int
+- `nombre`: string
+- `apellido`: string
+- `rol`: string
+
+**Relaciones:**
+- `managed_by` (muchos-a-1): `Member`
+
+---
+
+#### Clase: Stakeholder
+**Atributos:**
+- `stakeholderID`: int
+- `nombre`: string
+- `contacto`: string
+- `intereses`: array de string
+- `prioridad`: string
+- `influencia`: string
+- `observaciones`: string
+
+**Relaciones:**
+- `involved_in` (muchos-a-muchos): `Project`
+
+### 4.10 Database Design
+
+#### 4.10.1. Relational Database Diagram
 
 Para la elección de cómo relacionar las entidades, primero nos basamos en buscar tablas principales. Por ejemplo, en el sistema de gestión de proyectos, las entidades principales incluyen Clientes, Empleados, Proyectos, Tareas y Requisitos. Basándonos en ellas como punto de partida es que se nos hizo más sencillo y lógico la relación con las otras entidades. Esto nos ayudó a modelar eficazmente los datos y asegurar la coherencia de la información en nuestra aplicación.
 
