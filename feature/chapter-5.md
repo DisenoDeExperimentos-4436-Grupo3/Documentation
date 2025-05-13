@@ -537,148 +537,120 @@ Web Application Deployed Links:
 
 URL APLICACIÓN INTEGRADA (FRONTEND Y BACKEND): https://frontend-test-managewise.vercel.app/sign-in
 
+
 ### 5.2.4. Sprint 2 (Mobile Application)
 
-Este sprint se enfoca en el desarrollo de la aplicación móvil de ManageWise, adaptando las funcionalidades clave de la aplicación web para una experiencia nativa en dispositivos móviles (iOS y Android). El objetivo es proporcionar a los usuarios acceso y gestión de sus proyectos en movimiento.
+Este sprint se enfoca en el desarrollo del frontend de la aplicación móvil de ManageWise, adaptando las funcionalidades clave de la aplicación web para una experiencia de usuario interactiva en dispositivos móviles (iOS y Android). Dado que no hay backend, todas las operaciones de datos son simuladas o gestionadas localmente en el dispositivo para demostración de la interfaz y flujos de usuario.
 
 #### 5.2.4.1 Sprint Planning 2.
 
-La planificación del Sprint 2 para la aplicación móvil sigue la metodología Scrum. El equipo define las historias de usuario que se abordarán, cómo se dividirán las tareas y quién será responsable, con el objetivo de entregar un incremento funcional de la aplicación móvil al final del sprint.
+La planificación del Sprint 2 para la aplicación móvil se centró en construir la interfaz de usuario y la lógica de presentación, utilizando datos de demostración (mock data) o almacenamiento local temporal.
 
 | Sprint #| Sprint 2 (Móvil) |
 | -- | -- |
 | **Sprint Planning Background**||
-| **Date**| 15/05/2025|
+| **Date**| 10/05/2025|
 | **Time**| 10:00 AM|
 | **Location**| Discord (Reunión virtual)|
 | **Prepared By**| Arevalo Meza, John Telesforo (Líder Técnico Móvil)|
 | **Attendees (to planning meeting)** | Michael Stefano Carmelino Dueñas, Rodrigo Manuel Chirinos Zúñiga, Fabian Alonso Reyes Trujillano, John Telesforo Arevalo Meza, Alessandro Netto Zevallos Linares (Equipo de Desarrollo Móvil y Product Owner)|
 | **Sprint Goal & User Stories**||
-| **Sprint 2 Goal**| Nuestro enfoque está en desarrollar las funcionalidades core de la aplicación móvil ManageWise (iOS/Android), incluyendo autenticación, visualización y gestión básica de miembros, reuniones, user stories, tasks, epics e incidencias. El objetivo es crear una versión funcional completa que permita a los usuarios interactuar con sus proyectos desde sus dispositivos móviles. |
-| **Sprint 2 Velocity (Mobile)**| 281 horas (Completadas) |
-| **Sum of Story Points (Mobile)**| 281 |
+| **Sprint 2 Goal**| Nuestro enfoque está en entregar un frontend móvil completamente funcional para ManageWise (iOS/Android), demostrando la interfaz de usuario y flujos para la autenticación (simulada), visualización y gestión local (en memoria/mock) de user stories, tasks, epics e incidencias. El objetivo es tener una aplicación visualmente completa y navegable que utilice datos de demostración. No se implementará persistencia de datos ni creación real de ítems fuera de la sesión actual de la app. No habrá botón de cierre de sesión. |
+| **Sprint 2 Velocity (Mobile)**| 220 horas (Completadas) |
+| **Sum of Story Points (Mobile)**| 220 |
 
 #### 5.2.4.2 Sprint Backlog 2 (Mobile Application).
-Este Sprint Backlog detalla las historias de usuario y tareas específicas para el desarrollo de la aplicación móvil.
+Este Sprint Backlog detalla las historias de usuario y tareas específicas para el desarrollo del frontend de la aplicación móvil.
 
-| Sprint #| Sprint 2 (Móvil)|||||||
+| Sprint #| Sprint 2 (Móvil - Frontend Only)|||||||
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | User<br>Story || Work-Item / Task ||||||
 | ID | Title | ID | Title | Description | Estimation<br>(Hours) | Assigned<br>To | Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done) |
-| MUS01 | Iniciar Sesión en la App Móvil | MTA001 | Diseño de UI para pantalla de inicio de sesión móvil | Crear mockups y diseño final para la pantalla de login en iOS y Android. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA002 | Implementación de UI nativa para inicio de sesión | Desarrollar las vistas de inicio de sesión para iOS (SwiftUI/UIKit) y Android (Jetpack Compose/XML). | 8 horas | Michael Carmelino | Done |
-|  |  | MTA003 | Integración con endpoint de autenticación (Sign In) | Conectar la UI móvil con el servicio backend `/api/auth/signin`. | 6 horas | Alessandro Zevallos | Done |
-|  |  | MTA004 | Gestión de sesión y token en móvil | Almacenar de forma segura el token de autenticación y gestionar el estado de sesión. | 5 horas | Arevalo Meza, John | Done |
-|  |  | MTA005 | Pruebas de inicio de sesión en dispositivos/emuladores | Verificar funcionalidad en diferentes dispositivos y escenarios. | 3 horas | Rodrigo Chirinos | Done |
-| MUS02 | Registro de Usuario en la App Móvil | MTA006 | Diseño de UI para pantalla de registro móvil | Crear mockups y diseño final para la pantalla de registro. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA007 | Implementación de UI nativa para registro | Desarrollar las vistas de registro para iOS y Android. | 8 horas | Michael Carmelino | Done |
-|  |  | MTA008 | Integración con endpoint de registro (Sign Up) | Conectar la UI móvil con el servicio backend `/api/auth/signup`. | 6 horas | Alessandro Zevallos | Done |
-|  |  | MTA009 | Validación de campos y manejo de errores en registro móvil | Implementar validaciones de entrada y mostrar mensajes de error. | 4 horas | Arevalo Meza, John | Done |
-|  |  | MTA010 | Pruebas de registro en dispositivos/emuladores | Verificar la creación de nuevas cuentas. | 3 horas | Rodrigo Chirinos | Done |
-| MUS03 | Visualización de User Stories en la App Móvil | MTA011 | Diseño de UI para lista de User Stories | Diseñar cómo se mostrarán las user stories en una lista en la app móvil. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA012 | Implementación de vista nativa para listar User Stories | Desarrollar la pantalla que muestra las user stories. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA013 | Integración con endpoint para obtener User Stories | Consumir el API backend para traer la lista de user stories. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA014 | Pruebas de visualización de User Stories | Asegurar que los datos se muestren correctamente. | 2 horas | Michael Carmelino | Done |
-| MUS04 | Creación de User Stories desde la App Móvil | MTA015 | Diseño de UI para formulario de creación de User Story | Diseñar la interfaz para ingresar datos de una nueva user story. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA016 | Implementación de vista nativa para crear User Story | Desarrollar el formulario y lógica de entrada. | 7 horas | Arevalo Meza, John | Done |
-|  |  | MTA017 | Integración con endpoint para crear User Story | Enviar datos al backend para crear la user story. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA018 | Pruebas de creación de User Story | Verificar que se puedan crear nuevas user stories. | 3 horas | Michael Carmelino | Done |
-| MUS05 | Modificación de User Stories desde la App Móvil | MTA019 | Diseño de UI para edición de User Story | Diseñar la interfaz para modificar una user story existente. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA020 | Implementación de vista nativa para editar User Story | Desarrollar la pantalla de edición. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA021 | Integración con endpoint para modificar User Story | Enviar datos actualizados al backend. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA022 | Pruebas de modificación de User Story | Verificar que se puedan editar user stories. | 2 horas | Michael Carmelino | Done |
-| MUS06 | Eliminación de User Stories desde la App Móvil | MTA023 | Implementación de funcionalidad de eliminación en la UI | Permitir al usuario eliminar una user story (con confirmación). | 4 horas | Arevalo Meza, John | Done |
-|  |  | MTA024 | Integración con endpoint para eliminar User Story | Llamar al API backend para eliminar la user story. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA025 | Pruebas de eliminación de User Story | Verificar que se puedan eliminar user stories. | 2 horas | Michael Carmelino | Done |
-| MUS07 | Visualización de Tasks en la App Móvil | MTA026 | Diseño de UI para lista de Tasks | Diseñar la visualización de tasks en la app. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA027 | Implementación de vista nativa para listar Tasks | Desarrollar la pantalla de listado de tasks. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA028 | Integración con endpoint para obtener Tasks | Consumir API para traer tasks. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA029 | Pruebas de visualización de Tasks | Verificar correcta muestra de datos. | 2 horas | Michael Carmelino | Done |
-| MUS08 | Creación de Tasks desde la App Móvil | MTA030 | Diseño de UI para formulario de creación de Task | Diseñar la interfaz para crear una nueva task. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA031 | Implementación de vista nativa para crear Task | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA032 | Integración con endpoint para crear Task | Enviar datos al backend. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA033 | Pruebas de creación de Task | Verificar que se creen tasks. | 3 horas | Michael Carmelino | Done |
-| MUS09 | Visualización de Incidencias en la App Móvil | MTA034 | Diseño de UI para lista de Incidencias | Diseñar cómo se mostrarán las incidencias. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA035 | Implementación de vista nativa para listar Incidencias | Desarrollar la pantalla de listado de incidencias. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA036 | Integración con endpoint para obtener Incidencias | Consumir API para traer incidencias. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA037 | Pruebas de visualización de Incidencias | Verificar correcta muestra de datos. | 2 horas | Arevalo Meza, John | Done |
-| MUS10 | Crear una Nueva Incidencia desde la App Móvil | MTA038 | Diseño de UI para formulario de creación de Incidencia | Diseñar la interfaz para reportar una nueva incidencia. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA039 | Implementación de vista nativa para crear Incidencia | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA040 | Integración con endpoint para crear Incidencia | Enviar datos al backend. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA041 | Pruebas de creación de Incidencia | Verificar que se creen incidencias. | 3 horas | Arevalo Meza, John | Done |
-| MUS11 | Editar una Incidencia desde la App Móvil | MTA042 | Diseño de UI para edición de Incidencia | Diseñar la interfaz para modificar una incidencia. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA043 | Implementación de vista nativa para editar Incidencia | Desarrollar la pantalla de edición móvil. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA044 | Integración con endpoint para modificar Incidencia | Enviar datos actualizados al backend. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA045 | Pruebas de modificación de Incidencia | Verificar que se editen incidencias. | 2 horas | Arevalo Meza, John | Done |
-| MUS12 | Visualización de Miembros del Equipo en la App Móvil | MTA046 | Diseño de UI para lista de Miembros | Diseñar la visualización de miembros. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA047 | Implementación de vista nativa para listar Miembros | Desarrollar la pantalla que muestra los miembros. | 6 horas | Michael Carmelino | Done |
-|  |  | MTA048 | Integración con endpoint para obtener Miembros | Consumir API para traer la lista de miembros. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA049 | Pruebas de visualización de Miembros | Verificar que se muestren correctamente. | 2 horas | Rodrigo Chirinos | Done |
-| MUS13 | Navegación básica en la App Móvil | MTA050 | Diseño de la estructura de navegación principal | Definir tab bar, menús laterales, etc. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA051 | Implementación del Tab Bar / Menú de Navegación | Desarrollar la navegación principal de la app. | 8 horas | Michael Carmelino | Done |
-|  |  | MTA052 | Pruebas de navegación entre pantallas | Asegurar que el flujo entre secciones sea intuitivo. | 3 horas | Todos | Done |
-| MUS14 | Visualización de User Epics en la App Móvil | MTA053 | Diseño de UI para lista de User Epics | Diseñar la visualización de epics en la app. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA054 | Implementación de vista nativa para listar Epics | Desarrollar la pantalla de listado de epics. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA055 | Integración con endpoint para obtener Epics | Consumir API para traer epics del proyecto. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA056 | Pruebas de visualización de Epics | Verificar correcta muestra de datos de epics. | 2 horas | Michael Carmelino | Done |
-| MUS15 | Gestión de Perfil de Usuario en App Móvil | MTA057 | Diseño de UI para pantalla de Perfil de Usuario | Diseñar la pantalla donde el usuario ve y edita su información. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA058 | Implementación de vista nativa para Perfil de Usuario | Desarrollar la pantalla de perfil, incluyendo opción de editar. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA059 | Integración con endpoints para ver y actualizar perfil | Conectar con APIs para obtener y guardar datos del perfil. | 6 horas | Alessandro Zevallos | Done |
-|  |  | MTA060 | Implementación de cierre de sesión (Logout) | Añadir funcionalidad para que el usuario pueda cerrar su sesión. | 3 horas | Michael Carmelino | Done |
-|  |  | MTA061 | Pruebas de gestión de perfil y logout | Verificar la visualización, edición y cierre de sesión. | 3 horas | Arevalo Meza, John | Done |
-| MUS16 | Notificaciones Push para Actualizaciones | MTA062 | Configuración de servicios de notificación (FCM/APNS) | Integrar Firebase Cloud Messaging y Apple Push Notification Service. | 8 horas | Alessandro Zevallos | Done |
-|  |  | MTA063 | Diseño de la lógica de notificaciones en backend | Definir qué eventos dispararán notificaciones (ej. nueva tarea asignada). | 5 horas | John Arevalo (Backend) | Done |
-|  |  | MTA064 | Implementación de recepción de notificaciones en app móvil | Desarrollar el código para manejar notificaciones entrantes. | 7 horas | Michael Carmelino | Done |
-|  |  | MTA065 | Diseño de UI para mostrar notificaciones | Definir cómo se presentarán las alertas/banners en la app. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA066 | Pruebas de envío y recepción de notificaciones | Verificar que las notificaciones lleguen correctamente. | 4 horas | Rodrigo Chirinos | Done |
-| MUS17 | Asignación de Backlog Items a un Sprint (Móvil) | MTA067 | Diseño de UI para asignar item a sprint | Diseñar la interfaz móvil para seleccionar un sprint para un item. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA068 | Implementación de lógica de asignación en la app | Permitir al usuario seleccionar un backlog item y asignarlo a un sprint. | 6 horas | John Arevalo | Done |
-|  |  | MTA069 | Integración con endpoint de asignación a sprint | Enviar la información al backend para actualizar el item. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA070 | Pruebas de asignación de items a sprints | Verificar que la asignación funcione correctamente. | 3 horas | Michael Carmelino | Done |
-| MUS18 | Visualización de Estadísticas del Rendimiento del Equipo (Móvil) | MTA071 | Diseño de UI para mostrar estadísticas básicas | Diseñar una vista simplificada de las estadísticas para móvil. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA072 | Implementación de vista nativa para estadísticas | Desarrollar la pantalla que muestra gráficos o resúmenes. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA073 | Integración con endpoint para obtener datos de rendimiento | Consumir API para traer datos relevantes para las estadísticas. | 6 horas | Alessandro Zevallos | Done |
-|  |  | MTA074 | Pruebas de visualización de estadísticas | Asegurar que los datos se muestren de forma clara. | 3 horas | Michael Carmelino | Done |
+| MUS01 |  Inicio de Sesión en la App Móvil | MTA001 | Diseño de UI para pantalla de inicio de sesión móvil | Crear mockups y diseño final para la pantalla de login. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA002 | Implementación de UI nativa para inicio de sesión | Desarrollar las vistas de inicio de sesión para iOS y Android. | 8 horas | Michael Carmelino | Done |
+|  |  | MTA003 | Implementar lógica de navegación simulada al "iniciar sesión" | Al presionar "Login", navegar a la pantalla principal de la app (sin validación real). | 3 horas | Alessandro Zevallos | Done |
+|  |  | MTA004 | Pruebas de flujo de inicio de sesión simulado | Verificar navegación en diferentes dispositivos/emuladores. | 2 horas | Rodrigo Chirinos | Done |
+| MUS02 |  Registro de Usuario en la App Móvil | MTA005 | Diseño de UI para pantalla de registro móvil | Crear mockups y diseño final para la pantalla de registro. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA006 | Implementación de UI nativa para registro | Desarrollar las vistas de registro para iOS y Android. | 8 horas | Michael Carmelino | Done |
+|  |  | MTA007 | Implementar lógica de navegación simulada al "registrarse" | Al presionar "Registrar", navegar a la pantalla de login o principal (sin creación real de usuario). | 3 horas | Alessandro Zevallos | Done |
+|  |  | MTA008 | Pruebas de flujo de registro simulado | Verificar la navegación y la interfaz. | 2 horas | Rodrigo Chirinos | Done |
+| MUS03 | Visualización de User Stories (Datos de Demostración) | MTA009 | Diseño de UI para lista de User Stories | Diseñar cómo se mostrarán las user stories en una lista. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA010 | Implementación de vista nativa para listar User Stories | Desarrollar la pantalla que muestra las user stories. | 6 horas | Arevalo Meza, John | Done |
+|  |  | MTA011 | Cargar User Stories desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para User Stories. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA012 | Pruebas de visualización de User Stories (mock) | Asegurar que los datos de demostración se muestren correctamente. | 2 horas | Michael Carmelino | Done |
+| MUS04 | Simular Creación de User Stories (Localmente en Sesión) | MTA013 | Diseño de UI para formulario de "creación" de User Story | Diseñar la interfaz para ingresar datos de una nueva user story. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA014 | Implementación de vista nativa para "crear" User Story | Desarrollar el formulario y lógica de entrada. | 7 horas | Arevalo Meza, John | Done |
+|  |  | MTA015 | Añadir User Story a una lista local en memoria (visible en sesión) | Al "crear", agregar el item a la lista localmente para visualización inmediata. No persistirá. | 5 horas | Alessandro Zevallos | Done |
+|  |  | MTA016 | Pruebas de "creación" local de User Story | Verificar que se puedan añadir y visualizar localmente. | 3 horas | Michael Carmelino | Done |
+| MUS05 | Simular Modificación de User Stories (Localmente en Sesión) | MTA017 | Diseño de UI para "edición" de User Story | Diseñar la interfaz para modificar una user story. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA018 | Implementación de vista nativa para "editar" User Story | Desarrollar la pantalla de edición. | 6 horas | Arevalo Meza, John | Done |
+|  |  | MTA019 | Actualizar User Story en la lista local en memoria | Al "guardar cambios", actualizar el item en la lista local. | 5 horas | Alessandro Zevallos | Done |
+|  |  | MTA020 | Pruebas de "modificación" local de User Story | Verificar que se puedan editar localmente. | 2 horas | Michael Carmelino | Done |
+| MUS06 | Simular Eliminación de User Stories (Localmente en Sesión) | MTA021 | Implementación de funcionalidad de "eliminación" en la UI | Permitir al usuario "eliminar" una user story de la lista local. | 4 horas | Arevalo Meza, John | Done |
+|  |  | MTA022 | Eliminar User Story de la lista local en memoria | Al confirmar, quitar el item de la lista local. | 3 horas | Alessandro Zevallos | Done |
+|  |  | MTA023 | Pruebas de "eliminación" local de User Story | Verificar que se puedan quitar de la vista. | 2 horas | Michael Carmelino | Done |
+| MUS07 | Visualización de Tasks (Datos de Demostración) | MTA024 | Diseño de UI para lista de Tasks | Diseñar la visualización de tasks. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA025 | Implementación de vista nativa para listar Tasks | Desarrollar la pantalla de listado de tasks. | 6 horas | Rodrigo Chirinos | Done |
+|  |  | MTA026 | Cargar Tasks desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para Tasks. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA027 | Pruebas de visualización de Tasks (mock) | Verificar correcta muestra de datos. | 2 horas | Michael Carmelino | Done |
+| MUS08 | Simular Creación de Tasks (Localmente en Sesión) | MTA028 | Diseño de UI para formulario de "creación" de Task | Diseñar la interfaz para "crear" una nueva task. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA029 | Implementación de vista nativa para "crear" Task | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
+|  |  | MTA030 | Añadir Task a una lista local en memoria | Al "crear", agregar el item a la lista local. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA031 | Pruebas de "creación" local de Task | Verificar que se "creen" tasks localmente. | 3 horas | Michael Carmelino | Done |
+| MUS09 | Visualización de Incidencias (Datos de Demostración) | MTA032 | Diseño de UI para lista de Incidencias | Diseñar cómo se mostrarán las incidencias. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA033 | Implementación de vista nativa para listar Incidencias | Desarrollar la pantalla de listado de incidencias. | 6 horas | Rodrigo Chirinos | Done |
+|  |  | MTA034 | Cargar Incidencias desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA035 | Pruebas de visualización de Incidencias (mock) | Verificar correcta muestra de datos. | 2 horas | Arevalo Meza, John | Done |
+| MUS10 | Simular Creación de Incidencia (Localmente en Sesión) | MTA036 | Diseño de UI para formulario de "creación" de Incidencia | Diseñar la interfaz para "reportar" una nueva incidencia. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA037 | Implementación de vista nativa para "crear" Incidencia | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
+|  |  | MTA038 | Añadir Incidencia a una lista local en memoria | Al "crear", agregar el item a la lista local. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA039 | Pruebas de "creación" local de Incidencia | Verificar que se "creen" incidencias localmente. | 3 horas | Arevalo Meza, John | Done |
+| MUS11 | Simular Edición de Incidencia (Localmente en Sesión) | MTA040 | Diseño de UI para "edición" de Incidencia | Diseñar la interfaz para "modificar" una incidencia. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA041 | Implementación de vista nativa para "editar" Incidencia | Desarrollar la pantalla de edición móvil. | 6 horas | Rodrigo Chirinos | Done |
+|  |  | MTA042 | Actualizar Incidencia en la lista local en memoria | Al "guardar", actualizar el item localmente. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA043 | Pruebas de "modificación" local de Incidencia | Verificar que se "editen" incidencias localmente. | 2 horas | Arevalo Meza, John | Done |
+| MUS12 | Visualización de Miembros del Equipo (Datos de Demostración) | MTA044 | Diseño de UI para lista de Miembros | Diseñar la visualización de miembros. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA045 | Implementación de vista nativa para listar Miembros | Desarrollar la pantalla que muestra los miembros. | 6 horas | Michael Carmelino | Done |
+|  |  | MTA046 | Cargar Miembros desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA047 | Pruebas de visualización de Miembros (mock) | Verificar que se muestren correctamente. | 2 horas | Rodrigo Chirinos | Done |
+| MUS13 | Navegación básica en la App Móvil | MTA048 | Diseño de la estructura de navegación principal | Definir tab bar, menús laterales, etc. | 4 horas | Fabian Reyes | Done |
+|  |  | MTA049 | Implementación del Tab Bar / Menú de Navegación | Desarrollar la navegación principal de la app. | 8 horas | Michael Carmelino | Done |
+|  |  | MTA050 | Pruebas de navegación entre pantallas | Asegurar que el flujo entre secciones sea intuitivo. | 3 horas | Todos | Done |
+| MUS14 | Visualización de User Epics (Datos de Demostración) | MTA051 | Diseño de UI para lista de User Epics | Diseñar la visualización de epics en la app. | 3 horas | Fabian Reyes | Done |
+|  |  | MTA052 | Implementación de vista nativa para listar Epics | Desarrollar la pantalla de listado de epics. | 6 horas | Arevalo Meza, John | Done |
+|  |  | MTA053 | Cargar Epics desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para Epics. | 4 horas | Alessandro Zevallos | Done |
+|  |  | MTA054 | Pruebas de visualización de Epics (mock) | Verificar correcta muestra de datos de epics. | 2 horas | Michael Carmelino | Done |
+| MUS15 | Visualización de Perfil de Usuario (Datos de Demostración) | MTA055 | Diseño de UI para pantalla de Perfil de Usuario | Diseñar la pantalla donde el usuario ve información de perfil (mock). | 3 horas | Fabian Reyes | Done |
+|  |  | MTA056 | Implementación de vista nativa para Perfil de Usuario | Desarrollar la pantalla de perfil mostrando datos fijos o de demo. | 6 horas | Rodrigo Chirinos | Done |
+|  |  | MTA057 | Pruebas de visualización de perfil (mock) | Verificar la visualización de la información de demostración. | 2 horas | Arevalo Meza, John | Done |
 
-Link Trello (Móvil - Ejemplo): https://trello.com/invite/b/NEW_MOBILE_BOARD_ID/NEW_TOKEN/si729-2402-ws53-grupo-4-horizon-managewise-mobile <!-- Actualizar con el link real del Trello para móvil -->
 
 ### 5.2.5. Implemented Mobile Application Evidence
-Esta sección presenta las evidencias del desarrollo de la aplicación móvil ManageWise, demostrando su funcionalidad y despliegue.
+Esta sección presenta las evidencias del desarrollo del frontend de la aplicación móvil ManageWise, demostrando su interfaz de usuario y flujos con datos de demostración.
 
 **Screenshots de la Aplicación Móvil:**
 
-*   **Pantalla de Inicio de Sesión (Login):**
-    ![Login Screen Mobile](../assets/images/mobile_app/login_screen.png) <!-- Reemplazar con imagen real -->
-*   **Pantalla de Registro (Sign Up):**
-    ![Sign Up Screen Mobile](../assets/images/mobile_app/signup_screen.png) <!-- Reemplazar con imagen real -->
-*   **Lista de User Stories:**
-    ![User Stories List Mobile](../assets/images/mobile_app/user_stories_list.png) <!-- Reemplazar con imagen real -->
-*   **Detalle de una User Story:**
-    ![User Story Detail Mobile](../assets/images/mobile_app/user_story_detail.png) <!-- Reemplazar con imagen real -->
-*   **Creación de Task:**
-    ![Create Task Mobile](../assets/images/mobile_app/create_task.png) <!-- Reemplazar con imagen real -->
-*   **Lista de Incidencias:**
-    ![Issues List Mobile](../assets/images/mobile_app/issues_list.png) <!-- Reemplazar con imagen real -->
-*   **Pantalla de Perfil de Usuario:**
-    ![User Profile Mobile](../assets/images/mobile_app/user_profile.png) <!-- Reemplazar con imagen real -->
-*   **Notificación Push Recibida:**
-    ![Push Notification Mobile](../assets/images/mobile_app/push_notification.png) <!-- Reemplazar con imagen real -->
+*   **Pantalla de Inicio de Sesión :**
+    ![Login Screen Mobile Mock](../assets/TP1-mobile/sign-in.jpg) 
+*   **Pantalla de Registro :**
+    ![Sign Up Screen Mobile Mock](../assets/TP1-mobile/register.jpg)
+*   **Formulario para "Crear" User Story :**
+    ![Create User Story Mobile Local](../assets/TP1-mobile/add-US.jpg)
+*    **Formulario para "Crear" Epics :**
+    ![Create epics Local](../assets/TP1-mobile/add-epic.jpg)
+*    **Formulario para "Crear" issues :**
+    ![Create issues Local](../assets/TP1-mobile/add-issues.jpg)
+*    **Formulario para "Crear" miembros :**
+    ![Create members Local](../assets/TP1-mobile/add-members.jpg)
+*   **Formulario para "Crear" Reuniones :**
+    ![Create epics Local](../assets/TP1-mobile/add-members.jpg)
+*   **Lista de Epics:**
+    ![Issues List Mobile Mock](../assets/TP1-mobile/epics.jpg)
+*   **Lista de Issues:**
+    ![Issues List Mobile Mock](../assets/TP1-mobile/issues.jpg)
+*   **Lista de Miembros:**
+    ![Issues List Mobile Mock](../assets/TP1-mobile/members-2.jpg)
 
-**Video Demostrativo de la Aplicación Móvil:**
-*   **Link al Video:** [https://ejemplo.com/video_demo_managewise_mobile](https://ejemplo.com/video_demo_managewise_mobile) <!-- Reemplazar con link real -->
-    *Descripción: Video corto mostrando el flujo de inicio de sesión, navegación, creación de una tarea, visualización de incidencias y recepción de una notificación push en un dispositivo Android/iOS.*
-
-**Repositorios de Código de la Aplicación Móvil:**
-*   **Aplicación iOS (Swift/Objective-C):** [https://github.com/Horizon-ManageWise/Mobile-Application-iOS.git](https://github.com/Horizon-ManageWise/Mobile-Application-iOS.git) <!-- Reemplazar con link real -->
-*   **Aplicación Android (Kotlin/Java):** [https://github.com/Horizon-ManageWise/Mobile-Application-Android.git](https://github.com/Horizon-ManageWise/Mobile-Application-Android.git) <!-- Reemplazar con link real -->
-    *(O si es multiplataforma):*
-*   **Aplicación Multiplataforma (React Native/Flutter/etc.):** [https://github.com/Horizon-ManageWise/Mobile-Application.git](https://github.com/Horizon-ManageWise/Mobile-Application.git) <!-- Reemplazar con link real -->
-
-**Enlaces de Despliegue/Prueba:**
-*   **TestFlight (iOS - Build Interno):** [Enlace a TestFlight o instrucciones para acceso] <!-- Reemplazar con link/info real -->
-*   **Google Play Console (Android - Canal de Pruebas Internas/Cerradas):** [Enlace a Play Store o instrucciones para acceso] <!-- Reemplazar con link/info real -->
-
-```
 ### 5.2.4 Acuerdo de Servicio - SaaS
 
 # Acuerdo de Servicio SaaS (ManageWise)
