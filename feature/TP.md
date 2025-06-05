@@ -3318,6 +3318,28 @@ Como miembro del equipo, quiero poder crear una cuenta en la plataforma, para de
 
 ![](/assets/images/CoreSystemTests/US44.PNG)
 
+### 6.2. Static testing & Verification
+#### 6.2.1. Static Code Analysis
+##### 6.2.1.1. Coding standard & Code conventions
+##### 6.2.1.2. Code Quality & Code Security
+#### 6.2.2. Reviews
+
+### 6.3. Validation Interviews.
+#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+
+### 6.4. Auditoría de Experiencias de Usuario.
+#### 6.4.1. Auditoría realizada.
+##### 6.4.1.1. Información del grupo auditado.
+##### 6.4.1.2. Cronograma de auditoría realizada.
+##### 6.4.1.3. Contenido de auditoría realizada.
+#### 6.4.2. Auditoría recibida.
+##### 6.4.2.1. Información del grupo auditor.
+##### 6.4.2.2. Cronograma de auditoría recibida.
+##### 6.4.2.3. Contenido de auditoría recibida.
+##### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
 ## Capítulo VII: DevOps Practices
 ### 7.1. Continuous Integration
 
@@ -3407,6 +3429,7 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 
 #### 7.3.2. Production Deployment Pipeline Components.
 
+
 #### Componentes del Pipeline de la Base de Datos (Render + PostgreSQL)
 
 1. **Gestión de Migraciones Automáticas:**  
@@ -3454,7 +3477,30 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 4. **Invalidación de Caché:**  
    Vercel gestiona la invalidación automática de la caché, asegurando que todos los usuarios accedan a la última versión de la interfaz sin necesidad de borrar datos localmente.
 
+### 7.4. Continuous Monitoring
+#### 7.4.1. Tools and Practices
+#### 7.4.2. Monitoring Pipeline Components
+#### 7.4.3. Alerting Pipeline Components
+#### 7.4.4. Notification Pipeline Components.
 
+## Capítulo VIII: Experiment-Driven Development
+### 8.1. Experiment Planning
+#### 8.1.1. As-Is Summary.
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+#### 8.1.3. Experiment-Ready Questions.
+#### 8.1.4. Question Backlog.
+#### 8.1.5. Experiment Cards.
+### 8.2. Experiment Design
+#### 8.2.1. Hypotheses.
+#### 8.2.2. Measures.
+#### 8.2.3. Conditions.
+#### 8.2.4. Scale Calculations and Decisions.
+#### 8.2.5. Methods Selection.
+#### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+#### 8.2.7. Web and Mobile Tracking Plan.
+### 8.3. Experimentation
+#### 8.3.1. To-Be User Stories.
+#### 8.3.2. To-Be Product Backlog
 
 ### Conclusiones
 
