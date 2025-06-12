@@ -62,6 +62,7 @@ TB1:<br>
 | | |
 | | |
 
+
 ## Contenido
 
 ### Tabla de contenidos
@@ -163,6 +164,8 @@ TB1:<br>
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [6.2. Static testing & Verification](#62-static-testing--verification)
+  
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -2383,273 +2386,48 @@ Este Sprint Backlog consolida las historias de usuario determinadas previamente.
 Para el primer sprint backlog, recopilamos historias de usuario relacionadas con la página de inicio (landing page) . Para organizar y administrar estas historias de usuario, las dividimos en tareas fáciles de realizar y las asignamos a los miembros del equipo de manera efectiva, utilizamos la herramienta Trello. Nos concentramos en completar las historias de usuario durante este sprint, con el objetivo principal de crear una landing page completa con un diseño atractivo y fácil de usar. Gracias a Trello, pudimos colaborar efectivamente y seguir el progreso de las tareas, lo que nos permitió abordar y resolver
 ![alt text](../assets/TB1-image/Trelloo1.png)
 
-| Sprint #| Sprint 1|||||||
-| -- | -- | -- | -- | -- | -- | -- | -- |
-| User<br>Story || Work-Item / Task ||||||
-| ID | Title | ID | Title | Description | Estimation<br>(Hours) | Assigned<br>To | Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done) |
-| US01 | Vista General de Beneficios y Funcionalidades | TA001 | Implementación de Sección de Beneficios | Crear y diseñar la sección de la página principal que destaque los beneficios clave de la plataforma. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA002 | Ajuste de diseño en CSS | Mejorar la presentación visual de la sección con estilos personalizados y diseño responsivo. | 2 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA003 | Optimización de JavaScript para interactividad | Añadir efectos básicos como hover o transiciones animadas a los elementos. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA004 | Prueba de compatibilidad con navegadores | Verificar que la sección de beneficios funcione correctamente en navegadores modernos. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA005 | Subir los archivos al repositorio | Cargar HTML, CSS, y JS relacionados con la sección de beneficios al repositorio y realizar pruebas. | 2 hora | Arevalo Meza, John Telesforo | Done |
-| US02 | Enlaces Directos a Redes Sociales | TA006 | Implementación de Enlaces a Redes Sociales | Agregar enlaces visuales y funcionales a las redes sociales en la página principal. | 1 hora | Fabian Reyes | Done |
-|  |  | TA007 | Diseño de iconos personalizados | Crear o adaptar iconos visuales para cada red social con estilos en CSS. | 2 hora | Fabian Reyes | Done |
-|  |  | TA008 | Validación de enlaces y funcionalidad | Comprobar que los enlaces redirigen correctamente a las páginas correspondientes. | 1 hora | Fabian Reyes | Done |
-|  |  | TA009 | Implementación de efectos de hover | Añadir animaciones o cambios de color cuando los usuarios pasen el ratón sobre los iconos. | 2 hora | Fabian Reyes | Done |
-|  |  | TA010 | Subir cambios al repositorio | Actualizar los archivos HTML, CSS, y JS relacionados con esta tarea en el repositorio. | 2 hora | Fabian Reyes | Done |
-| US03 | Registro Rápido y Simple | TA011 | Diseño e Implementación del Registro de Usuario | Crear el formulario de registro optimizado para facilitar la creación de nuevas cuentas de usuario. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA012 | Diseño de estilos personalizados para el formulario | Añadir clases y estilos en CSS para destacar campos y botones del formulario. | 2 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA013 | Validación básica en JavaScript | Implementar validación de campos obligatorios, como nombre y correo electrónico. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA014 | Pruebas de funcionalidad del formulario | Probar el formulario con diferentes casos de uso para verificar que funcione correctamente. | 2 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA015 | Subir los archivos al repositorio | Cargar el formulario junto con sus estilos y scripts al repositorio. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US04 | Iniciar Sesión Rápido y Visible | TA016 | Implementación de Enlace de Inicio de Sesión | Agregar un enlace visible para iniciar sesión en la esquina superior de la página. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA017 | Mejora de estilos del enlace de inicio de sesión | Personalizar el enlace para que sea visible y accesible desde dispositivos móviles. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA018 | Agregar animación al hacer clic | Implementar una animación al hacer clic en el enlace de inicio de sesión. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA019 | Pruebas en diferentes dispositivos | Verificar la visibilidad y funcionalidad del enlace en móviles y pantallas grandes. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA020 | Subir los cambios al repositorio | Subir el HTML, CSS, y JS relacionados con el enlace de inicio de sesión. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US05 | Resumen de la Empresa, Misión y Visión | TA021 | Creación de Sección "Acerca de Nosotros" | Desarrollar la sección "Acerca de Nosotros" con la misión, visión y valores de la empresa. | 2 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA022 | Ajuste de diseño en CSS para textos y layout | Mejorar el diseño de la sección con tipografías, colores y espaciado adecuado. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA023 | Añadir imagen representativa | Incluir una imagen o ícono que refuerce la misión y visión de la empresa. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA024 | Pruebas de diseño responsivo | Verificar que la sección se ajuste bien a diferentes tamaños de pantalla. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA025 | Subir los archivos al repositorio | Cargar HTML, CSS, y JS de esta sección al repositorio y realizar pruebas. | 1 hora | Arevalo Meza, John Telesforo | Done |
-| US06 | Navegación Clara y Directa en la Página | TA026 | Diseño del Menú de Navegación | Implementar un menú de navegación intuitivo que permita a los usuarios moverse fácilmente por las secciones de la página. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA027 | Diseño de estilos personalizados para el menú | Usar CSS para resaltar la sección activa y mejorar la visibilidad del menú. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA028 | Implementación de funcionalidad de scroll | Añadir JavaScript para desplazarse suavemente entre secciones al hacer clic en los enlaces. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA029 | Pruebas de accesibilidad | Comprobar que el menú sea navegable con teclado y compatible con lectores de pantalla. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-|  |  | TA030 | Subir cambios al repositorio | Subir el menú junto con los estilos y scripts al repositorio. | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US07 | Acceder a Preguntas Frecuentes | TA031 | Implementación de Sección de Preguntas Frecuentes | Crear y diseñar la sección de preguntas frecuentes en la página principal para ayudar a los usuarios a resolver sus dudas. | 1 hora | Michael Carmelino  | Done |
-|  |  | TA032 | Diseño de estilos personalizados para FAQ | Personalizar el diseño para que las preguntas y respuestas sean fáciles de leer. | 1 hora | Michael Carmelino  | Done |
-|  |  | TA033 | Añadir funcionalidad de colapsar/expandir | Usar JavaScript para que las respuestas se muestren o escondan al hacer clic en una pregunta. | 1 hora | Michael Carmelino  | Done |
-|  |  | TA034 | Probar funcionalidad de FAQ | Asegurar que todas las preguntas se desplieguen correctamente en diferentes navegadores. | 1 hora | Michael Carmelino  | Done |
-|  |  | TA035 | Subir cambios al repositorio | Subir los archivos de HTML, CSS, y JS relacionados con las FAQ al repositorio. | 1 hora | Michael Carmelino  | Done |
-| US08 | Contactar vía correo | TA036 | Implementación de Sección de Contacto | Crear y diseñar la sección "Contáctanos" para que los usuarios puedan contactar rápidamente en caso de problemas. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA037 | Crear diseño de formulario de contacto | Añadir campos básicos como nombre, correo electrónico, y mensaje con diseño en CSS. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA038 | Añadir validación básica en JavaScript | Implementar validaciones para asegurar que los campos requeridos estén completos antes de enviar el formulario. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA039 | Pruebas de funcionalidad del formulario | Verificar que el formulario sea funcional y se envíe correctamente. | 1 hora | Arevalo Meza, John Telesforo | Done |
-|  |  | TA040 | Subir los cambios al repositorio | Subir la sección al repositorio y probar la integración con el resto de la página. | 1 hora | Arevalo Meza, John Telesforo | Done |
-| US09      | Creación de user stories| TA001| Implementación en frontend| Crear funcionalidad para agregar user stories en el frontend| 6 horas| Arevalo Meza, John Telesforo| Done|
-||| TA002| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de creación de user stories| 4 horas| Arevalo Meza, John Telesforo   | Done|
-||| TA003| Crear component en angular| Crear component en angular| 1 hora| Arevalo Meza, John Telesforo   | Done|
-||| TA004| Verificar la correcta creacion mediante un mensaje en consola 1h|Verificar la correcta creacion mediante un mensaje en consola | 1 hora| Arevalo Meza, John Telesforo   | Done|
-| US10| Modificación de user stories| TA005| Implementación en frontend | Crear funcionalidad para modificar user stories en el frontend| 6 horas| Arevalo Meza, John Telesforo| Done|
-||| TA006| Integración con el repositorio | Integración con el repositorio| 1 horas| Arevalo Meza, John Telesforo| Done|
-||| TA007| Crear component en angular | Crear component en angular| 1 hora| Arevalo Meza, John Telesforo| Done|
-||| TA008| Verificar correcta modificacion mediante mensaje en consola |Verificar correcta modificacion mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo| Done|
-| US11| Eliminación de user stories| TA009| Implementación en frontend| Crear funcionalidad para eliminar user stories en el frontend| 5 horas| Arevalo Meza, John Telesforo | Done|
-||| TA010| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de eliminación de user stories| 6 horas| Arevalo Meza, John Telesforo| Done|
-||| TA011| Crear component en angular | Crear component en angular | 1 hora| Arevalo Meza, John Telesforo| Done|
-||| TA012| Verificar correcta eliminación mediante mensaje en consola | Verificar correcta eliminación mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo| Done|
-| US12| Creación de user epics| TA013| Implementación en frontend| Crear funcionalidad para agregar epics en el frontend| 5 horas| Arevalo Meza, John Telesforo| Done|
-||| TA014| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de creación de epics| 5 horas| Arevalo Meza, John Telesforo   | Done|
-||| TA015| Crear component en angular |Crear component en angular | 1 hora| Arevalo Meza, John Telesforo   | Done|
-||| TA016| Verificar correcta creacion mediante mensaje en consola | Verificar correcta creacion mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo   | Done|
-|US13| Modificación de user epics| TA017| Implementación en frontend| Crear funcionalidad para modificar epics en el frontend| 5 horas| Arevalo Meza, John Telesforo| Done|
-||| TA018| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de modificación de epics| 6 horas| Arevalo Meza, John Telesforo| Done|
-||| TA019| Verificar correcta modificacion mediante mensaje en consola | Verificar correcta modificacion mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo| Done|
-||| TA020| Crear component en angular | Crear component en angular | 1 hora| Arevalo Meza, John Telesforo| Done|
-| US14| Eliminación de user epics| TA021| Implementación en frontend| Crear funcionalidad para eliminar epics en el frontend| 5 horas| Arevalo Meza, John Telesforo| Done|
-||| TA022| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de eliminación de epics| 7 horas| Arevalo Meza, John Telesforo   | Done|
-||| TA023| Verificar correcta eliminacion mediante mensaje en consola | Verificar correcta eliminacion mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo   | Done|
-||| TA024| Crear component | Crear component | 1 hora| Arevalo Meza, John Telesforo   | Done|
-| US15| Creación de tasks| TA025| Implementación en frontend| Crear funcionalidad para agregar tasks en el frontend| 1 horas| Arevalo Meza, John Telesforo | Done|
-||| TA026| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de creación de tasks| 5 horas| Arevalo Meza, John Telesforo| Done|
-||| TA027| Creacion de component | Creacion de component | 1 hora| Arevalo Meza, John Telesforo| Done|
-||| TA028| Verificar correcta creacion mediante mensaje en consola | Verificar correcta creacion mediante mensaje en consola | 1 hora| Arevalo Meza, John Telesforo| Done|
-|US35| Crear una nueva incidencia|TA0529| Implementación en frontend| Crear funcionalidad para crear nuevas incidencias en el frontend|6 horas|Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA031| Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de creación de incidencias|5 horas| Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA032| Creacion de component | Creacion de component |1 hora| Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA033| Verificar correcta creacion mediante mensaje en consola | Verificar correcta creacion mediante mensaje en consola |1 hora| Rodrigo Manuel Chirinos Zúñiga| Done|
-| US36|Visualizar las incidencias|TA034|Implementación en frontend|Crear funcionalidad para ver incidencias en el frontend|7 hora|Rodrigo Manuel Chirinos Zúñiga| Done|
-|||TA035|Integración con el repositorio| Subir cambios al repositorio en GitHub para la funcionalidad de visualización de incidencias| 5 hora| Rodrigo Manuel Chirinos Zúñiga| Done|
-|||TA036|Crear component en angular | Crear component en angular | 1 hora| Rodrigo Manuel Chirinos Zúñiga| Done|
-| US37| Editar una incidencia| TA037| Implementación en frontend| Crear funcionalidad para editar incidencias en el frontend| 8 hora| Rodrigo Manuel Chirinos Zúñiga|Done|
-||| TA038|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad de edición de incidencias| 5 hora| Rodrigo Manuel Chirinos Zúñiga   | Done|
-||| TA039|Crear component en angular |Crear component en angular | 1 hora| Rodrigo Manuel Chirinos Zúñiga   | Done|
-||| TA040|Verificar correcta modificacion mediante mensaje en consola |Verificar correcta modificacion mediante mensaje en consola | 1 hora| Rodrigo Manuel Chirinos Zúñiga   | Done|
-|US38|Eliminar una incidencia|TA041|Implementación en frontend| Crear funcionalidad para eliminar incidencias en el frontend| 7 hora| Rodrigo Manuel Chirinos Zúñiga|Done|
-|||TA042|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad de eliminación de incidencias| 5 hora| Rodrigo Manuel Chirinos Zúñiga|Done|
-|||TA043|Crear component en angular |Crear component en angular | 1 hora| Rodrigo Manuel Chirinos Zúñiga|Done|
-|||TA044|Verificar correcta eliminacion mediante mensaje en consola |Verificar correcta eliminacion mediante mensaje en consola | 1 hora| Rodrigo Manuel Chirinos Zúñiga|Done|
-|US27|Editar el acceso de miembros al proyecto|TA045|Implementación en frontend| Implementación en frontend| 3 hora| Michael Carmelino|Done|
-|||TA046|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad| 1 hora| Michael Carmelino|Done|
-|||TA047|Crear component en angular |Crear component en angular | 1 hora| Alessandro Zevallos, Michael Carmelino|Done|
-|||TA048|Verificar correcta eliminacion mediante mensaje en consola |Verificar correcta eliminacion mediante mensaje en consola | 1 hora| Michael Carmelino|Done|
-|US28|Ver la información de usuario de los miembros|TA049|Implementación en frontend| Implementación en frontend| 3 hora| Michael Carmelino|Done|
-|||TA050|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad| 1 hora| Michael Carmelino|Done|
-|||TA051|Crear component en angular |Crear component en angular | 1 hora| Alessandro Zevallos, Michael Carmelino|Done|
-|US29|EdAsignar roles a los miembros del equipo|TA052|Implementación en frontend| Implementación en frontend| 3 hora| Michael Carmelino|Done|
-|||TA053|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad| 1 hora| Michael Carmelino|Done|
-|||TA054|Crear component en angular |Crear component en angular | 1 hora| Alessandro Zevallos, Michael Carmelino|Done|
-|US30|Conocer Información del Perfil de un Miembro|TA055|Implementación en frontend| Implementación en frontend| 3 hora| Michael Carmelino|Done|
-|||TA056|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad| 1 hora| Michael Carmelino|Done|
-|||TA057|Crear component en angular |Crear component en angular | 1 hora| Alessandro Zevallos, Michael Carmelino|Done|
-|US31|Ver Habilidades de Cada Miembro|TA058|Implementación en frontend| Implementación en frontend| 3 hora| Michael Carmelino|Done|
-|||TA059|Integración con el repositorio|Subir cambios al repositorio en GitHub para la funcionalidad| 1 hora| Michael Carmelino|Done|
-|||TA060|Crear component en angular |Crear component en angular | 1 hora| Alessandro Zevallos, Michael Carmelino|Done|
-| TS001| Endpoint para visualizar Miembros del equipo    | TA001| implementar el endpoint "/api/members"  | implementar el endpoint "/api/members"  | 2 horas     | 	Rodrigo Manuel Chirinos Zúñiga       | Done    |
-||| TA002| realizar pruebas de respuesta del endpoint | realizar pruebas de respuesta del endpoint. | 2 horas| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA003| creacion de queries | creacion de queries. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA004| definir e implementar query service y service impls  | definir e implementar query service y service impls. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA005| creacion de aggregates | creacion de aggregates. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA006| implementar controller | implementar controller. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-| TS002| Endpoint para eliminacion de miembro | TA007| implementar el endpoint "/api/members/member-id" | implementar el endpoint "/api/members/member-id"  | 3 horas| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA008| realizar pruebas de respuesta del endpoint | realizar pruebas de respuesta del endpoint. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA009| creacion de queries y aggregates | creacion de queries y aggregates  | 2 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA010| definir e implementar query service y service impls | definir e implementar query service y service impls. | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA011| implementar controller | implementar controller | 1 hora| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-| TS003| Endpoint para gestión de videoconferencias | TA012| implementar el endpoint "/api/meeting" | implementar el endpoint "/api/meeting"  | 5 horas| Fabian Reyes| Done|
-||| TA013| realizar pruebas de respuesta endpoints | realizar pruebas de respuesta endpoints | 3 horas| Fabian Reyes| Done|
-||| TA014| Crear y definir los aggregates| Crear y definir los aggregates | 1 hora| Fabian Reyes| Done|
-||| TA015| Crear y definir resources y commands | Crear y definir resources y commands  | 2 horas| Fabian Reyes| Done|
-||| TA016| crear y definir queryservice | crear y definir queryservice  | 1 hora| Fabian Reyes| Done|
-||| TA017| crear y definir repositories | crear y definir repositories  | 1 hora| Fabian Reyes| Done|
-||| TA018| crear e implementar commandserviceimpls | crear e implementar commandserviceimpls | 1 hora| Fabian Reyes| Done|
-||| TA019| crear e implementar queryserviceimpls  | crear e implementar queryserviceimpls   | 1 hora| Fabian Reyes| Done|
-||| TA020| crear controller | crear controller  | 1 hora| Fabian Reyes| Done|
-| TS004| Endpoint para gestión de grabaciones de videoconferencias | TA021| Implementar el endpoint "/api/meetings/recordings" | Implementar el endpoint "/api/meetings/recordings" | 5 horas| Fabian Reyes| Done|
-||| TA022| Probar filtrado de grabaciones | Probar filtrado de grabaciones | 1 hora| Fabian Reyes| Done|
-||| TA023| Validar edición de enlaces de grabación | Validar edición de enlaces de grabación  | 1 hora| Fabian Reyes| Done|
-||| TA024| realizar pruebas de respuesta endpoints | realizar pruebas de respuesta endpoints  |3 horas| Fabian Reyes| Done|
-||| TA025| Crear y definir los aggregates | Crear y definir los aggregates  | 1 hora| Fabian Reyes| Done|
-||| TA026| Crear y definir resources y commands | Crear y definir resources y commands  | 2 horas| Fabian Reyes| Done|
-||| TA027| crear y definir queryservice | crear y definir queryservice | 1 hora| Fabian Reyes| Done|
-||| TA028| crear y definir repositories | crear y definir repositories | 1 hora| Fabian Reyes| Done|
-||| TA029| crear e implementar commandserviceimpls | crear e implementar commandserviceimpls | 1 hora| Fabian Reyes| Done|
-||| TA030| crear e implementar queryserviceimpls | crear e implementar queryserviceimpls  | 1 hora| Fabian Reyes| Done|
-||| TA031| crear controller | crear controller | 1 hora| Fabian Reyes| Done|
-| US26| Visualización de detalles de videoconferencias | TA032| Implementacion en frontend | Implementacion en frontend | 3 horas| Fabian Reyes| Done|
-||| TA033| Itegracion con el repositorio | Itegracion con el repositorio | 2 horas| Fabian Reyes| Done|
-||| TA034| Crear Componenten angular | Crear Componenten angular  | 1 hora| Fabian Reyes| Done|
-||| TA035| Verificar la correcta visualizacion de detalles | Verificar la correcta visualizacion de detalles  | 1 hora| Fabian Reyes| Done|
-| US25| Gestión de grabaciones de videoconferencias | TA036| Implementacion en frontend | Implementacion en frontend | 1 hora| Fabian Reyes| Done|
-||| TA037| Itegracion con el repositorio | Itegracion con el repositorio  | 1 hora| Fabian Reyes| Done|
-||| TA038| Crear Componenten angular | Crear Componenten angular  | 1 hora| Fabian Reyes| Done|
-||| TA039| Verificar lectura de datos | Verificar lectura de datos  | 1 hora| Fabian Reyes| Done|
-| TS005| Endpoint para creación de User Stories en el Backlog | TA040| Implementar el endpoint "/api/backlog/user-stories/" | Implementar el endpoint "/api/backlog/user-stories/"  | 3 horas| John Arevalo| Done|
-||| TA041| realizar pruebas de respuesta endpoint | realizar pruebas de respuesta endpoint  |2 horas| John Arevalo| Done|
-||| TA042| Crear y definir los aggregates | Crear y definir los aggregates  | 1 hora| John Arevalo| Done|
-||| TA043| Crear y definir commands  | Crear y definir commands |1 horas| John Arevalo| Done|
-||| TA044| crear y definir repositories | crear y definir repositories | 1 hora| John Arevalo| Done|
-||| TA045| crear e implementar commandserviceimpls | crear e implementar commandserviceimpls | 1 hora| John Arevalo| Done|
-||| TA046| crear controller | crear controller  | 1 hora| John Arevalo| Done|
-||| TA047| Crear y definir resources | Crear y definir resources | 1 hora| John Arevalo| Done|
-| TS006| Endpoint para modificación de User Stories | TA048| Implementar el endpoint "/api/backlog/user-stories/{id}" | Implementar el endpoint "/api/backlog/user-stories/{id}" | 3 horas| John Arevalo| Done|
-||| TA049| Crear y definir los aggregates | Crear y definir los aggregates  | 1 hora| John Arevalo| Done|
-||| TA050| Crear y definir commands y resources | Crear y definir commands y resources  |2 horas| John Arevalo| Done|
-||| TA051| Implementacion de CommandService | Implementacion de CommandService  | 1 hora| John Arevalo| Done|
-||| TA052| crear e implementar commandserviceimpls | crear e implementar commandserviceimpls  | 1 hora| John Arevalo| Done|
-||| TA053| crear controller | crear controller  | 1 hora| John Arevalo| Done|
-| TS007| Endpoint para creación de incidencias | TA054| Implementar el endpoint "/api/issues" | Implementar el endpoint "/api/issues"  |2 horas| Alessandro Zevallos| Done|
-||| TA055| Probar creación de incidencias | Probar creación de incidencias | 1 hora| Alessandro Zevallos| Done|
-||| TA056| Validar manejo de datos de incidencia faltantes | Validar manejo de datos de incidencia faltantes | 1 hora| Alessandro Zevallos| Done|
-||| TA057| Crear y definir ValueObjects | Crear y definir ValueObjects  | 1 hora| Alessandro Zevallos| Done|
-||| TA058| Crear y definir Aggregate | Crear y definir Aggregate. | 1 hora| Alessandro Zevallos| Done|
-||| TA059| Crear Commands y Resources | Crear Commands y Resources | 1 hora| Alessandro Zevallos| Done|
-||| TA060| Crear y definir CommandService | Crear y definir CommandService | 1 hora| Alessandro Zevallos| Done|
-||| TA061| Crear y definir Repository | Crear y definir Repository  | 1 hora| Alessandro Zevallos| Done|
-||| TA062| Crear e implementar CommandServiceImpls | Crear e implementar CommandServiceImpls  | 1 hora| Alessandro Zevallos| Done|
-||| TA063| Implementacion en Controller | Implementacion en Controller  |2 horas| Alessandro Zevallos| Done|
-| TS008| Endpoint para actualización de incidencias | TA064| Implementar el endpoint "/api/issues/{id}" | Implementar el endpoint "/api/issues/{id}" |2 horas| Alessandro Zevallos| Done|
-||| TA065| Probar actualización de incidencias | Probar actualización de incidencias  | 1 hora| Alessandro Zevallos| Done|
-||| TA066| Validar manejo de incidencias no encontradas | Validar manejo de incidencias no encontradas  | 1 hora| Alessandro Zevallos| Done|
-||| TA067| Crear Command | Crear Command  | 1 hora| Alessandro Zevallos| Done|
-||| TA068| Definir CommandService | Definir CommandService  | 1 hora| Alessandro Zevallos| Done|
-||| TA069| Implementar CommandSeviceIpmls | Implementar CommandSeviceIpmls | 1 hora| Alessandro Zevallos| Done|
-||| TA070| Implementar en Controller | Implementar en Controller  | 2 horas| Alessandro Zevallos| Done|
-| US16| Modificación de tasks | TA071| Implementación en frontend | Implementación en frontend | 2 horas| John Arevalo| Done|
-||| TA072| Integración con el repositorio | Integración con el repositorio | 1 hora| John Arevalo| Done|
-||| TA073| Creacion de component en agular | Creacion de component en agular  | 2 horas| John Arevalo| Done|
-||| TA074| Verificar que se modificara la task mediante confirmacion | Verificar que se modificara la task mediante confirmacion | 1 hora| John Arevalo| Done|
-| US17| Eliminación de tasks | TA075| Implementación en frontend | Implementación en frontend  |2 horas| John Arevalo| Done|
-||| TA076| Integración con el repositorio  Integración con el repositorio | 2 horas| John Arevalo| Done|
-||| TA077| Creacion de component en agular | Creacion de component en agular  | 1 hora| John Arevalo| Done|
-||| TA078| Actualizar el service | Actualizar el service  | 1 hora| John Arevalo| Done|
-| US18| Vista centrada en backlog items | TA079| Implementación en frontend | Implementación en frontend  | 2 horas| John Arevalo| Done|
-||| TA080| Integración con el repositorio | Integración con el repositorio  | 1 hora| John Arevalo| Done|
-||| TA081| Creacion de component en agular | Creacion de component en agular  |2 horas| John Arevalo| Done|
-||| TA082| validar que se muestren los datos de los items correctamente | validar que se muestren los datos de los items correctamente  | 1 hora| John Arevalo| Done|
-||| TA083| agregar secciones para task , epic, user story | agregar secciones para task , epic, user story  | 1 hora| John Arevalo| Done|
-| US19| Visualización del product backlog| TA084| Implementación en frontend | Implementación en frontend  | 2 horas| John Arevalo| Done|
-||| TA085| Integración con el repositorio | Integración con el repositorio  | 1 hora| John Arevalo| Done|
-||| TA086| Creacion de component en agular | Creacion de component en agular | 1 hora| John Arevalo| Done|
-||| TA087| validar que se visualiza en seccion backlog | validar que se visualiza en seccion backlog  | 1 hora| John Arevalo| Done|
-| US20| Asignación de backlog items a un sprint | TA088| Implementación en frontend | Implementación en frontend  | 2 horas| John Arevalo| Done|
-||| TA089| Integración con el repositorio | Integración con el repositorio | 1 hora| John Arevalo| Done|
-||| TA090| Creacion de component en agular | Creacion de component en agular | 1 hora| John Arevalo| Done|
-||| TA091| Implementar logica para asignar spinrt id a user story | Implementar logica para asignar spinrt id a user story  | 1 hora| John Arevalo| Done|
-||| TA092| verificar correcta asignacion a sprint | verificar correcta asignacion a sprint  | 1 hora| John Arevalo| Done|
-| US21| Gestión de sprints | TA093| Implementación en frontend | Implementación en frontend |2 horas| John Arevalo| Done|
-||| TA094| Integración con el repositorio | Integración con el repositorio  | 1 hora| John Arevalo| Done|
-||| TA095| Creacion de component en agular | Creacion de component en agular | 1 hora| John Arevalo| Done|
-||| TA096| Validar gestion | Validar gestion  | 1 hora| John Arevalo| Done|
-| US22| Gestión de nuevas videoconferencias desde la sección de Reuniones | TA097| Implementación en frontend | Implementación en frontend  | 2 horas| Fabian Reyes| Done|
-||| TA098| Integración con el repositorio | Integración con el repositorio  | 1 hora| Fabian Reyes| Done|
-||| TA099| Creacion de component en agular | Creacion de component en agular  | 1 hora| Fabian Reyes| Done|
-||| TA100| Verificar correacta creacion | Verificar correacta creacion  | 1 hora| Fabian Reyes| Done|
-| US23| Edición de videoconferencias existentes | TA101| Implementación en frontend | Implementación en frontend  | 2 horas| Fabian Reyes| Done|
-||| TA102| Integración con el repositorio | Integración con el repositorio | 1 hora| Fabian Reyes| Done|
-||| TA103| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular  | 1 hora| Fabian Reyes| Done|
-||| TA104| verificar que las videoconferencias se editen correctamente | verificar que las videoconferencias se editen correctamente  | 1 hora| Fabian Reyes| Done|
-| US24| Eliminación de videoconferencias | TA105| Implementación en frontend | Implementación en frontend  |2 horas| Fabian Reyes| Done|
-||| TA106| Integración con el repositorio | Integración con el repositorio  | 1 hora| Fabian Reyes| Done|
-||| TA107| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular | 1 hora| Fabian Reyes| Done|
-||| TA108| verificar que la videoconferencia se elimine correctamente | verificar que la videoconferencia se elimine correctamente  | 1 hora| Fabian Reyes| Done|
-| US32| Visualización de User Stories en el Timeline | TA109| Implementación en frontend | Implementación en frontend | 2 horas| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA110| Integración con el repositorio | Integración con el repositorio | 1 hora| Michael Carmelino| Done|
-||| TA111| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular  | 1 hora| Michael Carmelino| Done|
-||| TA112| verificar que las user stories se muestren en la timeline | verificar que las user stories se muestren en la timeline | 1 hora| Michael Carmelino| Done|
-| US33| Estimación de Esfuerzo en User Stories | TA113| Implementación en frontend | Implementación en frontend. | 2 horas| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA114| Integración con el repositorio | Integración con el repositorio | 1 hora| Michael Carmelino| Done|
-||| TA115| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular | 1 hora| Michael Carmelino| Done|
-||| TA116| Verificar que se visualice correctamente la estimación | Verificar que se visualice correctamente la estimación  | 1 hora| Michael Carmelino| Done|
-| US34| Visualización de Estadísticas del Rendimiento del Equipo | TA117| Implementación en frontend | Implementación en frontend  | 2 horas| 	Rodrigo Manuel Chirinos Zúñiga| Done|
-||| TA118| Integración con el repositorio | Integración con el repositorio  | 1 hora| Michael Carmelino| Done|
-||| TA119| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular  | 1 hora| Michael Carmelino| Done|
-||| TA120| Verificar que se visualicen las user stories completadas y no | Verificar que se visualicen las user stories completadas y no | 1 hora| Michael Carmelino| Done|
-| US39| Ver reporte de una incidencia | TA121| Implementación en frontend | Implementación en frontend | 2 horas| Alessandro Zevallos| Done|
-||| TA122| Integración con el repositorio | Integración con el repositorio  | 1 hora| Alessandro Zevallos| Done|
-||| TA123| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular | 1 hora| Alessandro Zevallos| Done|
-||| TA124| Verificar que se acceda a informacion detallada del reporte | Verificar que se acceda a informacion detallada del reporte  | 1 hora| Alessandro Zevallos| Done|
-| US40| Ver historial de una incidencia | TA125| Implementación en frontend | Implementación en frontend | 2 horas| Alessandro Zevallos| Done|
-||| TA126| Integración con el repositorio | Integración con el repositorio  | 1 hora| Alessandro Zevallos| Done|
-||| TA127| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular  | 1 hora| Alessandro Zevallos| Done|
-||| TA128| Verificar que todos los cambios se guarden en el historial | Verificar que todos los cambios se guarden en el historial | 1 hora| Alessandro Zevallos| Done|
-| US41| Creación automática de los eventos creación y asignación del issue | TA129| Implementación en frontend | Implementación en frontend | 2 horas| Alessandro Zevallos| Done|
-||| TA130| Integración con el repositorio | Integración con el repositorio | 1 hora| Alessandro Zevallos| Done|
-||| TA131| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular | 1 hora| Alessandro Zevallos| Done|
-||| TA132| Validar creacion automatica | Validar creacion automatica  | 1 hora| Alessandro Zevallos| Done|
-| US42| Filtrar incidencias por Sprint y Prioridad | TA133| Implementación en frontend | Implementación en frontend. | 2 horas| Alessandro Zevallos| Done|
-||| TA134| Integración con el repositorio | Integración con el repositorio  | 1 hora| Alessandro Zevallos| Done|
-||| TA135| Creacion e implementacion de component en agular | Creacion e implementacion de component en agular | 1 hora| Alessandro Zevallos| Done|
-||| TA136| Validar filtrado | Validar filtrado  | 1 hora| Alessandro Zevallos| Done|
-| US43 | Iniciar sesión (Sign In) | TA001 | Crear componente de inicio de sesión en Angular | Crear el componente en Angular para gestionar el inicio de sesión de los usuarios | 2 horas | Fabian Reyes | Done |
-| US43 | Iniciar sesión (Sign In) | TA002 | Implementar formulario de ingreso de credenciales (usuario y contraseña) | Implementar un formulario en Angular para la entrada de usuario y contraseña | 3 horas | Arevalo Meza, John Telesforo | Done |
-| US43 | Iniciar sesión (Sign In) | TA003 | Implementar lógica de validación de credenciales en el frontend | Validar las credenciales ingresadas en el frontend antes de enviarlas al servidor | 4 horas | Michael Carmelino | Done |
-| US43 | Iniciar sesión (Sign In) | TA004 | Redirigir al usuario a la página principal al iniciar sesión exitosamente | Después de un inicio de sesión exitoso, redirigir al usuario a la página principal | 3 horas | Fabian Reyes | Done |
-| US43 | Iniciar sesión (Sign In) | TA005 | Mostrar mensaje de error si las credenciales son incorrectas | Mostrar un mensaje de error si el usuario ingresa credenciales incorrectas | 2 horas | Arevalo Meza, John Telesforo | Done |
-| US43 | Iniciar sesión (Sign In) | TA006 | Implementar manejo de sesión para persistencia del estado de login | Implementar un sistema de manejo de sesión para mantener al usuario autenticado | 3 horas | Arevalo Meza, John Telesforo | Done |
-| US43 | Iniciar sesión (Sign In) | TA007 | Validar campos de entrada para asegurar que el correo electrónico y la contraseña sean válidos | Asegurar que el correo electrónico y la contraseña ingresados sean válidos antes de enviarlos al servidor | 2 horas | Fabian Reyes | Done |
-| US44 | Registro de usuario (Sign Up) | TA008 | Crear componente de registro en Angular | Crear el componente en Angular para el registro de nuevos usuarios | 2 horas | Arevalo Meza, John Telesforo | Done |
-| US44 | Registro de usuario (Sign Up) | TA009 | Implementar formulario de registro (correo electrónico, contraseña, confirmación de contraseña) | Implementar el formulario para la entrada de datos de registro, incluyendo correo electrónico, contraseña y confirmación de contraseña | 3 horas | Michael Carmelino | Done |
-| US44 | Registro de usuario (Sign Up) | TA010 | Implementar lógica de validación de correo electrónico único | Asegurar que el correo electrónico ingresado no esté ya registrado en la base de datos | 4 horas | Arevalo Meza, John Telesforo | Done |
-| US44 | Registro de usuario (Sign Up) | TA011 | Validar la fortaleza de la contraseña y su coincidencia con la confirmación | Validar que la contraseña tenga la fortaleza adecuada y que coincida con la confirmación | 3 horas | Fabian Reyes | Done |
-| US44 | Registro de usuario (Sign Up) | TA012 | Redirigir al usuario a la página de inicio de sesión después de un registro exitoso | Después de un registro exitoso, redirigir al usuario a la página de inicio de sesión | 3 horas | Arevalo Meza, John Telesforo | Done |
-| US44 | Registro de usuario (Sign Up) | TA013 | Mostrar mensaje de error si el correo electrónico ya está registrado | Mostrar un mensaje de error si el correo electrónico ya está registrado | 2 horas | Arevalo Meza, John Telesforo | Done |
-| US44 | Registro de usuario (Sign Up) | TA014 | Implementar lógica para manejar el registro en la base de datos | Implementar la lógica para registrar un nuevo usuario en la base de datos | 4 horas | Michael Carmelino | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA015 | Implementar el endpoint "/api/auth/signup" | Implementar el endpoint "/api/auth/signup" para el registro de nuevos usuarios | 2 horas | Alessandro Zevallos | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA016 | Validación de datos de entrada | Validar la solicitud POST con los datos de registro (correo electrónico, contraseña) | 2 horas | Fabian Reyes | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA017 | Validación de correo y contraseña | Asegurar que los datos de entrada sean correctos (validación de correo electrónico único y contraseña válida) | 3 horas | Alessandro Zevallos | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA018 | Lógica para registrar usuario | Implementar la lógica para registrar un nuevo usuario en la base de datos | 3 horas | Alessandro Zevallos | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA019 | Respuesta exitosa | Responder con un código 201 Created cuando el registro sea exitoso | 1 hora | Alessandro Zevallos | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA019 | Manejo de error usuario ya registrado | Implementar manejo de errores para cuando el correo electrónico ya esté registrado, respondiendo con código 409 Conflict | 2 horas | Alessandro Zevallos | Done |
-| TS009 | Endpoint para registro de usuarios (sign up) | TA020 | Probar registro de usuario | Probar el endpoint de registro de usuario con datos válidos e inválidos | 2 horas | Alessandro Zevallos | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) "/api/auth/signin" | TA021 | Implementar el endpoint "/api/auth/signin" | Implementar el endpoint "/api/auth/signin" para el inicio de sesión de usuarios | 2 horas | Alessandro Zevallos | Done |
-| TS010 |Endpoint para inicio de sesión (sign in) | TA022 | Validación de credenciales | Validar la solicitud POST con las credenciales de inicio de sesión (usuario y contraseña) | 2 horas | Alessandro Zevallos | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) | TA023 | Verificación de usuario y contraseña | Verificar que el usuario exista en la base de datos y que las credenciales sean correctas | 3 horas | Fabian Reyes | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) | TA024 | Generación de token de acceso | Implementar la lógica de autenticación y generación de un token de acceso | 3 horas | Alessandro Zevallos | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) | TA025 | Respuesta exitosa | Responder con un código 200 OK y el token de acceso cuando el inicio de sesión sea exitoso | 2 horas | Michael Carmelino | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) | TA026 | Manejo de error credenciales incorrectas | Implementar manejo de errores para credenciales incorrectas, respondiendo con código 401 Unauthorized | 2 horas | Alessandro Zevallos | Done |
-| TS010 | Endpoint para inicio de sesión (sign in) | TA027 | Probar inicio de sesión | Probar el endpoint de inicio de sesión con credenciales correctas e incorrectas | 2 horas | Alessandro Zevallos | Done |
+
+#### 5.2.1.2 Sprint Backlog 1
+
+| User Story ID | Título | Tarea Principal | Estimación (Horas) | Responsable | Estado |
+| --- | --- | --- | --- | --- | --- |
+| **Landing Page** |  |  |  |  |  |
+| US01 | Vista General de Beneficios y Funcionalidades | Implementación de sección de beneficios y funcionalidades clave | 2 horas | Arevalo Meza, John Telesforo | Done |
+| US02 | Enlaces Directos a Redes Sociales | Implementación de enlaces a redes sociales en la página principal | 1 hora | Fabian Reyes | Done |
+| US03 | Registro Rápido y Simple | Implementación de formulario de registro optimizado | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US04 | Iniciar Sesión Rápido y Visible | Implementación de enlace visible para iniciar sesión | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US05 | Resumen de la Empresa, Misión y Visión | Implementación de sección "Acerca de Nosotros" | 2 horas | Arevalo Meza, John Telesforo | Done |
+| US06 | Navegación Clara y Directa en la Página | Implementación de menú de navegación intuitivo | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US07 | Acceder a Preguntas Frecuentes | Implementación de sección de preguntas frecuentes | 1 hora | Michael Carmelino | Done |
+| US08 | Contactar vía correo | Implementación de sección de contacto | 1 hora | Arevalo Meza, John Telesforo | Done |
+| **Web Application** |  |  |  |  |  |
+| US09 | Creación de user stories | Implementación de funcionalidad para agregar user stories | 6 horas | Arevalo Meza, John Telesforo | Done |
+| US10 | Modificación de user stories | Implementación de funcionalidad para modificar user stories | 6 horas | Arevalo Meza, John Telesforo | Done |
+| US11 | Eliminación de user stories | Implementación de funcionalidad para eliminar user stories | 5 horas | Arevalo Meza, John Telesforo | Done |
+| US12 | Creación de user epics | Implementación de funcionalidad para agregar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
+| US13 | Modificación de user epics | Implementación de funcionalidad para modificar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
+| US14 | Eliminación de user epics | Implementación de funcionalidad para eliminar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
+| US15 | Creación de tasks | Implementación de funcionalidad para agregar tasks | 5 horas | Arevalo Meza, John Telesforo | Done |
+| US27 | Editar el acceso de miembros al proyecto | Implementación de funcionalidad para editar acceso de miembros | 3 horas | Michael Carmelino | Done |
+| US28 | Ver la información de usuario de los miembros | Implementación de funcionalidad para ver información de usuario | 3 horas | Michael Carmelino | Done |
+| US29 | Asignar roles a los miembros del equipo | Implementación de funcionalidad para asignar roles | 3 horas | Michael Carmelino | Done |
+| US30 | Conocer Información del Perfil de un Miembro | Implementación de funcionalidad para ver perfil de miembro | 3 horas | Michael Carmelino | Done |
+| US31 | Ver Habilidades de Cada Miembro | Implementación de funcionalidad para ver habilidades de miembros | 3 horas | Michael Carmelino | Done |
+| US32 | Visualización de User Stories en el Timeline | Visualización de user stories en el timeline | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US33 | Estimación de Esfuerzo en User Stories | Visualización de estimación de esfuerzo en user stories | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US34 | Visualización de Estadísticas del Rendimiento del Equipo | Visualización de estadísticas del rendimiento del equipo | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US35 | Crear una nueva incidencia | Implementación de funcionalidad para crear incidencias | 6 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US36 | Visualizar las incidencias | Implementación de funcionalidad para visualizar incidencias | 7 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US37 | Editar una incidencia | Implementación de funcionalidad para editar incidencias | 8 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US38 | Eliminar una incidencia | Implementación de funcionalidad para eliminar incidencias | 7 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
+| US39 | Ver reporte de una incidencia | Visualización de reporte de incidencias | 2 horas | Alessandro Zevallos | Done |
+| US40 | Ver historial de una incidencia | Visualización de historial de incidencias | 2 horas | Alessandro Zevallos | Done |
+| US41 | Creación automática de los eventos creación y asignación del issue | Visualización de eventos automáticos de incidencias | 2 horas | Alessandro Zevallos | Done |
+| US42 | Filtrar incidencias por Sprint y Prioridad | Visualización y filtrado de incidencias por sprint y prioridad | 2 horas | Alessandro Zevallos | Done |
+| US25 | Gestión de grabaciones de videoconferencias | Implementación de funcionalidad para gestionar grabaciones | 1 hora | Fabian Reyes | Done |
+| US26 | Visualización de detalles de videoconferencias | Implementación de funcionalidad para ver detalles de videoconferencias | 3 horas | Fabian Reyes | Done |
+
+**Nota:** Solo se incluyen tareas principales y visibles para el usuario, omitiendo tareas técnicas internas.
 
 Link Trello: https://trello.com/invite/b/66ddd34a3a8f75b32fbdaa52/ATTI22d7710f322c2ce38799efbb188aa9556839E153/si729-2402-ws53-grupo-4-horizon-managewise 
 
@@ -2713,68 +2491,25 @@ La planificación del Sprint 2 para la aplicación móvil se centró en construi
 #### 5.2.4.2 Sprint Backlog 2 (Mobile Application).
 Este Sprint Backlog detalla las historias de usuario y tareas específicas para el desarrollo del frontend de la aplicación móvil.
 
-| Sprint #| Sprint 2 (Móvil - Frontend Only)|||||||
-| -- | -- | -- | -- | -- | -- | -- | -- |
-| User<br>Story || Work-Item / Task ||||||
-| ID | Title | ID | Title | Description | Estimation<br>(Hours) | Assigned<br>To | Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done) |
-| MUS01 |  Inicio de Sesión en la App Móvil | MTA001 | Diseño de UI para pantalla de inicio de sesión móvil | Crear mockups y diseño final para la pantalla de login. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA002 | Implementación de UI nativa para inicio de sesión | Desarrollar las vistas de inicio de sesión para iOS y Android. | 8 horas | Michael Carmelino | Done |
-|  |  | MTA003 | Implementar lógica de navegación simulada al "iniciar sesión" | Al presionar "Login", navegar a la pantalla principal de la app (sin validación real). | 3 horas | Alessandro Zevallos | Done |
-|  |  | MTA004 | Pruebas de flujo de inicio de sesión simulado | Verificar navegación en diferentes dispositivos/emuladores. | 2 horas | Rodrigo Chirinos | Done |
-| MUS02 |  Registro de Usuario en la App Móvil | MTA005 | Diseño de UI para pantalla de registro móvil | Crear mockups y diseño final para la pantalla de registro. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA006 | Implementación de UI nativa para registro | Desarrollar las vistas de registro para iOS y Android. | 8 horas | Michael Carmelino | Done |
-|  |  | MTA007 | Implementar lógica de navegación simulada al "registrarse" | Al presionar "Registrar", navegar a la pantalla de login o principal (sin creación real de usuario). | 3 horas | Alessandro Zevallos | Done |
-|  |  | MTA008 | Pruebas de flujo de registro simulado | Verificar la navegación y la interfaz. | 2 horas | Rodrigo Chirinos | Done |
-| MUS03 | Visualización de User Stories (Datos de Demostración) | MTA009 | Diseño de UI para lista de User Stories | Diseñar cómo se mostrarán las user stories en una lista. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA010 | Implementación de vista nativa para listar User Stories | Desarrollar la pantalla que muestra las user stories. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA011 | Cargar User Stories desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para User Stories. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA012 | Pruebas de visualización de User Stories (mock) | Asegurar que los datos de demostración se muestren correctamente. | 2 horas | Michael Carmelino | Done |
-| MUS04 | Simular Creación de User Stories (Localmente en Sesión) | MTA013 | Diseño de UI para formulario de "creación" de User Story | Diseñar la interfaz para ingresar datos de una nueva user story. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA014 | Implementación de vista nativa para "crear" User Story | Desarrollar el formulario y lógica de entrada. | 7 horas | Arevalo Meza, John | Done |
-|  |  | MTA015 | Añadir User Story a una lista local en memoria (visible en sesión) | Al "crear", agregar el item a la lista localmente para visualización inmediata. No persistirá. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA016 | Pruebas de "creación" local de User Story | Verificar que se puedan añadir y visualizar localmente. | 3 horas | Michael Carmelino | Done |
-| MUS05 | Simular Modificación de User Stories (Localmente en Sesión) | MTA017 | Diseño de UI para "edición" de User Story | Diseñar la interfaz para modificar una user story. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA018 | Implementación de vista nativa para "editar" User Story | Desarrollar la pantalla de edición. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA019 | Actualizar User Story en la lista local en memoria | Al "guardar cambios", actualizar el item en la lista local. | 5 horas | Alessandro Zevallos | Done |
-|  |  | MTA020 | Pruebas de "modificación" local de User Story | Verificar que se puedan editar localmente. | 2 horas | Michael Carmelino | Done |
-| MUS06 | Simular Eliminación de User Stories (Localmente en Sesión) | MTA021 | Implementación de funcionalidad de "eliminación" en la UI | Permitir al usuario "eliminar" una user story de la lista local. | 4 horas | Arevalo Meza, John | Done |
-|  |  | MTA022 | Eliminar User Story de la lista local en memoria | Al confirmar, quitar el item de la lista local. | 3 horas | Alessandro Zevallos | Done |
-|  |  | MTA023 | Pruebas de "eliminación" local de User Story | Verificar que se puedan quitar de la vista. | 2 horas | Michael Carmelino | Done |
-| MUS07 | Visualización de Tasks (Datos de Demostración) | MTA024 | Diseño de UI para lista de Tasks | Diseñar la visualización de tasks. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA025 | Implementación de vista nativa para listar Tasks | Desarrollar la pantalla de listado de tasks. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA026 | Cargar Tasks desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para Tasks. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA027 | Pruebas de visualización de Tasks (mock) | Verificar correcta muestra de datos. | 2 horas | Michael Carmelino | Done |
-| MUS08 | Simular Creación de Tasks (Localmente en Sesión) | MTA028 | Diseño de UI para formulario de "creación" de Task | Diseñar la interfaz para "crear" una nueva task. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA029 | Implementación de vista nativa para "crear" Task | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA030 | Añadir Task a una lista local en memoria | Al "crear", agregar el item a la lista local. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA031 | Pruebas de "creación" local de Task | Verificar que se "creen" tasks localmente. | 3 horas | Michael Carmelino | Done |
-| MUS09 | Visualización de Incidencias (Datos de Demostración) | MTA032 | Diseño de UI para lista de Incidencias | Diseñar cómo se mostrarán las incidencias. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA033 | Implementación de vista nativa para listar Incidencias | Desarrollar la pantalla de listado de incidencias. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA034 | Cargar Incidencias desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA035 | Pruebas de visualización de Incidencias (mock) | Verificar correcta muestra de datos. | 2 horas | Arevalo Meza, John | Done |
-| MUS10 | Simular Creación de Incidencia (Localmente en Sesión) | MTA036 | Diseño de UI para formulario de "creación" de Incidencia | Diseñar la interfaz para "reportar" una nueva incidencia. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA037 | Implementación de vista nativa para "crear" Incidencia | Desarrollar el formulario móvil. | 7 horas | Rodrigo Chirinos | Done |
-|  |  | MTA038 | Añadir Incidencia a una lista local en memoria | Al "crear", agregar el item a la lista local. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA039 | Pruebas de "creación" local de Incidencia | Verificar que se "creen" incidencias localmente. | 3 horas | Arevalo Meza, John | Done |
-| MUS11 | Simular Edición de Incidencia (Localmente en Sesión) | MTA040 | Diseño de UI para "edición" de Incidencia | Diseñar la interfaz para "modificar" una incidencia. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA041 | Implementación de vista nativa para "editar" Incidencia | Desarrollar la pantalla de edición móvil. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA042 | Actualizar Incidencia en la lista local en memoria | Al "guardar", actualizar el item localmente. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA043 | Pruebas de "modificación" local de Incidencia | Verificar que se "editen" incidencias localmente. | 2 horas | Arevalo Meza, John | Done |
-| MUS12 | Visualización de Miembros del Equipo (Datos de Demostración) | MTA044 | Diseño de UI para lista de Miembros | Diseñar la visualización de miembros. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA045 | Implementación de vista nativa para listar Miembros | Desarrollar la pantalla que muestra los miembros. | 6 horas | Michael Carmelino | Done |
-|  |  | MTA046 | Cargar Miembros desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA047 | Pruebas de visualización de Miembros (mock) | Verificar que se muestren correctamente. | 2 horas | Rodrigo Chirinos | Done |
-| MUS13 | Navegación básica en la App Móvil | MTA048 | Diseño de la estructura de navegación principal | Definir tab bar, menús laterales, etc. | 4 horas | Fabian Reyes | Done |
-|  |  | MTA049 | Implementación del Tab Bar / Menú de Navegación | Desarrollar la navegación principal de la app. | 8 horas | Michael Carmelino | Done |
-|  |  | MTA050 | Pruebas de navegación entre pantallas | Asegurar que el flujo entre secciones sea intuitivo. | 3 horas | Todos | Done |
-| MUS14 | Visualización de User Epics (Datos de Demostración) | MTA051 | Diseño de UI para lista de User Epics | Diseñar la visualización de epics en la app. | 3 horas | Fabian Reyes | Done |
-|  |  | MTA052 | Implementación de vista nativa para listar Epics | Desarrollar la pantalla de listado de epics. | 6 horas | Arevalo Meza, John | Done |
-|  |  | MTA053 | Cargar Epics desde un archivo JSON local (mock data) | Preparar y consumir datos de demostración para Epics. | 4 horas | Alessandro Zevallos | Done |
-|  |  | MTA054 | Pruebas de visualización de Epics (mock) | Verificar correcta muestra de datos de epics. | 2 horas | Michael Carmelino | Done |
-| MUS15 | Visualización de Perfil de Usuario (Datos de Demostración) | MTA055 | Diseño de UI para pantalla de Perfil de Usuario | Diseñar la pantalla donde el usuario ve información de perfil (mock). | 3 horas | Fabian Reyes | Done |
-|  |  | MTA056 | Implementación de vista nativa para Perfil de Usuario | Desarrollar la pantalla de perfil mostrando datos fijos o de demo. | 6 horas | Rodrigo Chirinos | Done |
-|  |  | MTA057 | Pruebas de visualización de perfil (mock) | Verificar la visualización de la información de demostración. | 2 horas | Arevalo Meza, John | Done |
+| User Story ID | Título | Tarea Principal | Estimación (Horas) | Responsable | Estado |
+| --- | --- | --- | --- | --- | --- |
+| **Mobile Application** |  |  |  |  |  |
+| MUS01 | Inicio de Sesión en la App Móvil | Implementación de pantalla y flujo básico de inicio de sesión | 6 horas | Fabian Reyes | Done |
+| MUS02 | Registro de Usuario en la App Móvil | Implementación de pantalla y flujo básico de registro | 6 horas | Michael Carmelino | Done |
+| MUS03 | Visualización de User Stories | Listar user stories de ejemplo en la app móvil | 5 horas | Arevalo Meza, John | Done |
+| MUS04 | Crear User Story | Formulario simple para crear user story localmente | 5 horas | Alessandro Zevallos | Done |
+| MUS05 | Editar User Story | Edición básica de user story en la lista local | 4 horas | Michael Carmelino | Done |
+| MUS06 | Eliminar User Story | Eliminar user story de la lista local | 3 horas | Rodrigo Chirinos | Done |
+| MUS07 | Visualizar Tasks | Listar tasks asociadas a user stories | 4 horas | Rodrigo Chirinos | Done |
+| MUS08 | Crear Task | Formulario simple para crear task localmente | 4 horas | Alessandro Zevallos | Done |
+| MUS09 | Visualizar Incidencias | Listar incidencias de ejemplo en la app móvil | 4 horas | Arevalo Meza, John | Done |
+| MUS10 | Crear Incidencia | Formulario simple para crear incidencia localmente | 4 horas | Fabian Reyes | Done |
+| MUS11 | Editar Incidencia | Edición básica de incidencia en la lista local | 3 horas | Michael Carmelino | Done |
+| MUS12 | Eliminar Incidencia | Eliminar incidencia de la lista local | 3 horas | Rodrigo Chirinos | Done |
+| MUS13 | Visualizar Miembros | Listar miembros del equipo en la app móvil | 3 horas | Michael Carmelino | Done |
+| MUS14 | Navegación básica en la App Móvil | Implementar navegación sencilla entre secciones principales | 4 horas | Todos | Done |
 
+**Nota:** Las historias de usuario de la web se han adaptado a la app móvil, simplificadas para mostrar solo flujos y funcionalidades esenciales, sin lógica compleja ni integración real.
 
 ### 5.2.5. Implemented Mobile Application Evidence
 Esta sección presenta las evidencias del desarrollo del frontend de la aplicación móvil ManageWise, demostrando su interfaz de usuario y flujos con datos de demostración.
