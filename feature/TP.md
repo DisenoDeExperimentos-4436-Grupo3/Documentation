@@ -3222,7 +3222,7 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 ### 8.1. Experiment Planning
 #### 8.1.1. As-Is Summary.
 
-La acplicación actual se centra en ofrecer una plataforma para la gestión de proyectos para equipos de desarrollo de software, enfocado específicamente en el rol del líder, aplicando el framework de SCRUM, proporcionando funcionalidades básicas como la gestión de historias de usuarios, tasks, epics, sprint, members, etc. Sin embargo, el rendimiento general no es el apropiado, con 
+La aplicación actual se centra en ofrecer una plataforma para la gestión de proyectos para equipos de desarrollo de software, enfocado específicamente en el rol del líder, aplicando el framework de SCRUM, proporcionando funcionalidades básicas como la gestión de historias de usuarios, tasks, epics, sprint, members, etc. Sin embargo, el rendimiento general no es el apropiado, con 
 
 Problemas identificados:
 * Rendimiento:
@@ -3374,12 +3374,12 @@ asdasdasdsa
 
 #### 8.2.5. Methods Selection.
 
-|Herramienta|Google Analytics|Catchpoint|RedLine13|Lighthouse|
-|-|-|-|-|-|
-|Precio| | | | |
-|Capacidad de Análisis| | | | |
-|Sencillez| | | | |
-|Ventajas| | | | |
+|Herramienta|Google Analytics|RedLine13|Lighthouse|
+|-|-|-|-|
+|Precio|Plan gratuito|Plan Gratuito|Plan gratuito para ejecución local|
+|Capacidad de Análisis|Analiza comportamiento de usuarios y tráfico, pero no profundiza en rendimiento técnico|Especializado en pruebas de carga, simula tráfico masivo|Evalua rendimiento, SEO y accesibilidad, enfocándose en la experiencia del usuario.|
+|Sencillez|Fácil para métricas básicas|Intuitivo para pruebas de carga|Información clara y centrada en valores que puntúan la aplicación|
+  |Ventajas|Ideal para entender audiencia, es posible integrar con otros servicios como Google Ads|Simula tráfico real y permite ver probar como escala la aplicación bajo estrés|Evalua el rendimiento y accesibilidad con metricas claras, permitiendo asi optimizar la experiencia del usuario|
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 #### 8.2.7. Web and Mobile Tracking Plan.
