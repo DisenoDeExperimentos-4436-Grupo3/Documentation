@@ -3221,16 +3221,166 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 ## Capítulo VIII: Experiment-Driven Development
 ### 8.1. Experiment Planning
 #### 8.1.1. As-Is Summary.
+
+La acplicación actual se centra en ofrecer una plataforma para la gestión de proyectos para equipos de desarrollo de software, enfocado específicamente en el rol del líder, aplicando el framework de SCRUM, proporcionando funcionalidades básicas como la gestión de historias de usuarios, tasks, epics, sprint, members, etc. Sin embargo, el rendimiento general no es el apropiado, con 
+
+Problemas identificados:
+* Rendimiento:
+* Usabilidad:
+* Experiencia del usuario (UX):
+* Funcionalidad limitada:
+
+Objetivos de mejora:
+* Optimización del rendimiento:
+* Mejora de la experiencia del usuario:
+* algo respecto a la traducción a inglés
+
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+Assumptions:
+* 
+
+Knowledge Gaps:
+* 
+
+Claims:
+* 
+
 #### 8.1.3. Experiment-Ready Questions.
+
+|Questions|Confidence|Risk|Impact|Interest|Total Score|
+|-|-|-|-|-|-|
+|mismo numero que assumptions | | | | | |
+
 #### 8.1.4. Question Backlog.
+
+|Prioridad (1,2,3,5,8)|Pregunta|
+|-|-|
+|mismo numero que arriba | |
+
 #### 8.1.5. Experiment Cards.
+
+|Question|Pregunta de 8.1.4|
+|-|-|
+|Why| |
+|What| |
+|Hypothesis| |
+
+...
+
 ### 8.2. Experiment Design
 #### 8.2.1. Hypotheses.
+
+| |Hypothesis|
+|-|-|
+|Question| |
+|Belief| |
+|Hypothesis| |
+|Null Hypothesis| |
+
+...
+
 #### 8.2.2. Measures.
+
+|Question|asdasd|
+|-|-|
+|Measure| |
+
+...
+
 #### 8.2.3. Conditions.
+
+|Question|asdasd|
+|-|-|
+|Condición Experimental| |
+|Condición de Control| |
+
+...
+
 #### 8.2.4. Scale Calculations and Decisions.
+
+asdasdasdsa
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Scale Calculation</td>
+    <td rowspan="2">Decision</td>
+    <td colspan="4">Factor</td>
+  </tr>
+  <tr>
+    <td>Desfavorable</td>
+    <td>Aceptable</td>
+    <td>Ideal</td>
+    <td>Excelente</td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>creemos que asdas</td>
+    <td>Implementaraasd</td>
+    <td>X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
 #### 8.2.5. Methods Selection.
+
+|Herramienta|Google Analytics|Catchpoint|RedLine13|Lighthouse|
+|-|-|-|-|-|
+|Precio| | | | |
+|Capacidad de Análisis| | | | |
+|Sencillez| | | | |
+|Ventajas| | | | |
+
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 #### 8.2.7. Web and Mobile Tracking Plan.
 ### 8.3. Experimentation
