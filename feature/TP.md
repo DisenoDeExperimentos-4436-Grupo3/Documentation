@@ -890,7 +890,7 @@ EPICS:
 | US-05    | Resumen de la Empresa, Misión y Visión    |
 | US-06    | Navegación Clara y Directa en la Página   |
 | US-07    | Acceder a Preguntas Frecuentes            |
-| US-08    | Contactar vía Correo                      |
+| US-08    | Contactar vía Correo               --       |
 
 # Epic 02: Gestión de backlog items
 
@@ -898,7 +898,8 @@ EPICS:
 |----------|-------------------------------------------|
 | US-09    | Creación de User Stories                  |
 | US-10    | Modificación de User Stories              |
-| US-11    | Eliminación de User Stories               |
+| US-11    | Eliminación de User Stories        --       |
+| US-32    | Estimación de Esfuerzo en User Stories    |
 | US-12    | Creación de User Epics                    |
 | US-13    | Modificación de User Epics                |
 | US-14    | Eliminación de User Epics                 |
@@ -912,64 +913,29 @@ EPICS:
 |----------|-------------------------------------------|
 | US-18    | Visualización del Product Backlog         |
 | US-19    | Asignación de Backlog Items a un Sprint   |
-| US-20    | Gestión de Sprints                        |
+| US-20    | Gestión de Sprints                |
 
-# Epic 04: Gestión Eficiente de Videoconferencias del Equipo
-
-| Story ID | Título                                   |
-|----------|-------------------------------------------|
-| US-21    | Gestión de Nuevas Videoconferencias       |
-| US-22    | Edición de Videoconferencias Existentes   |
-| US-23    | Eliminación de Videoconferencias          |
-| US-24    | Gestión de Grabaciones de Videoconferencias |
-| US-25    | Visualización de Detalles de Videoconferencias |
-
-# Epic 05: Administración de Colaboradores y Roles
+# Epic 04: Administración de Colaboradores y Roles
 
 | Story ID | Título                                   |
 |----------|-------------------------------------------|
-| US-26    | Editar el Acceso de Miembros al Proyecto  |
 | US-27    | Ver Información de Usuario de los Miembros |
 | US-28    | Asignar Roles a los Miembros del Equipo   |
 | US-29    | Conocer Información del Perfil de un Miembro |
-| US-30    | Ver Habilidades de Cada Miembro           |
 | US-42    | Sign In |
 | US-43    | Sign Up |
+| US-44 | Seguridad de la cuenta |
 
-# Epic 06: Gestión de User Stories y Sprints en el Timeline
 
-| Story ID | Título                                   |
-|----------|-------------------------------------------|
-| US-31    | Visualización de User Stories en el Timeline |
-| US-32    | Estimación de Esfuerzo en User Stories    |
-| US-33    | Visualización de Estadísticas del Rendimiento del Equipo |
-
-# Epic 07: Gestión de Incidencias
-
-| Story ID | Título                                   |
-|----------|-------------------------------------------|
-| US-34    | Crear una Nueva Incidencia                |
-| US-35    | Visualizar las Incidencias                |
-| US-36    | Editar una Incidencia                     |
-| US-37    | Eliminar una Incidencia                   |
-| US-38    | Ver Reporte de una Incidencia             |
-| US-39    | Ver Historial de una Incidencia           |
-| US-40    | Creación Automática de Eventos de Creación y Asignación |
-| US-41    | Filtrar Incidencias por Sprint y Prioridad |
-
-# Epic 08: Desarrollo de Funcionalidades de la Aplicación
+# Epic 07: Desarrollo de Funcionalidades de la Aplicación
 
 
 | Story ID | Título |
 |----------|-|
 | TS001    | Endpoint para visualizar Miembros del equipo|
 | TS002    | Endpoint para eliminacion de miembro|
-| TS003    | Endpoint para gestión de videoconferencias|
-| TS004    | Endpoint para gestión de grabaciones de videoconferencias|
 | TS005    | Endpoint para creación de User Stories en el Backlog|
-| TS006    | Endpoint para modificación de User Stories|
-| TS007    | Endpoint para creación de incidencias|
-| TS008    | Endpoint para actualización de incidencias|
+| TS006    | Endpoint para modificación de User Stories |
 | TS009    | Endpoint para sign up|
 | TS010    | Endpoint para sign in|
 
