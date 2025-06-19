@@ -2539,147 +2539,145 @@ Esta sección presenta las evidencias del desarrollo del frontend de la aplicaci
 
 ### 5.2.4 Acuerdo de Servicio - SaaS
 
-# Acuerdo de Servicio SaaS (ManageWise)
-
-**Última actualización: 12/05/2025**
-
-Este Acuerdo de Servicio regula el uso de la plataforma ManageWise, desarrollada por un equipo de estudiantes de la Universidad Privada de Ciencias Aplicadas – UPC, con sede en Lima, Perú. Al acceder y utilizar nuestro software, el usuario acepta los siguientes términos y condiciones.
+# Acuerdo de Servicio SaaS – ManageWise
+**Última actualización:** 12 de mayo de 2025
 
 ---
 
-## ¿Qué es ManageWise?
+## 1. Introducción
 
-**ManageWise** es una solución SaaS (Software as a Service) desarrollada por estudiantes de la UPC que busca mejorar la eficiencia, colaboración y transparencia en el desarrollo ágil de software dentro de startups tecnológicas. A través de una plataforma web, ManageWise centraliza la gestión de tareas, planificación de sprints, reuniones y seguimiento del rendimiento del equipo, permitiendo a los usuarios enfocarse en entregar valor de forma iterativa e incremental.
-
-### Propósito Principal
-
-El objetivo de ManageWise es ofrecer una herramienta especializada para la **gestión ágil de proyectos**, diseñada para equipos que siguen la metodología Scrum u otras variantes ágiles. La plataforma actúa como un espacio digital donde se puede:
-
-- Crear y administrar historias de usuario, épicas y tareas.
-- Planificar sprints y asignar responsabilidades.
-- Registrar incidencias y su evolución.
-- Programar reuniones con su respectiva grabación.
-- Visualizar estadísticas del equipo para una toma de decisiones basada en datos.
-
-### ¿Cómo funciona?
-
-Una vez registrado, el usuario accede a un entorno colaborativo donde puede gestionar su proyecto de manera estructurada. Algunas de las funcionalidades clave incluyen:
-
-- **Backlog estructurado** por épicas, user stories y tareas con prioridad, esfuerzo estimado y estado.
-- **Gestión de Sprints**, con herramientas para creación, asignación y visualización de progreso.
-- **Reuniones integradas** con soporte para enlaces de videollamada y archivos adjuntos.
-- **Sistema de incidencias** para reportar, rastrear y resolver bugs o sugerencias.
-- **Visualización de rendimiento**: reportes gráficos sobre velocidad, cumplimiento y eficiencia del equipo.
-- **Gestión de miembros**, roles y permisos según el marco Scrum: Product Owner, Scrum Master y Developers.
-
-### Valor Diferencial
-
-ManageWise se distingue de otras herramientas de gestión por estar:
-
-- **Especializado en metodologías ágiles**, con flujos de trabajo ya adaptados a Scrum.
-- **Pensado para startups**, brindando simplicidad, foco en resultados y rápida adopción.
-- **Desarrollado por estudiantes para estudiantes y emprendedores**, lo que asegura una experiencia centrada en la usabilidad y necesidades reales del usuario.
-- **Enfoque formativo y pedagógico**, ideal para equipos que están en proceso de aprender o consolidar sus prácticas ágiles.
-
-### Usuarios ideales
-
-- Startups tecnológicas en etapa temprana.
-- Equipos académicos o universitarios que desarrollan proyectos colaborativos.
-- Desarrolladores independientes que trabajan en equipos Scrum.
-- Product Owners que necesitan visibilidad y control del backlog.
-- Scrum Masters que gestionan planificación y ejecución de sprints.
+Este Acuerdo de Servicio regula el uso de la plataforma **ManageWise**, desarrollada por estudiantes de la **Universidad Privada de Ciencias Aplicadas – UPC**, con sede en Lima, Perú. Al utilizar la plataforma, el usuario acepta los términos y condiciones establecidos a continuación.
 
 ---
 
-## 1. Definiciones
+## 2. Definiciones
 
-- **“Plataforma”**: ManageWise, aplicación web para gestión de iniciativas y proyectos bajo modelo SaaS.  
-- **“Usuario”**: Persona natural o jurídica que accede, se registra o utiliza la plataforma.  
-- **“Equipo de desarrollo”**: Grupo responsable del diseño y operación de ManageWise.  
-- **“Servicio”**: Acceso y uso de funcionalidades como backlog, tareas, roles SCRUM, reuniones e incidencias.
-
----
-
-## 2. Alcance del Servicio
-
-ManageWise proporciona herramientas para startups tecnológicas, incluyendo:
-
-- Gestión de backlog (épicas, user stories, tasks)  
-- Asignación de sprints  
-- Administración de miembros  
-- Videoconferencias y grabaciones  
-- Gestión de incidencias  
-- Reportes y métricas  
-
-El servicio se ofrece “tal cual” y puede cambiar con el tiempo.
+- **Plataforma**: ManageWise, solución web SaaS para gestión ágil de proyectos.  
+- **Usuario**: Persona natural o jurídica que accede, se registra o utiliza la plataforma.  
+- **Equipo de desarrollo**: Grupo responsable del diseño, operación y mantenimiento de ManageWise.  
+- **Servicio**: Acceso a funcionalidades descritas, como backlog, gestión de sprints, reuniones, incidencias y reportes.
 
 ---
 
-## 3. Registro y Acceso
+## 3. Descripción del Servicio
 
-Se requiere registro para acceder a todas las funciones. Los usuarios son responsables de sus credenciales y veracidad de sus datos.
+**ManageWise** es una herramienta web colaborativa para la gestión ágil de proyectos, centrada en equipos que aplican Scrum o metodologías similares. Su enfoque es educativo, práctico y adaptable a startups y entornos universitarios.
+
+### Funcionalidades clave:
+
+- Gestión de backlog: épicas, historias de usuario, tareas.  
+- Planificación y seguimiento de sprints.  
+- Registro y gestión de incidencias.  
+- Organización de reuniones (con enlaces de videollamada y archivos adjuntos).  
+- Reportes sobre velocidad y eficiencia del equipo.  
+- Roles Scrum (Product Owner, Scrum Master, Developers).
+
+### Valor diferencial:
+
+- Adaptación total a la metodología Scrum.  
+- Interfaz simple, orientada a estudiantes y emprendedores.  
+- Ideal para formación en entornos ágiles reales.
 
 ---
 
-## 4. Uso Aceptable
+## 4. Registro y Acceso
+
+El acceso completo a la plataforma requiere registro. El usuario es responsable de mantener la confidencialidad de sus credenciales y garantizar la veracidad de la información proporcionada.
+
+---
+
+## 5. Uso Aceptable
 
 El usuario se compromete a:
 
-- No usar el servicio para fines ilegales o fraudulentos.  
-- No interferir con la operación del sistema.  
-- No revender el servicio sin permiso.
+- No utilizar el servicio con fines ilícitos, fraudulentos o maliciosos.  
+- No interferir ni intentar alterar la operación de la plataforma.  
+- No revender o sublicenciar el uso de la plataforma sin autorización escrita.
 
 ---
 
-## 5. Soporte Técnico
+## 6. SLA – Acuerdo de Nivel de Servicio
 
-- **Correo:** soporte@managewise.app  
-- **Horario:** Lunes a viernes, 9:00 a.m. a 6:00 p.m. (GMT-5)
+### 6.1. Disponibilidad del Servicio
 
----
+ManageWise garantiza una **disponibilidad mínima del 99.5% mensual**, excluyendo mantenimientos programados con previo aviso.
 
-## 6. Cancelación y Reembolsos
+### 6.2. Mantenimiento
 
-El servicio es gratuito en esta etapa. En versiones futuras con pagos, no se realizarán reembolsos salvo errores técnicos comprobados.
+- Las actualizaciones planificadas serán notificadas con al menos **24 horas de antelación**.  
+- Las tareas de mantenimiento de emergencia pueden realizarse sin previo aviso, en casos críticos.
 
----
+### 6.3. Soporte Técnico
 
-## 7. Propiedad Intelectual
+- **Correo de contacto**: soporte@managewise.app  
+- **Horario de atención**: Lunes a viernes de 9:00 a.m. a 6:00 p.m. (GMT-5)
 
-Todo el contenido es propiedad del equipo de desarrollo. Está prohibida su reproducción sin autorización.
+#### Tiempos de respuesta estimados:
 
----
+- Incidente Crítico: hasta 4 horas.  
+- Incidente Mayor: hasta 12 horas.  
+- Consulta General: hasta 24-48 horas.
 
-## 8. Protección de Datos Personales
+### 6.4. Créditos por Incumplimiento
 
-Cumplimos con la Ley N.º 29733 del Perú y, en caso aplicable, con GDPR.  
-Solicitudes sobre datos personales: **privacidad@managewise.app**
-
----
-
-## 9. Limitación de Responsabilidad
-
-No nos hacemos responsables por pérdida de datos o daños indirectos derivados del uso del servicio.
+En versiones futuras de pago, si la disponibilidad mensual cae por debajo del 99.5%, el usuario podrá solicitar **créditos proporcionales** a la interrupción sufrida.  
+*Nota: esta política será aplicable únicamente cuando se activen planes comerciales.*
 
 ---
 
-## 10. Modificaciones al Acuerdo
+## 7. Modelo de Servicio y Tarifas
 
-Este acuerdo puede ser modificado. Su uso continuo implica aceptación de los nuevos términos.
+Actualmente, ManageWise es de uso gratuito. En futuras versiones con funcionalidades de pago:
 
----
-
-## 11. Legislación Aplicable y Jurisdicción
-
-Este acuerdo se rige por las leyes del Perú. Cualquier disputa será resuelta en los tribunales de Lima Metropolitana.
+- Las tarifas serán notificadas previamente.  
+- No se ofrecerán reembolsos, salvo por errores técnicos comprobables.
 
 ---
 
-##  Contacto
+## 8. Seguridad y Protección de Datos
 
-Consultas legales o técnicas:  
-**legal@managewise.app**  
-**soporte@managewise.app**
+ManageWise aplica medidas técnicas razonables para proteger los datos del usuario.
+
+- Los datos personales se manejan conforme a la **Ley N.º 29733 – Ley de Protección de Datos Personales del Perú** y, si corresponde, al **Reglamento General de Protección de Datos (GDPR)**.  
+- Se realizan respaldos periódicos de información.  
+- Para ejercer derechos de acceso, rectificación o eliminación de datos personales, escribir a: **privacidad@managewise.app**
+
+---
+
+## 9. Propiedad Intelectual
+
+Todos los derechos de propiedad intelectual sobre el software, contenido, diseño y documentación de ManageWise pertenecen al equipo de desarrollo. Queda prohibida su reproducción, distribución o modificación sin autorización escrita.
+
+---
+
+## 10. Limitación de Responsabilidad
+
+ManageWise se proporciona “tal cual”, sin garantías explícitas o implícitas. El equipo de desarrollo no se hace responsable por:
+
+- Daños indirectos, incidentales o consecuentes derivados del uso del servicio.  
+- Pérdida de datos, interrupciones o errores en el sistema.
+
+---
+
+## 11. Modificaciones al Acuerdo
+
+Este acuerdo puede actualizarse en cualquier momento. El uso continuado del servicio luego de una modificación implica la aceptación de los nuevos términos. Se recomienda revisar este documento periódicamente.
+
+---
+
+## 12. Legislación Aplicable y Jurisdicción
+
+Este acuerdo se rige por las leyes de la **República del Perú**. Cualquier controversia será resuelta ante los tribunales competentes de **Lima Metropolitana**.
+
+---
+
+## 13. Contacto
+
+Para consultas legales o técnicas:
+
+- **Soporte técnico**: soporte@managewise.app  
+- **Asuntos legales o privacidad**: legal@managewise.app / privacidad@managewise.app
+
 
 
 
