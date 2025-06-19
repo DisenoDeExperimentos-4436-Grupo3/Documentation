@@ -3249,48 +3249,102 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 La aplicación actual se centra en ofrecer una plataforma para la gestión de proyectos para equipos de desarrollo de software, enfocado específicamente en el rol del líder, aplicando el framework de SCRUM, proporcionando funcionalidades básicas como la gestión de historias de usuarios, tasks, epics, sprint, members, etc. Sin embargo, el rendimiento general no es el apropiado, con 
 
 Problemas identificados:
-* Rendimiento:
-* Usabilidad:
-* Experiencia del usuario (UX):
-* Funcionalidad limitada:
+* Usabilidad: Si bien el diseño es responsivo, la falta de indicadores de carga puede ocasionar incertidumbre en el usuario sobre si su acción fue registrada con correctamente.  
+* Rendimiento: La aplicación presenta lentitud a la hora de acceder a diferentes funciones, lo que puede causar frustración o angustia en usuarios.
+* Modo Oscuro: Actualmente la aplicación no cuenta con un modo oscuro, lo que puede afectar a usuarios que prefieran interfaces de bajo contraste o se encuentren en entornos de poca luz.  
+* Funcionalidad limitada: La aplicaión no cuenta con traducción propia a inglés, lo que limita la posible expansión y accesibilidad de la misma.
+* Falta de visibilidad del avance: Actualmente no se cuenta con un sistema que permita visualizar de forma clara y en tiempo real el estado de avance de las historias de usuario o tareas, lo que dificulta el seguimiento del progreso del proyecto por parte del equipo o stakeholders.
 
 Objetivos de mejora:
-* Optimización del rendimiento:
-* Mejora de la experiencia del usuario:
-* algo respecto a la traducción a inglés
+* Internacionalización: Introducir traducciones al inglés como parte de la propia aplicacióh para ampliar el alcance global.
+* Optimización del rendimiento: Reducir los tiempos de carga de las diferentes funciones al aplicar mejoras en la optimización de recursos o en la especificación de servidores.
+* Mejora de la experiencia del usuario: Implementar un modo oscuro para mejorar la experiencia de los usuarios en entornos con poca luz. 
+* Refuerzo de la retroalimentación visual: Asegurar que todas las acciones del usuario generen respuestas claras y visibles (confirmaciones, animaciones, mensajes o íconos), a fin de mejorar la percepción de fluidez e interacción con la aplicación. 
+* Visibilidad del progreso del proyecto: Incorporar paneles de métricas o visualizaciones sobre el avance de historias de usuario, tareas completadas y estados de desarrollo, con el fin de facilitar el seguimiento y la toma de decisiones por parte del equipo.
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
 Assumptions:
-* 
+* Modo oscuro: Se asume que un modo oscuro mejorará la experiencia de los usuarios que utilizan la aplicación en entornos de poca luz o durante la noche.
+* Internacionalización: Se supone que una parte significativa del público objetivo prefiere o necesita interactuar en inglés, por lo que la traducción ampliará el alcance de la aplicación.
+* Indicadores visuales: Se asume que proporcionar retroalimentación visual inmediata (como mensajes o animaciones) aumentará la percepción de control y satisfacción del usuario.
+* Tiempo de respuesta: Se supone que los usuarios abandonan o se frustran si las funciones tardan más de 2 segundos en ejecutarse.
+* Paneles de progreso: Se presume que visualizar el estado de avance de tareas o historias de usuario facilitará la coordinación interna del equipo y mejorará la toma de decisiones.
+
+Ideas:
+* Encuestas rápidas in-app: Implementar encuestas breves para conocer las preferencias de los usuarios respecto al modo oscuro, idioma y retroalimentación visual.
+* Prototipo de tablero de progreso: Crear una versión básica del panel de métricas para probar su utilidad en seguimiento de historias de usuario y tareas.
+* Pruebas A/B: Comparar versiones con y sin indicadores visuales (por ejemplo, loaders y mensajes) para evaluar la percepción del usuario.
+* Optimización incremental: Aplicar mejoras progresivas en el backend o en consultas de base de datos para reducir los tiempos de respuesta sin rediseño completo.
+* Análisis de logs de sesión: Evaluar patrones de abandono o frustración (acciones repetidas, clics innecesarios) para correlacionar con tiempos de respuesta lentos.
 
 Knowledge Gaps:
-* 
+* Preferencias visuales de los usuarios: No se cuenta con datos sobre cuántos usuarios preferirían un modo oscuro o qué impacto tendría en su comportamiento.
+* Demografía lingüística: Se desconoce cuántos usuarios actuales o potenciales necesitan una versión en inglés o presentan barreras idiomáticas.
+* Impacto de la falta de feedback visual: No hay evidencia clara sobre cómo la falta de indicadores de carga o confirmaciones afecta la experiencia o comportamiento del usuario.
+* Uso actual de métricas de proyecto: Se desconoce si los usuarios internos (equipo de desarrollo, stakeholders) necesitan o revisarían paneles de progreso, y con qué frecuencia.
+* Relación entre tiempo de carga y abandono: No se ha medido si los tiempos actuales (por ejemplo, >2s) están directamente relacionados con tasas de rebote o abandono.
 
 Claims:
-* 
+* Modo oscuro mejora la experiencia: Se afirma que un modo oscuro incrementa la comodidad visual y reduce la fatiga ocular en entornos con poca luz.
+* Traducción incrementa alcance: Se sostiene que la implementación de traducciones al inglés permitirá llegar a una base de usuarios más diversa y global.
+* Feedback visual mejora percepción: Se postula que la inclusión de mensajes claros y retroalimentación inmediata genera mayor confianza y satisfacción en la interacción.
+* Visualización del avance mejora la gestión: Se afirma que ofrecer paneles de seguimiento del progreso mejora la organización del equipo y facilita las decisiones del proyecto.
+* Reducción de tiempos mejora retención: Se sostiene que tiempos de carga más cortos (<2 segundos) mejoran significativamente la retención y la experiencia general del usuario.
 
 #### 8.1.3. Experiment-Ready Questions.
 
 |Questions|Confidence|Risk|Impact|Interest|Total Score|
 |-|-|-|-|-|-|
-|mismo numero que assumptions | | | | | |
+| ¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?	|7 - Es una funcionalidad popular, aunque no todos los usuarios la utilizan.	 |2 - Bajo riesgo, ya que es una implementación técnica estándar.	 |6 - Mejora la experiencia del usuario, pero no es crítica.	 |5 - Interés moderado entre los usuarios, especialmente aquellos que utilizan la aplicación en entornos oscuros.	 | 20|
+| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?	|6 - Puede atraer a una audiencia más amplia, aunque depende de la demanda.	 |3 - Riesgo medio debido a la complejidad de la traducción y el mantenimiento.	 | 7 - Alto potencial para expandir la audiencia.	| 6 - Moderadamente interesante para los usuarios que hablan otros idiomas.	| 22|
+| ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?	| 8 - El equipo valora tener visibilidad del progreso en proyectos ágiles.	|2 - Riesgo bajo, puede implementarse progresivamente.	 | 6 - Mejora la coordinación y planificación del equipo.	| 6 - Interés alto por parte de roles técnicos y de gestión.	|22 |
+| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?	| 8 - Alta probabilidad de mejorar la percepción del usuario.	| 2 - Bajo riesgo, cambios en el frontend.	| 6 - Mejora la fluidez e interacción.	| 5 - Interés general en tener mayor claridad al interactuar con el sistema.	| 21|
+| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?	| 9 - Alta, los usuarios abandonan sistemas lentos.	| 3 - Requiere optimización técnica significativa.	| 9 - Gran impacto en retención y experiencia.	| 7 - Interés muy alto entre los usuarios finales.	| 28|
 
 #### 8.1.4. Question Backlog.
 
 |Prioridad (1,2,3,5,8)|Pregunta|
 |-|-|
-|mismo numero que arriba | |
+|1| ¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web|
+|2| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
+|3| ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas? |
+|4| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)? |
+|5| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
 
 #### 8.1.5. Experiment Cards.
 
-|Question|Pregunta de 8.1.4|
+|Question|¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?	|
 |-|-|
-|Why| |
-|What| |
-|Hypothesis| |
+|Why|Al agregar un modo oscuro, se mejora la usabilidad para los usuarios que prefieren una experiencia visual más cómoda, especialmente en ambientes con poca luz. Esto reduce la fatiga visual y puede aumentar el tiempo de uso y satisfacción general.	|
+|What|Implementar un modo oscuro seleccionable en la configuración, ajustando colores de fondo, texto y elementos visuales.	|
+|Hypothesis|Se espera que el 60% de los usuarios informen una mejora en la usabilidad y que el tiempo promedio de uso se incremente en un 25%.|
 
-...
+|Question| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?	|
+|-|-|
+|Why| El soporte multilingüe elimina barreras idiomáticas, facilitando el acceso a usuarios internacionales y promoviendo la expansión del alcance de la aplicación.	|
+|What| Incorporar traducciones automáticas o manuales a idiomas clave como inglés, visibles desde la interfaz.	|
+|Hypothesis| Se espera que al menos el 30% de los nuevos usuarios provengan de regiones que requieren traducción al inglés, y aumente la retención en esos grupos.
+|
+
+|Question| ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?	|
+|-|-|
+|Why| La visibilidad del progreso mejora la planificación y la coordinación del equipo. Los paneles ofrecen una vista clara del estado del desarrollo.	|
+|What| Crear un dashboard que muestre el estado (pendiente, en progreso, completado) de tareas e historias de usuario en tiempo real.	|
+|Hypothesis| Se espera que el 75% del equipo considere útil el panel y que el tiempo dedicado a reuniones de seguimiento disminuya un 20%.
+|
+
+|Question| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?	|
+|-|-|
+|Why| La retroalimentación inmediata genera confianza y reduce la incertidumbre en la interacción con la aplicación.	|
+|What| Incluir confirmaciones visuales y sonoras en acciones clave: envíos, publicaciones, borrado, etc.	|
+|Hypothesis| Se espera que al menos el 70% de los usuarios reporten una mayor claridad y satisfacción en sus interacciones.|
+
+|Question| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?	|
+|-|-|
+|Why| Los largos tiempos de carga generan abandono. Mejorar la velocidad mejora la percepción del sistema y la retención.	|
+|What| Optimizar consultas, caché y recursos estáticos para lograr tiempos de carga menores a 2 segundos.	|
+|Hypothesis| Se espera reducir en un 25% la tasa de abandono y mejorar la calificación de rendimiento por parte de los usuarios.|
 
 ### 8.2. Experiment Design
 #### 8.2.1. Hypotheses.
@@ -3403,7 +3457,7 @@ asdasdasdsa
 |Precio|Plan gratuito|Plan Gratuito|Plan gratuito para ejecución local|
 |Capacidad de Análisis|Analiza comportamiento de usuarios y tráfico, pero no profundiza en rendimiento técnico|Especializado en pruebas de carga, simula tráfico masivo|Evalua rendimiento, SEO y accesibilidad, enfocándose en la experiencia del usuario.|
 |Sencillez|Fácil para métricas básicas|Intuitivo para pruebas de carga|Información clara y centrada en valores que puntúan la aplicación|
-  |Ventajas|Ideal para entender audiencia, es posible integrar con otros servicios como Google Ads|Simula tráfico real y permite ver probar como escala la aplicación bajo estrés|Evalua el rendimiento y accesibilidad con metricas claras, permitiendo asi optimizar la experiencia del usuario|
+|Ventajas|Ideal para entender audiencia, es posible integrar con otros servicios como Google Ads|Simula tráfico real y permite ver probar como escala la aplicación bajo estrés|Evalua el rendimiento y accesibilidad con metricas claras, permitiendo asi optimizar la experiencia del usuario|
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 #### 8.2.7. Web and Mobile Tracking Plan.
