@@ -3293,9 +3293,40 @@ fusionan a la rama develop, que es la encargada de gestionar los despliegues a p
 
 ### 7.4. Continuous Monitoring
 #### 7.4.1. Tools and Practices
+
+Herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en nuestra aplicación.
+
+* **Pruebas de carga y rendimiento:** JMeter nos permite simular múltiples usuarios enviando solicitudes simultáneas a nuestro servicio, de esta forma se puede asegurar que la aplicación mantenga un arendimiento aceptable al encontrarse bajo alta demanda.
+
+* **Monitoreo de la experiencia del usuario:** Aplicaciones como Google Lighthouse y Catchpoint permiten evaluar la calidad y eficiencia de sitios web. Lighthouse se enfoca en aspectos como accesibilidad, posicionamiento SEO y velocidad, mientras que Catchpoint ejecuta pruebas de rendimiento desde distintas ubicaciones y dispositivos, asegurando una experiencia consistente para todos los usuarios sin importar el entorno.
+
+**Supervisión de APIs:** Es fundamental controlar la disponibilidad y los tiempos de respuesta de APIs tanto internas como externas. Herramientas como Postman y Pingdom proporcionan datos en tiempo real que ayudan a garantizar su operación adecuada.
+
+**Auditorías de Calidad Web:** Aplicaciones como Google Lighthouse y Catchpoint permiten evaluar la calidad y eficiencia de sitios web. Lighthouse se enfoca en aspectos como accesibilidad, posicionamiento SEO y velocidad, mientras que Catchpoint ejecuta pruebas de rendimiento desde distintas ubicaciones y dispositivos, asegurando una experiencia consistente para todos los usuarios sin importar el entorno.
+
 #### 7.4.2. Monitoring Pipeline Components
+
+* **Lighthouse:** Esta herramienta es utilizada para realizar auditorías técnicas sobre aplicaciones web. Proporciona informes detallados sobre aspectos como accesibilidad, rendimiento, SEO y buenas prácticas de desarrollo. Gracias a Lighthouse, los equipos pueden detectar problemas que afectan directamente la usabilidad, como lentitud en la carga, cambios inesperados en el diseño o demoras en la interactividad, y aplicar mejoras para optimizar la experiencia final.
+
+* **Catchpoint:** Catchpoint está especializada en el monitoreo de la experiencia digital desde múltiples ubicaciones y dispositivos reales. Ofrece información en tiempo real sobre la latencia de red, la disponibilidad del sistema, los tiempos de respuesta del servidor y otras métricas críticas bajo distintas condiciones. Este enfoque distribuido permite detectar incidencias antes de que los usuarios las experimenten, lo que posibilita una resolución anticipada y proactiva de problemas de rendimiento.
+
 #### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas cumple un rol clave al detectar fallos o bajones de rendimiento. Su propósito es avisar de forma inmediata al equipo cuando se presentan irregularidades o problemas graves que requieren intervención rápida. Una configuración adecuada permite reaccionar antes de que el fallo impacte al usuario final.
+
+* **Prometheus:** Prometheus recolecta métricas detalladas del sistema en tiempo real. Es posible definir condiciones límite (como uso excesivo de CPU o fallos de red), y cuando se sobrepasan, se disparan alertas.
+
+* **Grafana:**Grafana permite construir tableros personalizados para visualizar y analizar datos del sistema. Se pueden establecer reglas visuales para detectar eventos inusuales o estados críticos, y generar notificaciones automáticas basadas en ellos. Gracias a su compatibilidad con múltiples fuentes de datos, incluyendo Prometheus, ofrece una vista clara y flexible del estado operativo de la plataforma.
+
 #### 7.4.4. Notification Pipeline Components.
+
+El pipeline de notificaciones se encarga de distribuir automáticamente las alertas generadas en el sistema a los canales correspondientes, garantizando que el equipo reciba información crítica en tiempo real para facilitar una respuesta oportuna.
+
+* **Alertmanager:** Integrado con Prometheus, se encarga de gestionar y enviar las alertas. Permite definir reglas de enrutamiento según severidad, agrupar alertas relacionadas, silenciar durante mantenimientos, y distribuir notificaciones a canales como correo electrónico, Slack, Microsoft Teams o Telegram mediante Webhooks.
+
+* **Grafana Alerting:** Además de generar alertas visuales, Grafana puede enviar notificaciones cuando se cumplen condiciones específicas en los dashboards. Estas notificaciones pueden dirigirse a diversos canales definidos como contact points, sin necesidad de herramientas externas.
+
+* **GitHub Actions:** Durante el ciclo de integración y despliegue continuo, GitHub Actions puede generar notificaciones automáticas sobre el estado de cada job (éxito o error). Estas notificaciones pueden configurarse para enviarse a Slack, Discord, Telegram o correo electrónico, utilizando acciones disponibles en el marketplace o integraciones vía webhook.
 
 ## Capítulo VIII: Experiment-Driven Development
 ### 8.1. Experiment Planning
