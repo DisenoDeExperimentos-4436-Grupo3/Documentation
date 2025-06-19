@@ -877,9 +877,7 @@ EPICS:
 | US28| Ver la información de usuario de los miembros| Como Scrum Master, Quiero conocer la información de usuario de cada miembro del equipo de desarrollo,Para identificar habilidades técnicas y blandas que faciliten la asignación de roles (como Product Owner, Scrum Master o miembros del equipo de desarrollo), la formación de grupos y la asignación de su líder la toma de decisiones en tareas específicas.|- Escenario 1: Mostrar la información de usuario específico <br>Dado que el usuario ya creó su proyecto Y se encuentra en la sección “Members/Users”.Y al menos un usuario acepto su invitación para unirse al proyecto Cuando ponga el nombre o el correo electrónico del usuario que busco en el campo de entrada que diga “Enter name or email address”,Y cuando aparezca en el formato tabular que contiene a los usuarios, apretar el botón “Show details” Entonces aparecerá un cuadro de diálogo emergente que contiene toda la información de su perfil profesional, formación académica, experiencia, habilidades, entre otros.| EP05|
 | US29 | Asignar roles a los miembros del equipo | Como Scrum Master, Quiero asignar roles específicos de la metodología SCRUM para cada miembro del equipo, Para asegurar una colaboración efectiva y un enfoque claro en las responsabilidades. | Escenario 1: Agregar rol a un miembro.<br>Dado que el usuario ya creó su proyecto Y se encuentra en la sección “Members/Users”, Y al menos un usuario aceptó su invitación para unirse al proyecto, Cuando ponga el nombre o el correo electrónico de un usuario que no tiene rol en el campo de entrada que diga “Enter name or email address”, Y presiona el botón de color verde “Edit”, aparece a la izquierda de cada miembro en formato tabular un cuadro de diálogo emergente, Y presiono el botón con el signo de suma, aparece un campo de entrada para agregar un rol específico (Product Owner, Scrum Master, Development Team) o más, Y después de agregar los roles presiono el botón “Apply” en el cuadro de diálogo emergente. Entonces el rol del usuario se guarda Y tiene los accesos que el rol le otorga.<br>Escenario 2: Cambiar el rol de un miembro.<br>Dado que el usuario ya creó su proyecto Y se encuentra en la sección “Members/Users”, Y al menos un usuario aceptó su invitación para unirse al proyecto, Cuando ponga el nombre o el correo electrónico de un usuario que tiene un rol en el campo de entrada que diga “Enter name or email address”, Y presiona el botón de color verde “Edit”, aparece a la izquierda de cada miembro en formato tabular un cuadro de diálogo emergente, Y presiono el botón con el signo de suma para agregar un rol o presiono el botón con un aspa al costado de cada rol para eliminar el rol, Y después de cambiar los roles presiono el botón “Apply” en el cuadro de diálogo emergente. Entonces el rol del usuario se guarda Y tiene los accesos que el rol le otorga. | EP05 |
 | US30 | Conocer Información del Perfil de un Miembro | Como Scrum Master, Quiero poder acceder al perfil completo de un miembro del equipo, Para conocer mejor a mis colegas y fomentar relaciones interpersonales más fuertes. | Escenario 1: Acceso al perfil de un miembro.<br>Dado que el usuario ya creó su proyecto Y se encuentra en la sección lista de miembros del proyecto, Cuando ponga el nombre o el correo electrónico de un usuario en el campo de entrada que diga “Enter name or email address”, Y presione el botón “Show details”, Entonces se debe abrir su perfil personal, mostrando su foto, ubicación, intereses y pasatiempos.<br>Escenario 2: Miembro sin información compartida.<br>Dado que el usuario ya creó su proyecto Y se encuentra en la sección lista de miembros del proyecto, Cuando ponga el nombre o el correo electrónico de un usuario en el campo de entrada que diga “Enter name or email address”, Y presione el botón “Show details”, Entonces debo ver un mensaje que indique que no hay información disponible para ese miembro.<br>Escenario 3: Navegación entre perfiles.<br>Dado que estoy en un perfil personal a través de una ventana emergente, Cuando apriete el botón “X”, Entonces estaré en la lista de miembros del proyecto donde puedo buscar y ver otro perfil de usuario. | EP05 |
-
 | US33| Estimación de Esfuerzo en User Stories | Como Desarrollador, quiero ver la estimación de esfuerzo asociada a cada User Story, para gestionar mejor el tiempo y recursos del equipo. | - Escenario 1: Visualización de estimaciones de esfuerzo<br>Dado que hay User Stories en el timeline, cuando el Desarrollador visualice una User Story, entonces debe ver la estimación de esfuerzo asociada.<br>- Escenario 2: Estimación de esfuerzo con color correspondiente<br>Dado que hay varias User Stories disponibles, cuando el Desarrollador acceda a la tabla de User Stories, entonces debe ver la estimación de esfuerzo mostrada en el mismo color que la User Story correspondiente. | EP06 |
-
 | TS-43   | Configurar Entorno de Desarrollo para ManageWise Horizon   | Como desarrollador, quiero configurar un entorno de desarrollo para ManageWise Horizon, para asegurar que todos los miembros del equipo tengan un ambiente consistente y funcional para trabajar en el proyecto.                                                        | Given que se dispone de la documentación del entorno, when se realiza la configuración, then todos los miembros del equipo deben poder clonar el repositorio y ejecutar la aplicación sin errores. Además, se debe verificar la instalación de las dependencias necesarias y la configuración correcta del sistema.               | EP-08     |
 | US43 | Iniciar sesión (Sign In) | Como miembro del equipo, quiero poder iniciar sesión en la aplicación con una cuenta ya creada, para así tener acceso a todos los recursos. | **Escenario 1: Inicio de sesión exitoso**<br> - **Dado** que estoy en la pantalla de inicio de sesión<br> - **Cuando** ingreso una cuenta ya creada con credenciales válidas y hago clic en "Iniciar sesión"<br> - **Entonces** debo ser redirigido a la página principal con acceso a los recursos disponibles en la plataforma.<br>**Escenario 2: Credenciales incorrectas**<br> - **Dado** que estoy en la pantalla de inicio de sesión<br> - **Cuando** ingreso credenciales incorrectas y hago clic en "Iniciar sesión"<br> - **Entonces** debo recibir un mensaje de error indicando que las credenciales son inválidas. | EP-05 |
 | US44 | Registro de usuario (Sign Up) | Como miembro del equipo, quiero poder crear una cuenta en la plataforma, para así poder guardar datos importantes y acceder al inicio de sesión. | **Escenario 1: Registro exitoso**<br> - **Dado** que estoy en la pantalla de registro<br> - **Cuando** ingreso un correo electrónico único y una contraseña válida y hago clic en "Registrarse"<br> - **Entonces** debo recibir una confirmación de registro y ser redirigido a la página de inicio de sesión.<br>**Escenario 2: Correo ya registrado**<br> - **Dado** que estoy en la pantalla de registro<br> - **Cuando** ingreso un correo electrónico que ya está registrado en la plataforma<br> - **Entonces** debo recibir un mensaje de error indicando que el correo ya está en uso. | EP-05 |
@@ -2480,13 +2478,8 @@ Este Sprint Backlog detalla las historias de usuario y tareas específicas para 
 | MUS03 | Visualización de User Stories | Listar user stories de ejemplo en la app móvil | 5 horas | Arevalo Meza, John | Done |
 | MUS04 | Crear User Story | Formulario simple para crear user story localmente | 5 horas | Alessandro Zevallos | Done |
 | MUS05 | Editar User Story | Edición básica de user story en la lista local | 4 horas | Michael Carmelino | Done |
-| MUS06 | Eliminar User Story | Eliminar user story de la lista local | 3 horas | Rodrigo Chirinos | Done |
 | MUS07 | Visualizar Tasks | Listar tasks asociadas a user stories | 4 horas | Rodrigo Chirinos | Done |
 | MUS08 | Crear Task | Formulario simple para crear task localmente | 4 horas | Alessandro Zevallos | Done |
-| MUS09 | Visualizar Incidencias | Listar incidencias de ejemplo en la app móvil | 4 horas | Arevalo Meza, John | Done |
-| MUS10 | Crear Incidencia | Formulario simple para crear incidencia localmente | 4 horas | Fabian Reyes | Done |
-| MUS11 | Editar Incidencia | Edición básica de incidencia en la lista local | 3 horas | Michael Carmelino | Done |
-| MUS12 | Eliminar Incidencia | Eliminar incidencia de la lista local | 3 horas | Rodrigo Chirinos | Done |
 | MUS13 | Visualizar Miembros | Listar miembros del equipo en la app móvil | 3 horas | Michael Carmelino | Done |
 | MUS14 | Navegación básica en la App Móvil | Implementar navegación sencilla entre secciones principales | 4 horas | Todos | Done |
 
@@ -2871,41 +2864,6 @@ Como Scrum Master, quiero poder gestionar los sprints para poder crear, editar o
 
 ![](/assets/images/CoreSystemTests/US21.PNG)
 
-## US22 - Gestión de Nuevas Videoconferencias
-
-**User Story:**  
-Como Scrum Master, quiero poder agregar una nueva videoconferencia desde la sección de Reuniones, para gestionar las reuniones del equipo de manera eficiente.
-
-![](/assets/images/CoreSystemTests/US22.PNG)
-
-## US23 - Edición de Videoconferencias Existentes
-
-**User Story:**  
-Como Product Owner, quiero poder editar los detalles de una videoconferencia existente, para asegurarme de que la información esté actualizada.
-
-![](/assets/images/CoreSystemTests/US23.PNG)
-
-## US24 - Eliminación de Videoconferencias
-
-**User Story:**  
-Como Scrum Master, quiero poder eliminar una videoconferencia, para mantener la lista organizada y eliminar reuniones innecesarias.
-
-![](/assets/images/CoreSystemTests/US24.PNG)
-
-## US25 - Gestión de Grabaciones de Videoconferencias
-
-**User Story:**  
-Como Product Owner, quiero poder gestionar las grabaciones de las videoconferencias, para organizar y acceder fácilmente a los enlaces.
-
-![](/assets/images/CoreSystemTests/US25.PNG)
-
-## US26 - Visualización de Detalles de Videoconferencias
-
-**User Story:**  
-Como Scrum Master, quiero poder visualizar los detalles de una videoconferencia desde la lista, para tener un resumen rápido de la información.
-
-![](/assets/images/CoreSystemTests/US26.PNG)
-
 ## US27 - Editar el Acceso de Miembros al Proyecto
 
 **User Story:**  
@@ -2934,20 +2892,6 @@ Como Scrum Master, quiero poder acceder al perfil completo de un miembro del equ
 
 ![](/assets/images/CoreSystemTests/US30.PNG)
 
-## US31 - Ver Habilidades de Cada Miembro
-
-**User Story:**  
-Como Scrum Master, quiero poder acceder a la lista de habilidades de cada miembro del equipo, para entender mejor sus capacidades y asignar tareas de manera más efectiva.
-
-![](/assets/images/CoreSystemTests/US31.PNG)
-
-## US32 - Visualización de User Stories en el Timeline
-
-**User Story:**  
-Como Scrum Master, quiero visualizar las User Stories en el timeline, para seguir el progreso del equipo y gestionar mejor las tareas.
-
-![](/assets/images/CoreSystemTests/US32.PNG)
-
 ## US33 - Estimación de Esfuerzo en User Stories
 
 **User Story:**  
@@ -2955,68 +2899,6 @@ Como Desarrollador, quiero ver la estimación de esfuerzo asociada a cada User S
 
 ![](/assets/images/CoreSystemTests/US33.PNG)
 
-## US34 - Visualización de Estadísticas del Rendimiento del Equipo
-
-**User Story:**  
-Como Product Owner, quiero visualizar estadísticas del rendimiento del equipo, para evaluar el progreso de las User Stories y tomar decisiones informadas sobre la gestión del proyecto.
-
-![](/assets/images/CoreSystemTests/US34.PNG)
-
-## US35 - Crear una Nueva Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero crear una nueva incidencia, para reportar un problema o sugerir una mejora en el sistema.
-
-![](/assets/images/CoreSystemTests/US35.PNG)
-
-## US36 - Visualizar las Incidencias
-
-**User Story:**  
-Como miembro del equipo, quiero visualizar una lista de todas las incidencias, para tener una visión general de los problemas y su estado.
-
-![](/assets/images/CoreSystemTests/US36.PNG)
-
-## US37 - Editar una Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero editar una incidencia existente, para actualizar su información o cambiar su estado.
-
-![](/assets/images/CoreSystemTests/US37.PNG)
-
-## US38 - Eliminar una Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero eliminar una incidencia, cuando ya ha sido resuelta y no es necesaria.
-
-![](/assets/images/CoreSystemTests/US38.PNG)
-
-## US39 - Ver Reporte de una Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero ver un reporte detallado de una incidencia específica, para comprender completamente su contexto, resolución y acciones tomadas.
-
-![](/assets/images/CoreSystemTests/US39.PNG)
-
-## US40 - Ver Historial de una Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero ver un historial completo de una incidencia, incluyendo todos los cambios, comentarios y archivos adjuntos, para entender su evolución y resolución.
-
-![](/assets/images/CoreSystemTests/US40.PNG)
-
-## US41 - Creación Automática de Eventos de una Incidencia
-
-**User Story:**  
-Como miembro del equipo, quiero que automáticamente al llenar el reporte del issue que quiero agregar, se añadan los eventos de creación y asignación del issue.
-
-![](/assets/images/CoreSystemTests/US41.PNG)
-
-## US42 - Filtrar Incidencias por Sprint y Prioridad
-
-**User Story:**  
-Como miembro del equipo, quiero poder filtrar las incidencias por el Sprint al que están asociadas y por su Prioridad, para poder visualizar solo aquellas que son relevantes para mi trabajo.
-
-![](/assets/images/CoreSystemTests/US42.PNG)
 
 ## US43 - Sign In
 
