@@ -3096,8 +3096,32 @@ El análisis identificó múltiples advertencias relacionadas con:
 
 
 #### 6.2.1.2. Code Quality & Code Security
+Para evaluar la calidad del código, el equipo utilizó la herramienta SonarQube, que permitió identificar aspectos clave como:
+
+- Complejidad del código, medida a través de métricas como la complejidad ciclomática.
+- Duplicación, localizando bloques de código repetidos que afectan la mantenibilidad.
+- Mantenibilidad, evaluada mediante un índice que combina varios factores como la legibilidad y la estructura del código.
+
+En cuanto a la seguridad del código, SonarQube permitió detectar posibles vulnerabilidades como:
+- Inyecciones SQL, que pueden comprometer la base de datos si no se valida adecuadamente la entrada del usuario.
+- Cross-Site Scripting (XSS), que podría permitir a un atacante inyectar scripts maliciosos en el navegador del usuario.
+- Manejo inseguro de datos sensibles, como contraseñas o tokens que podrían estar expuestos o sin cifrado adecuado.
 
 #### 6.2.2. Reviews
+Durante el desarrollo del proyecto, se llevaron a cabo revisiones de código (code reviews) de manera periódica, con el objetivo de mejorar la calidad general del software y asegurar el cumplimiento de las buenas prácticas de desarrollo.
+
+Estas revisiones permitieron:
+
+- Detectar errores tempranamente, antes de que el código fuera integrado a la rama principal.
+
+- Fomentar la colaboración entre miembros del equipo, compartiendo conocimientos y promoviendo un estilo de codificación uniforme.
+
+- Mejorar la legibilidad y mantenibilidad del código, mediante sugerencias sobre nomenclatura, estructura y simplificación de lógica.
+
+- Validar aspectos funcionales y de seguridad, verificando que el código cumpla con los requisitos del sistema y no introduzca vulnerabilidades.
+
+Nos apoyamos en herramientas automatizadas como SonarQube, lo que fortaleció el proceso de validación y permitió una mayor cobertura del análisis estático.
+
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas.
@@ -3163,6 +3187,138 @@ Resumen:<br>
 
 
 #### 6.3.3. Evaluaciones según heurísticas.
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Diseño de Experimentos de Ingeniería de Software  
+**SECCIÓN:** 4436  
+**AUDITOR:** Grupo ManageWise  
+
+---
+
+## SITE o APP A EVALUAR
+
+**ManageWise**
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Creación de user stories  
+2. Edición de user stories  
+3. Eliminación de user stories  
+4. Gestión de epics (crear, editar, eliminar)  
+5. Gestión de tasks  
+6. Visualización del backlog  
+7. Gestión de sprints  
+8. Gestión de miembros de equipo
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con herramientas externas  
+2. Exportación de reportes PDF  
+3. Notificaciones push  
+4. Reglas automáticas de asignación de tareas
+
+---
+
+## ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial, fácilmente superable. No requiere arreglo inmediato. |
+| 2     | Problema menor. Ocurre ocasionalmente, se sugiere corregir en próximas versiones. |
+| 3     | Problema mayor. Afecta frecuentemente la experiencia. Alta prioridad. |
+| 4     | Problema muy grave. Impide usar la app. Corregir antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN
+
+| # | Problema | Severidad | Heurística/Principio violado |
+|---|----------|-----------|-------------------------------|
+| 1 | No hay confirmación al eliminar user stories | 3 | Usability: Prevención de errores |
+| 2 | El botón para editar epics no es identificable claramente | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | No hay etiquetas accesibles en algunos formularios | 3 | Inclusive Design: Experiencias comparables |
+| 4 | El backlog se muestra desordenado al tener muchas tareas | 3 | Information Architecture: Is it usable? |
+| 5 | La lista de miembros de equipo no tiene orden alfabético ni filtros | 2 | Information Architecture: Is it findable? |
+| 6 | El diseño no indica cuál es el sprint activo | 2 | Usability: Reconocimiento en lugar de recuerdo |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1: No hay confirmación al eliminar user stories  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención de errores  
+
+**Problema:**  
+Al hacer clic en “Eliminar” una historia de usuario, esta se elimina de inmediato sin preguntar al usuario si desea confirmar esta acción. Esto puede llevar a errores accidentales que impacten negativamente la gestión del proyecto.
+
+**Recomendación:**  
+Incluir un modal de confirmación ("¿Estás seguro que deseas eliminar esta historia?") con opción de cancelar la acción.
+
+---
+
+### PROBLEMA #2: El botón para editar epics no es identificable claramente  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+
+**Problema:**  
+El botón para editar epics utiliza un ícono sin texto ni tooltip. Esto puede dificultar su identificación, especialmente en pantallas pequeñas o para usuarios nuevos.
+
+**Recomendación:**  
+Agregar un texto descriptivo o un tooltip visible al pasar el cursor. Alternativamente, usar íconos más reconocibles (como lápiz o engranaje).
+
+---
+
+### PROBLEMA #3: No hay etiquetas accesibles en algunos formularios  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables  
+
+**Problema:**  
+Los campos de texto para ingresar nombres de tareas o descripciones no tienen etiquetas vinculadas (`<label>`), lo que dificulta su uso por personas con lectores de pantalla.
+
+**Recomendación:**  
+Asociar correctamente cada campo con una etiqueta HTML para garantizar accesibilidad y cumplimiento de estándares.
+
+---
+
+### PROBLEMA #4: El backlog se muestra desordenado al tener muchas tareas  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Is it usable?  
+
+**Problema:**  
+Cuando el backlog tiene muchas tareas, no existe una estructura clara (como agrupación por estado o prioridad), lo que genera confusión al usuario para encontrar ítems.
+
+**Recomendación:**  
+Implementar filtros y opciones de ordenamiento (por prioridad, fecha de creación, epic, etc.) o separar tareas por columnas visuales.
+
+---
+
+### PROBLEMA #5: La lista de miembros de equipo no tiene orden ni filtros  
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it findable?  
+
+**Problema:**  
+Los miembros del equipo aparecen en orden aleatorio, sin opción de buscarlos o filtrarlos por rol. Esto dificulta tareas de asignación.
+
+**Recomendación:**  
+Permitir ordenar por nombre o rol, e incluir barra de búsqueda para filtrar miembros rápidamente.
+
+---
+
+### PROBLEMA #6: El diseño no indica cuál es el sprint activo  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Reconocimiento mejor que recuerdo  
+
+**Problema:**  
+Cuando existen múltiples sprints, no hay un indicador visual claro de cuál es el sprint en curso. El usuario debe recordar manualmente la fecha o el nombre.
+
+**Recomendación:**  
+Destacar el sprint activo con un color distintivo, ícono o etiqueta “En curso”.
+
 
 ### 6.4. Auditoría de Experiencias de Usuario.
 #### 6.4.1. Auditoría realizada.
