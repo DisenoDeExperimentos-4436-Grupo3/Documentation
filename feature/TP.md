@@ -3678,17 +3678,28 @@ Informes Periódicos: Se generarán informes quincenales y mensuales con anális
 Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los datos recopilados y en la retroalimentación directa, asegurando que ManageWise evolucione continuamente en función de las necesidades reales del equipo y sus flujos de trabajo.
 
 ### 8.3. Experimentation
-#### 8.3.1. To-Be User Stories.
+#### 8.3.1. To-Be User Stories
 
-| User Sotry ID| Título |Descripción |Critrerios de Aceptación |Relacionado con (Epic ID) |
-|-|-|-|-|-|
-| | | | | |
+| User Story ID | Título                                                | Descripción                                                                                                         | Criterios de Aceptación                                                                                             | Relacionado con (Epic ID)       |
+|---------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| US01          | Modo oscuro                                            | Como usuario, quiero activar el modo oscuro en la aplicación para reducir la fatiga visual y tener una mejor UX.   | - El usuario puede alternar entre modo claro y oscuro. <br> - El modo se guarda entre sesiones.                      | EP01: Personalización Visual     |
+| US02          | Traducción al inglés                                   | Como usuario internacional, quiero poder usar la aplicación en inglés para entender mejor las funcionalidades.     | - El sistema permite cambiar de idioma. <br> - Al menos dos idiomas disponibles: español e inglés.                  | EP02: Localización               |
+| US03          | Panel visual de avance                                 | Como Product Owner, quiero ver paneles visuales con el avance del proyecto para monitorear las historias y tareas. | - Se muestra un tablero con barras de progreso o gráficos. <br> - El porcentaje de avance se actualiza automáticamente. | EP03: Seguimiento de Progreso    |
+| US04          | Retroalimentación visual                               | Como usuario, quiero recibir animaciones o íconos al realizar acciones para saber si fueron exitosas o fallidas.   | - Se muestran íconos o mensajes de confirmación en cada acción. <br> - Incluye feedback para éxito y error.         | EP04: Experiencia de Usuario     |
+| US05          | Reducción de tiempo de carga                           | Como usuario, quiero que la aplicación cargue en menos de 2 segundos para no frustrarme al usarla.                 | - El tiempo de carga promedio es < 2s. <br> - Se mide el tiempo de carga en diferentes dispositivos.                 | EP05: Rendimiento y Performance  |
+
+---
 
 #### 8.3.2. To-Be Product Backlog
 
-| #Orden| User Story ID|Título | Story Points (1/2/3/5/8)|
-|-|-|-|-|
-| | | | |
+| #Orden | User Story ID | Título                          | Story Points (1/2/3/5/8) |
+|--------|---------------|----------------------------------|--------------------------|
+| 1      | US01          | Modo oscuro                      | 1                        |
+| 2      | US02          | Traducción al inglés             | 3                        |
+| 3      | US03          | Panel visual de avance           | 3                        |
+| 4      | US04          | Retroalimentación visual         | 5                        |
+| 5      | US05          | Reducción de tiempo de carga     | 8                        |
+
 
 ### Conclusiones
 
