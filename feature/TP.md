@@ -2376,45 +2376,42 @@ Para el primer sprint backlog, recopilamos historias de usuario relacionadas con
 ![alt text](../assets/TB1-image/Trelloo1.png)
 
 
-| User Story ID | Título | Tarea Principal | Estimación (Horas) | Responsable | Estado |
-| --- | --- | --- | --- | --- | --- |
-| **Landing Page** |  |  |  |  |  |
-| US01 | Vista General de Beneficios y Funcionalidades | Implementación de sección de beneficios y funcionalidades clave | 2 horas | Arevalo Meza, John Telesforo | Done |
-| US02 | Enlaces Directos a Redes Sociales | Implementación de enlaces a redes sociales en la página principal | 1 hora | Fabian Reyes | Done |
-| US03 | Registro Rápido y Simple | Implementación de formulario de registro optimizado | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US04 | Iniciar Sesión Rápido y Visible | Implementación de enlace visible para iniciar sesión | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US05 | Resumen de la Empresa, Misión y Visión | Implementación de sección "Acerca de Nosotros" | 2 horas | Arevalo Meza, John Telesforo | Done |
-| US06 | Navegación Clara y Directa en la Página | Implementación de menú de navegación intuitivo | 1 hora | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US07 | Acceder a Preguntas Frecuentes | Implementación de sección de preguntas frecuentes | 1 hora | Michael Carmelino | Done |
-| US08 | Contactar vía correo | Implementación de sección de contacto | 1 hora | Arevalo Meza, John Telesforo | Done |
-| **Web Application** |  |  |  |  |  |
-| US09 | Creación de user stories | Implementación de funcionalidad para agregar user stories | 6 horas | Arevalo Meza, John Telesforo | Done |
-| US10 | Modificación de user stories | Implementación de funcionalidad para modificar user stories | 6 horas | Arevalo Meza, John Telesforo | Done |
-| US11 | Eliminación de user stories | Implementación de funcionalidad para eliminar user stories | 5 horas | Arevalo Meza, John Telesforo | Done |
-| US12 | Creación de user epics | Implementación de funcionalidad para agregar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
-| US13 | Modificación de user epics | Implementación de funcionalidad para modificar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
-| US14 | Eliminación de user epics | Implementación de funcionalidad para eliminar epics | 5 horas | Arevalo Meza, John Telesforo | Done |
-| US15 | Creación de tasks | Implementación de funcionalidad para agregar tasks | 5 horas | Arevalo Meza, John Telesforo | Done |
-| US27 | Editar el acceso de miembros al proyecto | Implementación de funcionalidad para editar acceso de miembros | 3 horas | Michael Carmelino | Done |
-| US28 | Ver la información de usuario de los miembros | Implementación de funcionalidad para ver información de usuario | 3 horas | Michael Carmelino | Done |
-| US29 | Asignar roles a los miembros del equipo | Implementación de funcionalidad para asignar roles | 3 horas | Michael Carmelino | Done |
-| US30 | Conocer Información del Perfil de un Miembro | Implementación de funcionalidad para ver perfil de miembro | 3 horas | Michael Carmelino | Done |
-| US31 | Ver Habilidades de Cada Miembro | Implementación de funcionalidad para ver habilidades de miembros | 3 horas | Michael Carmelino | Done |
-| US32 | Visualización de User Stories en el Timeline | Visualización de user stories en el timeline | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US33 | Estimación de Esfuerzo en User Stories | Visualización de estimación de esfuerzo en user stories | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US34 | Visualización de Estadísticas del Rendimiento del Equipo | Visualización de estadísticas del rendimiento del equipo | 2 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US35 | Crear una nueva incidencia | Implementación de funcionalidad para crear incidencias | 6 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US36 | Visualizar las incidencias | Implementación de funcionalidad para visualizar incidencias | 7 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US37 | Editar una incidencia | Implementación de funcionalidad para editar incidencias | 8 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US38 | Eliminar una incidencia | Implementación de funcionalidad para eliminar incidencias | 7 horas | Rodrigo Manuel Chirinos Zúñiga | Done |
-| US39 | Ver reporte de una incidencia | Visualización de reporte de incidencias | 2 horas | Alessandro Zevallos | Done |
-| US40 | Ver historial de una incidencia | Visualización de historial de incidencias | 2 horas | Alessandro Zevallos | Done |
-| US41 | Creación automática de los eventos creación y asignación del issue | Visualización de eventos automáticos de incidencias | 2 horas | Alessandro Zevallos | Done |
-| US42 | Filtrar incidencias por Sprint y Prioridad | Visualización y filtrado de incidencias por sprint y prioridad | 2 horas | Alessandro Zevallos | Done |
-| US25 | Gestión de grabaciones de videoconferencias | Implementación de funcionalidad para gestionar grabaciones | 1 hora | Fabian Reyes | Done |
-| US26 | Visualización de detalles de videoconferencias | Implementación de funcionalidad para ver detalles de videoconferencias | 3 horas | Fabian Reyes | Done |
+#### 5.2.1.2 Sprint Backlog 1
 
-**Nota:** Solo se incluyen tareas principales y visibles para el usuario, omitiendo tareas técnicas internas.
+A continuación se presenta el Sprint Backlog 1, que incluye todas las User Stories (US) del capítulo 3, excluyendo las Technical Stories (TS). Se indica responsable y estimación para cada US. Las US están agrupadas según su contexto (Landing Page o Web Application).
+
+| Tipo           | User Story ID | Título                                              | Descripción principal                                         | Estimación (Horas) | Responsable(s)                      | Estado   |
+|----------------|--------------|-----------------------------------------------------|---------------------------------------------------------------|--------------------|--------------------------------------|----------|
+| **Landing Page** |              |                                                     |                                                               |                    |                                      |          |
+|                | US01         | Vista General de Beneficios y Funcionalidades        | Implementar sección de beneficios en la landing page          | 2                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US02         | Enlaces Directos a Redes Sociales                    | Agregar enlaces visuales y funcionales a redes sociales       | 2                  | Fabian Reyes                          | Done     |
+|                | US03         | Registro Rápido y Simple                            | Crear formulario de registro optimizado                       | 2                  | Rodrigo Manuel Chirinos Zúñiga        | Done     |
+|                | US04         | Iniciar Sesión Rápido y Visible                     | Agregar enlace visible para iniciar sesión                    | 2                  | Rodrigo Manuel Chirinos Zúñiga        | Done     |
+|                | US05         | Resumen de la Empresa, Misión y Visión              | Desarrollar sección "Acerca de Nosotros"                      | 2                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US06         | Navegación Clara y Directa en la Página             | Implementar menú de navegación intuitivo                      | 2                  | Rodrigo Manuel Chirinos Zúñiga        | Done     |
+|                | US07         | Acceder a Preguntas Frecuentes                      | Crear sección de preguntas frecuentes                         | 2                  | Michael Carmelino                     | Done     |
+|                | US08         | Contactar vía correo                                | Implementar sección de contacto                               | 2                  | Arevalo Meza, John Telesforo         | Done     |
+| **Web Application** |          |                                                     |                                                               |                    |                                      |          |
+|                | US09         | Creación de user stories                            | Crear funcionalidad para agregar user stories                 | 6                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US10         | Modificación de user stories                        | Crear funcionalidad para modificar user stories               | 6                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US11         | Eliminación de user stories                         | Crear funcionalidad para eliminar user stories                | 5                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US12         | Creación de user epics                              | Crear funcionalidad para agregar epics                        | 5                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US13         | Modificación de user epics                          | Crear funcionalidad para modificar epics                      | 5                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US14         | Eliminación de user epics                           | Crear funcionalidad para eliminar epics                       | 5                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US15         | Creación de tasks                                   | Crear funcionalidad para agregar tasks                        | 4                  | Arevalo Meza, John Telesforo         | Done     |
+|                | US16         | Modificación de tasks                               | Crear funcionalidad para modificar tasks                      | 4                  | John Arevalo                         | Done     |
+|                | US17         | Eliminación de tasks                                | Crear funcionalidad para eliminar tasks                       | 4                  | John Arevalo                         | Done     |
+|                | US18         | Vista centrada en backlog items                     | Implementar vista de backlog items                            | 4                  | John Arevalo                         | Done     |
+|                | US19         | Visualización del product backlog                   | Implementar visualización del product backlog                 | 4                  | John Arevalo                         | Done     |
+|                | US20         | Asignación de backlog items a un sprint             | Implementar asignación de items a sprint                      | 4                  | John Arevalo                         | Done     |
+|                | US21         | Gestión de sprints                                  | Implementar gestión de sprints                                | 4                  | John Arevalo                         | Done     |
+|                | US27         | Editar el acceso de miembros al proyecto            | Implementar edición de acceso de miembros                     | 4                  | Michael Carmelino                     | Done     |
+|                | US28         | Ver la información de usuario de los miembros       | Implementar visualización de información de miembros          | 4                  | Michael Carmelino                     | Done     |
+|                | US29         | Asignar roles a los miembros del equipo             | Implementar asignación de roles a miembros                    | 4                  | Michael Carmelino                     | Done     |
+|                | US30         | Conocer Información del Perfil de un Miembro        | Implementar visualización de perfil de miembro                | 4                  | Michael Carmelino                     | Done     |
+|                | US33         | Estimación de Esfuerzo en User Stories              | Implementar estimación de esfuerzo en user stories            | 4                  | Rodrigo Chirinos / Michael Carmelino  | Done     |
+|                | US43         | Iniciar sesión (Sign In)                            | Implementar inicio de sesión de usuario                       | 4                  | Fabian Reyes / Arevalo Meza           | Done     |
+|                | US44         | Registro de usuario (Sign Up)                       | Implementar registro de usuario                               | 4                  | Arevalo Meza / Michael Carmelino      | Done
 
 Link Trello: https://trello.com/invite/b/66ddd34a3a8f75b32fbdaa52/ATTI22d7710f322c2ce38799efbb188aa9556839E153/si729-2402-ws53-grupo-4-horizon-managewise 
 
