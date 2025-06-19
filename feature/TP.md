@@ -3556,10 +3556,77 @@ El objetivo es optimizar y monitorear de forma continua tanto la aplicación web
 |Ventajas|Ideal para entender audiencia, es posible integrar con otros servicios como Google Ads|Simula tráfico real y permite ver probar como escala la aplicación bajo estrés|Evalua el rendimiento y accesibilidad con metricas claras, permitiendo asi optimizar la experiencia del usuario|
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra
+aplicación para evaluar su desempeño y optimizar la experiencia de usuario.
+
+
+![Lighthouse 1](/assets/TB2/lighthouse1.png)
+
+
+![Lighthouse 2](/assets/TB2/lighthouse2.png)
+
+
+![Lighthouse 3](/assets/TB2/lighthouse3.png)
+
+
+![Data](/assets/TB2/lighthousedata.png)
+
+
+![Grafico 1](/assets/TB2/graficoperformance.png)
+
+
+![Grafico 2](/assets/TB2/graficoseo.png)
+
+
+![Grafico 3](/assets/TB2/graficoaccessability.png)
+
+
 #### 8.2.7. Web and Mobile Tracking Plan.
+
+Para ManageWise, el objetivo principal es optimizar y monitorear de forma continua la aplicación web y móvil con el fin de mejorar la gestión de proyectos, visibilizar el progreso de tareas y potenciar la colaboración entre los miembros del equipo. A medida que se avanza hacia la etapa final del desarrollo, se establecerá un plan de seguimiento detallado que permita evaluar de forma objetiva el impacto de las mejoras implementadas en la plataforma.
+
+1. Implementación Inicial
+Durante esta fase, se enfocará en el despliegue de nuevas funcionalidades y en la recopilación de datos iniciales que sirvan como línea base para medir su impacto.
+
+Recopilación de Datos:
+
+* Métricas de Uso: Se registrarán indicadores clave como el número de usuarios activos, frecuencia de uso de funcionalidades clave (como paneles de avance, historial de tareas, edición colaborativa), y tiempos de respuesta de los módulos principales.
+
+* Interacciones de los Usuarios: Se monitoreará el uso de funciones como la actualización de tareas, visualización de gráficos de avance, retroalimentación visual y notificaciones del sistema.
+
+* Feedback de Usuarios: A través de encuestas y formularios de evaluación, se recopilarán opiniones relacionadas con la claridad de la interfaz, la visibilidad del progreso y la efectividad de la comunicación del equipo.
+
+Análisis Comparativo:
+
+Se compararán los resultados actuales con métricas previas para evaluar el impacto inmediato de las nuevas funcionalidades sobre la experiencia de usuario, el rendimiento general y la coordinación de tareas en equipo.
+
+2. Seguimiento Continuo
+Tras la implementación inicial, se establecerá un ciclo continuo de monitoreo para asegurar la mejora progresiva del producto.
+
+Recopilación de Datos:
+
+* Métricas en Tiempo Real: Se utilizarán herramientas analíticas para medir en tiempo real cómo los usuarios interactúan con la plataforma, permitiendo identificar cuellos de botella, funcionalidades poco utilizadas o mejoras emergentes.
+
+* Tasa de Retención y Finalización de Tareas: Se medirá la retención de usuarios activos y el porcentaje de tareas completadas según plazos establecidos, lo cual permitirá evaluar el grado de adopción de las funcionalidades de seguimiento.
+
+Evaluación y Ajustes:
+
+Informes Periódicos: Se generarán informes quincenales y mensuales con análisis detallados de uso, sugerencias de los usuarios y propuestas de ajustes.
+
+Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los datos recopilados y en la retroalimentación directa, asegurando que ManageWise evolucione continuamente en función de las necesidades reales del equipo y sus flujos de trabajo.
+
 ### 8.3. Experimentation
 #### 8.3.1. To-Be User Stories.
+
+| User Sotry ID| Título |Descripción |Critrerios de Aceptación |Relacionado con (Epic ID) |
+|-|-|-|-|-|
+| | | | | |
+
 #### 8.3.2. To-Be Product Backlog
+
+| #Orden| User Story ID|Título | Story Points (1/2/3/5/8)|
+|-|-|-|-|
+| | | | |
 
 ### Conclusiones
 
