@@ -3019,8 +3019,63 @@ Como miembro del equipo, quiero poder crear una cuenta en la plataforma, para de
 
 ### 6.2. Static testing & Verification
 #### 6.2.1. Static Code Analysis
-##### 6.2.1.1. Coding standard & Code conventions
-##### 6.2.1.2. Code Quality & Code Security
+En esta sección se detallan las actividades realizadas para evaluar la calidad del código fuente mediante análisis estático. Este proceso consiste en revisar el código sin ejecutarlo, utilizando herramientas automatizadas que permiten identificar errores potenciales, malas prácticas, vulnerabilidades de seguridad, problemas de estilo y complejidad innecesaria.
+
+El objetivo de esta sección es asegurar que el código del proyecto cumple con estándares de calidad, es mantenible a largo plazo y reduce el riesgo de errores en producción.
+#### 6.2.1.1. Coding standard & Code conventions
+
+**PARA EL APARTADO DE FRONT END:**
+
+En esta sección se verificó que el código del frontend cumple con los estándares de codificación definidos para Angular y TypeScript. Para ello, se utilizó la herramienta ESLint, configurada con las reglas recomendadas por @angular-eslint. Se ejecutó un análisis estático sobre los archivos .ts y .html del proyecto.
+
+El reporte de ESLint identificó un total de 41 errores y 1 advertencia distribuidos en varios archivos. A continuación, se presentan las reglas más frecuentemente infringidas:
+
+| Regla  | Descripción | Ocurrencias |
+| ------------- | ------------- | ------------- |
+| @typescript-eslint/no-unused-vars |	Variables definidas pero no utilizadas |	8  |
+| @angular-eslint/prefer-inject |	Se prefiere el uso de inject() en lugar de la inyección por constructor |	10  |
+| @typescript-eslint/array-type | Se recomienda usar Tipo[] en vez de Array<Tipo> |	6 |
+| @typescript-eslint/no-inferrable-types |	Tipos que pueden inferirse y no deben anotarse explícitamente |	2 |
+| @typescript-eslint/no-explicit-any | Uso explícito de any sin necesidad |	4 |
+| @angular-eslint/template/eqeqeq  |	Comparaciones con == o != en lugar de === o !== |	13 |
+| @angular-eslint/use-lifecycle-interface |	Falta de implementación explícita de OnInit |	2 |
+
+
+**Acciones tomadas:**
+
+Se corrigieron las reglas automáticamente cuando fue posible mediante --fix.
+
+Se modificaron archivos para eliminar variables no utilizadas, evitar tipos explícitos triviales (string = 'texto'), y usar === en plantillas HTML.
+
+Este proceso garantizó que el código sea:
+
+- Legible, gracias a la indentación y estilo consistente.
+- Mantenible, al evitar código muerto o redundante.
+- Seguro y profesional, siguiendo las recomendaciones del equipo de Angular.
+
+
+
+**PARA EL BACK END:**
+
+Para el backend desarrollado en Spring Boot, se aplicó un análisis estático de código utilizando el plugin CheckStyle-IDEA dentro de IntelliJ IDEA, configurado con el estándar Google Java Style Guide (google_checks.xml). Este proceso tuvo como objetivo verificar el cumplimiento de las convenciones de codificación establecidas para el lenguaje Java.
+
+El análisis identificó múltiples advertencias relacionadas con:
+
+| Regla  | Descripción |
+| ------------- | ------------- |
+| Falta de comentarios Javadoc |	Se detectó la ausencia de documentación en constructores y clases públicas. |
+| Problemas de indentación |	Varias estructuras (if, constructores compactos, llaves) no respetan la indentación esperada según el estilo. |
+| Sangría incorrecta en bloques if | Los bloques condicionales presentan niveles de sangría superiores al permitido |
+| Constructores sin documentación ni formato |	Los constructores definidos no tienen documentación y presentan indentación incorrecta. |
+
+**Acciones tomadas**
+- Se documentaron las clases y constructores que carecían de Javadoc.
+- Se corrigió la indentación en estructuras condicionales (if) y constructores.
+- Se estandarizó el uso de sangría a 2 espacios, según la guía de estilo de Google.
+
+
+#### 6.2.1.2. Code Quality & Code Security
+
 #### 6.2.2. Reviews
 
 ### 6.3. Validation Interviews.
