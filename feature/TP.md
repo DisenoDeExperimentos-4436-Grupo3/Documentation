@@ -3025,7 +3025,67 @@ Como miembro del equipo, quiero poder crear una cuenta en la plataforma, para de
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas.
+A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la usabilidad del aplicativo realizado. Estas preguntas están diseñadas para explorar las heurísticas de usabilidad y obtener información valiosa sobre la experiencia del usuario.
+
+1.¿El mensaje principal del landing page le resultó claro y atractivo desde el primer momento?
+
+2.¿Qué tan fácil le fue navegar por la aplicación y entender su funcionamiento básico sin asistencia?
+
+3.¿El flujo de creación y asignación de tareas/proyectos fue intuitivo y fácil de completar?
+
+4.¿Considera que la herramienta facilita la colaboración entre miembros del equipo? ¿Por qué?
+
+5.¿Hubo algún momento durante la interacción en que no supo qué hacer o se sintió confundido?
+
+6.¿Qué tan útil le parecieron las métricas y visualizaciones del progreso del proyecto?
+
+7.¿La herramienta se adapta a la forma en que actualmente gestiona proyectos o requeriría cambios importantes?
+
+8.¿Cómo calificaría el diseño visual y la experiencia general de uso del sistema?
+
+9.¿Qué funcionalidades le resultaron más relevantes y cuáles cree que faltan o podrían mejorarse?
+
+10.¿Después de esta prueba, estaría dispuesto a usar esta herramienta en un proyecto real? ¿Por qué sí o por qué no?
+
 #### 6.3.2. Registro de Entrevistas.
+**Segmento 1: Líder o Gerente de Empresa de Desarrollo de Software en Crecimiento(Product Owner y Scrum Master)**
+
+1. Entrevista 1: <br>
+   Datos del entrevistado <br>
+   Nombre:   <br>
+   Apellidos:  <br>
+   Edad:  <br>
+   Distrito:  <br>
+
+![Foto de entrevista 1](/assets...)
+
+URL: [Link de entrevista](https...)
+
+Inicio: 0:0<br>
+Duracion:  
+
+Resumen:<br>
+
+**Segmento 2: Equipo de Desarrollo de Software**
+
+1. Entrevista 1: <br>
+   Datos del entrevistado <br>
+   Nombre:   <br>
+   Apellidos:  <br>
+   Edad:  <br>
+   Distrito:  <br>
+
+![Foto de entrevista 1](/assets...)
+
+URL: [Link de entrevista](https...)
+
+Inicio: 0:00<br>
+Duracion: 
+
+Resumen:<br>
+
+
+
 #### 6.3.3. Evaluaciones según heurísticas.
 
 ### 6.4. Auditoría de Experiencias de Usuario.
