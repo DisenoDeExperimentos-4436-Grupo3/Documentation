@@ -3299,7 +3299,6 @@ Claims:
 | ¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?	|7 - Es una funcionalidad popular, aunque no todos los usuarios la utilizan.	 |2 - Bajo riesgo, ya que es una implementación técnica estándar.	 |6 - Mejora la experiencia del usuario, pero no es crítica.	 |5 - Interés moderado entre los usuarios, especialmente aquellos que utilizan la aplicación en entornos oscuros.	 | 20|
 | ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?	|6 - Puede atraer a una audiencia más amplia, aunque depende de la demanda.	 |3 - Riesgo medio debido a la complejidad de la traducción y el mantenimiento.	 | 7 - Alto potencial para expandir la audiencia.	| 6 - Moderadamente interesante para los usuarios que hablan otros idiomas.	| 22|
 | ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?	| 8 - El equipo valora tener visibilidad del progreso en proyectos ágiles.	|2 - Riesgo bajo, puede implementarse progresivamente.	 | 6 - Mejora la coordinación y planificación del equipo.	| 6 - Interés alto por parte de roles técnicos y de gestión.	|22 |
-| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?	| 8 - Alta probabilidad de mejorar la percepción del usuario.	| 2 - Bajo riesgo, cambios en el frontend.	| 6 - Mejora la fluidez e interacción.	| 5 - Interés general en tener mayor claridad al interactuar con el sistema.	| 21|
 | ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?	| 9 - Alta, los usuarios abandonan sistemas lentos.	| 3 - Requiere optimización técnica significativa.	| 9 - Gran impacto en retención y experiencia.	| 7 - Interés muy alto entre los usuarios finales.	| 28|
 
 #### 8.1.4. Question Backlog.
@@ -3307,10 +3306,10 @@ Claims:
 |Prioridad (1,2,3,5,8)|Pregunta|
 |-|-|
 |1| ¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web|
-|2| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
+|3| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
 |3| ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas? |
-|4| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)? |
-|5| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
+|5| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)? |
+|8| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
 
 #### 8.1.5. Experiment Cards.
 
@@ -3324,15 +3323,13 @@ Claims:
 |-|-|
 |Why| El soporte multilingüe elimina barreras idiomáticas, facilitando el acceso a usuarios internacionales y promoviendo la expansión del alcance de la aplicación.	|
 |What| Incorporar traducciones automáticas o manuales a idiomas clave como inglés, visibles desde la interfaz.	|
-|Hypothesis| Se espera que al menos el 30% de los nuevos usuarios provengan de regiones que requieren traducción al inglés, y aumente la retención en esos grupos.
-|
+|Hypothesis| Se espera que al menos el 30% de los nuevos usuarios provengan de regiones que requieren traducción al inglés, y aumente la retención en esos grupos. |
 
 |Question| ¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?	|
 |-|-|
 |Why| La visibilidad del progreso mejora la planificación y la coordinación del equipo. Los paneles ofrecen una vista clara del estado del desarrollo.	|
 |What| Crear un dashboard que muestre el estado (pendiente, en progreso, completado) de tareas e historias de usuario en tiempo real.	|
-|Hypothesis| Se espera que el 75% del equipo considere útil el panel y que el tiempo dedicado a reuniones de seguimiento disminuya un 20%.
-|
+|Hypothesis| Se espera que el 75% del equipo considere útil el panel y que el tiempo dedicado a reuniones de seguimiento disminuya un 20%.|
 
 |Question| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?	|
 |-|-|
@@ -3351,33 +3348,92 @@ Claims:
 
 | |Hypothesis|
 |-|-|
-|Question| |
-|Belief| |
-|Hypothesis| |
-|Null Hypothesis| |
+|Question| ¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?|
+|Belief| Al agregar un modo oscuro, se mejora la usabilidad para los usuarios que prefieren una experiencia visual más cómoda, especialmente en ambientes con poca luz, lo que reduce la fatiga visual y aumenta la satisfacción y el tiempo de permanencia en la aplicación.|
+|Hypothesis| La implementación de un modo oscuro incrementará el tiempo promedio de uso y la satisfacción del usuario en al menos un 20%.|
+|Null Hypothesis| La habilitación del modo oscuro no afectará significativamente el tiempo de uso ni la percepción de satisfacción de los usuarios.|
 
-...
+| |Hypothesis|
+|-|-|
+|Question| ¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
+|Belief| Ofrecer traducciones permite que personas no hispanohablantes accedan a la aplicación, aumentando la base de usuarios y mejorando la inclusión.|
+|Hypothesis| La incorporación de traducción al inglés generará un incremento del 30% en el número de usuarios activos provenientes de regiones no hispanohablantes.|
+|Null Hypothesis| La introducción de traducciones no tendrá un impacto significativo en la cantidad ni diversidad geográfica de usuarios activos.|
+
+| |Hypothesis|
+|-|-|
+|Question|¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?|
+|Belief| La visibilidad del progreso mejora la gestión, alineación del equipo y la toma de decisiones.|
+|Hypothesis| La implementación de paneles de seguimiento reducirá en al menos 20% el tiempo dedicado a reuniones de coordinación y aumentará la percepción de claridad por parte del equipo en un 40%.|
+|Null Hypothesis| La incorporación de paneles visuales no tendrá efecto significativo sobre la eficiencia del equipo ni sobre su percepción del seguimiento del proyecto.|
+
+| |Hypothesis|
+|-|-|
+|Question| ¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?|
+|Belief| La retroalimentación inmediata genera confianza, mejora la percepción de control y reduce la incertidumbre durante el uso.|
+|Hypothesis| La incorporación de retroalimentación visual clara incrementará la satisfacción percibida por el usuario en al menos un 30%.|
+|Null Hypothesis| Los usuarios no percibirán una mejora significativa en su experiencia con la incorporación de retroalimentación visual.|
+
+| |Hypothesis|
+|-|-|
+|Question| ¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
+|Belief| Los tiempos de respuesta son clave para la experiencia del usuario: cargas rápidas aumentan la retención y reducen el abandono.|
+|Hypothesis| Reducir los tiempos de carga por debajo de 2 segundos disminuirá la tasa de abandono en un 25% y aumentará las tasas de conversión o permanencia.|
+|Null Hypothesis| Reducir los tiempos de carga no tendrá un impacto relevante en la tasa de abandono ni en la permanencia de los usuarios.|
+
 
 #### 8.2.2. Measures.
 
-|Question|asdasd|
+|Question|¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?|
 |-|-|
-|Measure| |
+|Measure| Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación.|
 
-...
+|Question|¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
+|-|-|
+|Measure| Analizar el número de usuarios nuevos provenientes de países de habla inglesa y china, así como el tráfico de la aplicación antes y después de la implementación de las traducciones. Comparar los datos para determinar el impacto en la audiencia.|
+
+|Question|¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?|
+|-|-|
+|Measure| Evaluar el número de consultas manuales o reuniones de seguimiento antes y después de implementar los paneles, así como encuestas internas sobre claridad y visibilidad del estado de avance del proyecto.|
+
+|Question|¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?|
+|-|-|
+|Measure| Realizar pruebas A/B para medir la diferencia en puntuación de satisfacción del usuario y tasa de errores percibidos entre versiones con y sin retroalimentación visual inmediata.|
+
+|Question|¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
+|-|-|
+|Measure| Comparar la tasa de abandono y el tiempo promedio de permanencia en la aplicación antes y después de optimizar el rendimiento. Medir también la percepción de rapidez mediante encuestas.|
 
 #### 8.2.3. Conditions.
 
-|Question|asdasd|
+|Question|¿Mejorará la experiencia añadiendo un modo oscuro a la aplicación web?|
 |-|-|
-|Condición Experimental| |
-|Condición de Control| |
+|Condición Experimental| La satisfacción del usuario aumentará en un 20% después de implementar el modo oscuro, medido a través de encuestas y puntajes de valoración de la experiencia visual.|
+|Condición de Control| No habrá un aumento significativo en la satisfacción del usuario tras la implementación del modo oscuro.|
 
-...
+|Question|¿Aumentará la audiencia agregando traducciones a otros idiomas como inglés?|
+|-|-|
+|Condición Experimental| El número de usuarios nuevos provenientes de regiones no hispanohablantes aumentará en un 30% después de la implementación del soporte multilingüe.|
+|Condición de Control| No se observará una variación significativa en la cantidad ni el origen de nuevos usuarios tras la implementación de las traducciones.|
+
+|Question|¿Facilitaría el seguimiento del proyecto la incorporación de paneles visuales sobre el avance de historias de usuario y tareas?|
+|-|-|
+|Condición Experimental| El equipo reducirá en un 20% el tiempo de reuniones de seguimiento y reportará mayor claridad sobre el estado del proyecto tras la implementación de los paneles.|
+|Condición de Control| No se observará una mejora sustancial en la coordinación ni en la percepción del estado del proyecto después de incorporar los paneles.|
+
+|Question|¿Aumentará la satisfacción del usuario incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos)?|
+|-|-|
+|Condición Experimental| La puntuación de satisfacción del usuario aumentará en al menos un 30% en la versión con retroalimentación visual inmediata.|
+|Condición de Control| No se registrará una diferencia significativa en la percepción del usuario entre la versión con y sin retroalimentación visual.|
+
+|Question|¿Reducirá la frustración del usuario disminuir los tiempos de carga a menos de 2 segundos?|
+|-|-|
+|Condición Experimental| La tasa de abandono disminuirá al menos un 25% y el tiempo promedio de permanencia aumentará en la versión con tiempos de carga optimizados.|
+|Condición de Control| No se observarán cambios significativos en la tasa de abandono ni en la percepción del rendimiento tras la mejora.|
 
 #### 8.2.4. Scale Calculations and Decisions.
 
-asdasdasdsa
+El objetivo es optimizar y monitorear de forma continua tanto la aplicación web como la móvil, con el propósito de mejorar el rendimiento general, facilitar la gestión de tareas dentro de la plataforma y fomentar una mayor participación de los usuarios.
 
 <table border="1">
   <tr>
@@ -3392,59 +3448,43 @@ asdasdasdsa
     <td>Excelente</td>
   </tr>
   <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
+    <td>Creemos que al agregar un modo oscuro a la aplicación web, se mejorará la experiencia del usuario en al menos un 30%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando observemos un aumento del 30% en la satisfacción del usuario.</td>
+    <td>Implementar un modo oscuro que permita a los usuarios elegir entre un modo claro y uno oscuro, mejorando así la comodidad visual.	</td>
+    <td></td>
+    <td></td>
     <td>X</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>Creemos que al agregar traducciones del contenido a otros idiomas, como inglés, se incrementará la audiencia en un 15%. Sabremos que esto es cierto cuando observemos un aumento en la audiencia de al menos 15%.	</td>
+    <td>Implementar traducciones a idiomas adicionales para permitir a los usuarios de habla inglesa y china acceder al contenido en su idioma preferido.	</td>
+    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
-    <td>X</td>
+    <td>Creemos que al incorporar paneles visuales sobre el avance de historias de usuario y tareas, se facilitará el seguimiento del proyecto y la coordinación del equipo. Sabremos que esto es cierto cuando se reduzca en un 20% el tiempo en reuniones de seguimiento y se observe una mejora en la percepción de claridad del estado del proyecto.	</td>
+    <td>Diseñar e integrar un panel visual de progreso accesible para todo el equipo.	</td>
     <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
+    <td>Creemos que al incluir retroalimentación visual clara tras cada acción (mensajes, animaciones, íconos), se mejorará la percepción de fluidez e interacción. Sabremos que esto es cierto cuando el 70% de los usuarios informen una experiencia más clara y satisfactoria.	</td>
+    <td>Incluir respuestas visuales inmediatas tras acciones clave del usuario.	</td>
+    <td></td>
+    <td></td>
     <td>X</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
+    <td>Creemos que si se reduce el tiempo de carga a menos de 2 segundos, se disminuirá la frustración del usuario y aumentará la retención. Sabremos que esto es cierto cuando la tasa de abandono disminuya en al menos un 25%.	</td>
+    <td>Aplicar mejoras técnicas para optimizar la velocidad de carga.	</td>
+    <td></td>
+    <td></td>
     <td>X</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
-    <td>X</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
-    <td>X</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>creemos que asdas</td>
-    <td>Implementaraasd</td>
-    <td>X</td>
-    <td></td>
-    <td></td>
     <td></td>
   </tr>
 </table>
