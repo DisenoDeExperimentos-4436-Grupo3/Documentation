@@ -3115,8 +3115,32 @@ El análisis identificó múltiples advertencias relacionadas con:
 
 
 #### 6.2.1.2. Code Quality & Code Security
+Para evaluar la calidad del código, el equipo utilizó la herramienta SonarQube, que permitió identificar aspectos clave como:
+
+- Complejidad del código, medida a través de métricas como la complejidad ciclomática.
+- Duplicación, localizando bloques de código repetidos que afectan la mantenibilidad.
+- Mantenibilidad, evaluada mediante un índice que combina varios factores como la legibilidad y la estructura del código.
+
+En cuanto a la seguridad del código, SonarQube permitió detectar posibles vulnerabilidades como:
+- Inyecciones SQL, que pueden comprometer la base de datos si no se valida adecuadamente la entrada del usuario.
+- Cross-Site Scripting (XSS), que podría permitir a un atacante inyectar scripts maliciosos en el navegador del usuario.
+- Manejo inseguro de datos sensibles, como contraseñas o tokens que podrían estar expuestos o sin cifrado adecuado.
 
 #### 6.2.2. Reviews
+Durante el desarrollo del proyecto, se llevaron a cabo revisiones de código (code reviews) de manera periódica, con el objetivo de mejorar la calidad general del software y asegurar el cumplimiento de las buenas prácticas de desarrollo.
+
+Estas revisiones permitieron:
+
+- Detectar errores tempranamente, antes de que el código fuera integrado a la rama principal.
+
+- Fomentar la colaboración entre miembros del equipo, compartiendo conocimientos y promoviendo un estilo de codificación uniforme.
+
+- Mejorar la legibilidad y mantenibilidad del código, mediante sugerencias sobre nomenclatura, estructura y simplificación de lógica.
+
+- Validar aspectos funcionales y de seguridad, verificando que el código cumpla con los requisitos del sistema y no introduzca vulnerabilidades.
+
+Nos apoyamos en herramientas automatizadas como SonarQube, lo que fortaleció el proceso de validación y permitió una mayor cobertura del análisis estático.
+
 
 ### 6.3. Validation Interviews.
 #### 6.3.1. Diseño de Entrevistas.
