@@ -3057,21 +3057,59 @@ Joao destacó que la aplicación es clara, fácil de navegar y visualmente atrac
 
 1. Entrevista 1: <br>
    Datos del entrevistado <br>
-   Nombre:   <br>
-   Apellidos:  <br>
-   Edad:  <br>
-   Distrito:  <br>
+   Nombre:  Eddo
+   Apellidos:   Su Caletti
+   Edad: 20
+   Distrito: La Molina
 
-![Foto de entrevista 1](/assets...)
+![Foto de entrevista 1](../assets/TF/managewise-eddo.png)
 
-URL: [Link de entrevista](https...)
+URL: [Link de entrevista](https://drive.google.com/file/d/1g4XpvR1TVq7vEfBv-uickbAsTNtPQ1ne/view?usp=sharing)
 
 Inicio: 0:00<br>
-Duracion: 
+Duracion: 6:50 
 
 Resumen:<br>
 
+Eddo indicó que la aplicación es bastante buena, intuitiva y de navegación facil. Comento que como parte de un equipo de desarrollo y ex lider de un equipo de desarrollo la aplicación es muy útil para el manejo de tareas entre miembros. Tambien afirmo que el sistema se adapta a sus necesidades al manejar la organizaciíon de un proyecto. 
 
+2. Entrevista 2: <br>
+   Datos del entrevistado <br>
+   Nombre:  Ariana
+   Apellidos:   Ramirez 
+   Edad: 19
+   Distrito: Chorrillos
+
+![Foto de entrevista 1](../assets/TF/managewise-ari.png)
+
+URL: [Link de entrevista](https://drive.google.com/file/d/1RUxNhmAAWn-GhvA80lrPek2UIFFEnGIl/view?usp=sharing)
+
+Inicio: 0:00<br>
+Duracion: 3:40 
+
+Resumen:<br>
+
+Ariana destacó que la app es excelente, con un diseño intuitivo y muy fácil de usar.
+Como miembro activo de un equipo de desarrollo y exlíder de equipos técnicos, resaltó que esta herramienta simplifica mucho la coordinación de tareas entre los integrantes. Además, comentó que el sistema se adapta perfectamente a sus flujos de trabajo, ayudando a mantener una organización eficiente en cada proyecto.
+
+3. Entrevista 3: <br>
+   Datos del entrevistado <br>
+   Nombre:  Miguel
+   Apellidos:   Vidal Castro 
+   Edad: 20
+   Distrito: San Miguel
+
+![Foto de entrevista 1](../assets/TF/managewis-miguel.png)
+
+URL: [Link de entrevista](https://drive.google.com/file/d/1_5WarkBIlmocbTPqSHGMBQbPOf7VH5Ts/view?usp=sharing)
+
+Inicio: 0:00<br>
+Duracion: 3:23 
+
+Resumen:<br>
+
+Miguel opinó que la plataforma es muy eficiente, con una interfaz clara y fácil de manejar.
+Como desarrollador experimentado y antiguo líder técnico, mencionó que esta solución es ideal para asignar prioridades, hacer seguimiento de avances y mejorar la colaboración en equipo. Además, destacó que el sistema se ajusta a su metodología de trabajo, optimizando la planificación y ejecución de proyectos.
 
 #### 6.3.3. Evaluaciones según heurísticas.
 
@@ -3853,21 +3891,62 @@ El panel de avance le pareció útil y propuso complementar las gráficas con m�
 
 **Segmento 2: Equipo de Desarrollo de Software**
 
+
 1. Entrevista 1: <br>
    Datos del entrevistado <br>
-   Nombre:   <br>
-   Apellidos:  <br>
-   Edad:  <br>
-   Distrito:  <br>
+   Nombre:  Eddo
+   Apellidos:   Su Caletti
+   Edad: 20
+   Distrito: La Molina
 
-![Foto de entrevista 1](/assets...)
+![Foto de entrevista 1](../assets/TF/managewise-eddo.png)
 
-URL: [Link de entrevista](https...)
+URL: [Link de entrevista](https://drive.google.com/file/d/1M-3A6hP_SA7UyiOsL6r_J27q6jyW-Tzl/view?usp=sharing)
 
 Inicio: 0:00<br>
-Duracion: 
+Duracion: 6:50 
 
 Resumen:<br>
+
+Eddo destacó que la aplicación es intuitiva y de fácil navegación, siendo especialmente útil para la gestión de tareas en equipos de desarrollo. Resaltó que los nuevos gráficos de seguimiento visual han mejorado significativamente la visibilidad del progreso del proyecto, facilitando la toma de decisiones. 
+
+2. Entrevista 2: <br>
+   Datos del entrevistado <br>
+   Nombre:  Ariana
+   Apellidos:   Ramirez 
+   Edad: 19
+   Distrito: Chorrillos
+
+![Foto de entrevista 1](../assets/TF/managewise-ari.png)
+
+URL: [Link de entrevista](https://drive.google.com/file/d/1BwSDo6lcLdGM_KSGXCDP-f0B_cSvDOXt/view?usp=sharing)
+
+Inicio: 0:00<br>
+Duracion: 3:03
+
+Resumen:<br>
+
+Ariana elogió la interfaz limpia y funcional de la herramienta, mencionando que simplifica la coordinación de equipos. Hizo especial hincapié en que la implementación del modo oscuro ha sido un gran acierto, reduciendo la fatiga visual durante sesiones prolongadas de trabajo.
+
+3. Entrevista 3: <br>
+   Datos del entrevistado <br>
+   Nombre:  Miguel
+   Apellidos:   Vidal Castro 
+   Edad: 20
+   Distrito: San Miguel
+
+![Foto de entrevista 1](../assets/TF/managewis-miguel.png)
+
+URL: [Link de entrevista](https://drive.google.com/file/d/1DQa9Nhktzjp53yMl09PIAQtle7aF8qPG/view?usp=sharing)
+
+Inicio: 0:00<br>
+Duracion: 3:25
+
+Resumen:<br>
+
+Miguel valoró la eficiencia de la plataforma para organizar flujos de trabajo en equipos técnicos. Subrayó que las mejoras en la traducción de la web han eliminado barreras idiomáticas, permitiendo una adopción más fluida por parte de equipos internacionales.
+
+
 
 ### 8.4. Experiment Aftermath & Analysis
 
