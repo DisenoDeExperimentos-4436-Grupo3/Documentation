@@ -3789,6 +3789,66 @@ Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los 
 
 ##### 8.3.4.2. Registro de Entrevistas.
 
+**Segmento 1: Líder o Gerente de Empresa de Desarrollo de Software en Crecimiento(Product Owner y Scrum Master)**
+
+1. Entrevista 1: <br>
+   Datos del entrevistado <br>
+   Nombre: Carlos  <br>
+   Apellidos: Rincon <br>
+   Edad: 25 años <br>
+   Distrito: San Isidro <br>
+
+![Foto de entrevista 1](/assets/TF/Entrevista1.1.PNG)
+
+URL: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EZEZJwtw55NNohtBURgrgFMBhax_hYtPz8jw8jXIJgK5Zw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=07Iu4p)
+
+Inicio: 0:14<br>
+Duracion: 2:38
+
+Resumen:<br>
+
+Carlos valoró positivamente todas las mejoras implementadas. Destacó el modo oscuro por su utilidad en sesiones prolongadas, así como la traducción al inglés, que consideró clara y accesible. Encontró fácil cambiar de idioma, aunque sugirió mejorar la visibilidad del selector.
+
+El panel visual de avance le pareció claro y útil, y propuso incluir un desglose por tareas. También elogió los íconos, animaciones y mensajes de feedback, afirmando que fueron oportunos y efectivos. Finalmente, indicó que la mejora en la velocidad de carga tuvo el mayor impacto en su experiencia, seguida por el modo oscuro.
+
+2. Entrevista 2: <br>
+   Datos del entrevistado <br>
+   Nombre: Joao  <br>
+   Apellidos: Pedro <br>
+   Edad: 23 <br>
+   Distrito: Magdalena <br>
+
+![Foto de entrevista 1](/assets/TF/Entrevista1.2.PNG)
+
+URL: [Link de entrevista]()
+
+Inicio: 0:07<br>
+Duracion: 2:35
+
+Resumen:<br>
+
+Joao consideró que el modo oscuro fue cómodo y efectivo para reducir la fatiga visual. Apreció que la aplicación recordara el tema entre sesiones, mejorando así la experiencia. También valoró la traducción al inglés, que encontró clara, aunque sugirió hacer más visible el selector de idioma.
+
+El panel de avance le pareció útil y propuso complementar las gráficas con más detalle por tarea. Destacó que los íconos, animaciones y mensajes de feedback fueron precisos y útiles. Finalmente, señaló que la mejora en el rendimiento y la velocidad de carga fue lo que más impactó en su experiencia general.
+
+**Segmento 2: Equipo de Desarrollo de Software**
+
+1. Entrevista 1: <br>
+   Datos del entrevistado <br>
+   Nombre:   <br>
+   Apellidos:  <br>
+   Edad:  <br>
+   Distrito:  <br>
+
+![Foto de entrevista 1](/assets...)
+
+URL: [Link de entrevista](https...)
+
+Inicio: 0:00<br>
+Duracion: 
+
+Resumen:<br>
+
 ### 8.4. Experiment Aftermath & Analysis
 
 #### 8.4.1. Analysis and Interpretation of Results
