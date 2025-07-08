@@ -2490,17 +2490,17 @@ Esta sección presenta las evidencias del desarrollo del frontend de la aplicaci
 **Screenshots de la Aplicación Móvil:**
 
 *   **Pantalla de Inicio o Home :**
-    ![Login Screen Mobile Mock](../assets/TF/mobile1.jpg) 
+    ![Home Screen Mobile ](../assets/TF/mobile1.jpg) 
 *   **Pantalla que muestra las epics :**
-    ![Sign Up Screen Mobile Mock](../assets/TF/mobile2.jpg)
+    ![Epics Screen Mobile ](../assets/TF/mobile2.jpg)
 *   **Pantalla que muestra las User Story :**
-    ![Create User Story Mobile Local](../assets/TF/mobile3.jpg)
+    ![User Story Mobile Local](../assets/TF/mobile3.jpg)
 *    **Pantalla que muestra las Tasks :**
-    ![Create epics Local](../assets/TF/mobile4.jpg)
+    ![Tasks Local](../assets/TF/mobile4.jpg)
 *    **Pantalla que muestra los sprints :**
-    ![Create issues Local](../assets/TF/mobile5.jpg)
+    ![Sprints Local](../assets/TF/mobile5.jpg)
 *    **Pantalla que muestra los miembros del equipo :**
-    ![Create members Local](../assets/TF/mobile6.jpg)
+    ![Members Local](../assets/TF/mobile6.jpg)
 
 ### 5.2.4 Acuerdo de Servicio - SaaS
 
@@ -3756,9 +3756,37 @@ Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los 
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+**Screenshots de la Landing Page:**
+
+*   **Pantalla de Inicio y body :**
+    ![Home Screen](../assets/TF/landingPage1.jpg) 
+*   **Resto del body con el footer :**
+    ![Body Screen landingPage](../assets/TF/landingPage2.jpg)
+*   **Pantalla que muestra algunos de los servicios :**
+    ![Services landingPage](../assets/TF/landingPage3.jpg)
+*    **Pantalla del About Us :**
+    ![About Us](../assets/TF/landingPage4.jpg)
+*    **Pantalla que muestra los beenficios :**
+    ![Benefits](../assets/TF/landingPage5.jpg)
+
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+**Screenshots de la Aplicación Móvil:**
+
+*   **Pantalla de Inicio o Home :**
+    ![Home Screen Mobile ](../assets/TF/mobile1.jpg) 
+*   **Pantalla que muestra las epics :**
+    ![Epics Screen Mobile ](../assets/TF/mobile2.jpg)
+*   **Pantalla que muestra las User Story :**
+    ![User Story Mobile Local](../assets/TF/mobile3.jpg)
+*    **Pantalla que muestra las Tasks :**
+    ![Tasks Local](../assets/TF/mobile4.jpg)
+*    **Pantalla que muestra los sprints :**
+    ![Sprints Local](../assets/TF/mobile5.jpg)
+*    **Pantalla que muestra los miembros del equipo :**
+    ![Members Local](../assets/TF/mobile6.jpg)
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
