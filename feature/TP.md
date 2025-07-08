@@ -3961,7 +3961,7 @@ Miguel valoró la eficiencia de la plataforma para organizar flujos de trabajo e
 ![form graph1](/assets/TF/8.4.1_Edad.png)
 
 - **Duración de uso del producto:**  
-  La mayoría de los usuarios (64%) indicó que usó el producto por al menos **3 horas**, mientras que un 36% reportó uso de **1 hora**.  
+  La mayoría de los usuarios (52%) indicó que usó el producto por al menos **1 hora**, mientras que un 32% reportó uso de **3 horas**.  
   Esto indica que los participantes tuvieron suficiente tiempo para experimentar con las mejoras implementadas y brindar retroalimentación válida.
 
   ![form graph2](/assets/TF/8.4.1_Tiempo.png)
@@ -3984,7 +3984,7 @@ Este resultado demuestra una alta aceptación de la funcionalidad, y confirma qu
 ### Traducción al Inglés
 
 - El **100%** de los usuarios pudo cambiar el idioma fácilmente.
-- El **80%** describió las traducciones como **claras o muy claras**, mientras que un **20%** las consideró **regulares**.
+- El **96%** describió las traducciones como **claras o muy claras**, mientras que un **4%** las consideró **regulares**.
 
 **Recomendación:** Mejorar algunas frases técnicas y explorar la incorporación de nuevos idiomas en el futuro (francés, portugués, etc.).
 
@@ -3994,7 +3994,7 @@ Este resultado demuestra una alta aceptación de la funcionalidad, y confirma qu
 
 ### Panel Visual de Avance
 
-- El **84%** de los participantes calificó esta funcionalidad como **útil o muy útil**.
+- El **96%** de los participantes calificó esta funcionalidad como **útil o muy útil**.
 - Fue marcada como una de las mejoras más significativas por varios usuarios.
 
 **Recomendación:** Agregar interactividad al panel, como la posibilidad de hacer clic para ver tareas o historias asociadas a cada métrica.
@@ -4018,10 +4018,10 @@ Esto evidencia una experiencia de usuario más fluida y clara gracias a esta imp
 
 ### Rendimiento y Velocidad de Carga
 
-- **76%** notó una mejora en la velocidad de carga:
-  - 32%: *Sí, significativamente*
-  - 44%: *Sí, ligeramente*
-- El 24% restante no notó diferencia.
+- **88%** notó una mejora en la velocidad de carga:
+  - 28%: *Sí, significativamente*
+  - 60%: *Sí, ligeramente*
+- El 12% restante no notó diferencia.
 
 **Recomendación:** Continuar optimizando el rendimiento, especialmente en secciones con mayor peso o en dispositivos móviles.
 
@@ -4033,11 +4033,11 @@ Esto evidencia una experiencia de usuario más fluida y clara gracias a esta imp
 
 Selección basada en múltiples opciones (Pregunta 10):
 
-- **Modo oscuro**: 84%
-- **Traducción al inglés**: 72%
-- **Feedback visual (íconos y mensajes)**: 60%
-- **Panel visual**: 56%
-- **Rendimiento / velocidad de carga**: 48%
+- **Modo oscuro**: 60%
+- **Traducción al inglés**: 64%
+- **Feedback visual (íconos y mensajes)**: 48%
+- **Panel visual**: 44%
+- **Rendimiento / velocidad de carga**: 28%
 
 **Recomendación:** Las funcionalidades visuales y personalizadas tienen gran impacto. Invertir en mejorar aún más estas áreas será bien recibido por los usuarios.
 
@@ -4045,7 +4045,7 @@ Selección basada en múltiples opciones (Pregunta 10):
 
 ### Conclusión general
 
-Las respuestas reflejan una **validación fuerte** de las funcionalidades implementadas durante el Sprint 1.  
+Las respuestas reflejan una **validación fuerte** de las funcionalidades implementadas.  
 Los usuarios reconocen el valor del **modo oscuro**, las **traducciones claras**, el **rendimiento optimizado** y los **elementos visuales de interacción**.  
 Aunque existen detalles menores por refinar, en general, la percepción de valor y calidad es **altamente positiva**.
 
