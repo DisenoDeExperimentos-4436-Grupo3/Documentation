@@ -3725,6 +3725,23 @@ Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los 
 
 ##### 8.3.3.1. To-Be Sprint Backlogs
 
+| User Story | Título                       | Task  | Título de Tarea                             | Descripción                                                                                   | SP | Estado     |
+|------------|------------------------------|-------|---------------------------------------------|-----------------------------------------------------------------------------------------------|----|------------|
+| US01       | Modo oscuro                  | TK1   | Crear toggle de tema                        | Implementar un interruptor para cambiar entre modo claro y oscuro usando Angular Material.    | 1  | Done       |
+|            |                              | TK2   | Persistir preferencia de tema               | Guardar el tema seleccionado en localStorage para mantenerlo entre sesiones.                 | 1  | Done       |
+| US02       | Traducción al inglés         | TK3   | Configurar módulo i18n                      | Instalar e integrar Angular i18n o ngx-translate en el proyecto.                              | 2  | Done |
+|            |                              | TK4   | Agregar archivos de traducción en inglés    | Crear y vincular archivos JSON con los textos traducidos al inglés.                           | 1  | Done       |
+| US03       | Panel visual de avance       | TK5   | Crear componente de dashboard               | Desarrollar vista principal del dashboard con espacio para tarjetas de métricas.              | 1  | Done       |
+|            |                              | TK6   | Implementar barra de progreso por historia  | Mostrar barras con porcentaje de avance por cada User Story.                                  | 1  | Done |
+|            |                              | TK7   | Cargar datos de tareas completadas          | Consultar y reflejar datos reales del backend para alimentar el panel.                        | 1  | Done       |
+| US04       | Retroalimentación visual     | TK8   | Añadir feedback visual en formularios       | Agregar íconos de éxito o error en los formularios de envío de datos.                         | 2  | Done       |
+|            |                              | TK9   | Agregar animaciones sutiles en botones      | Incluir microanimaciones al hacer clic en botones de acción (guardar, cancelar, etc.).        | 1  | Done       |
+|            |                              | TK10  | Mostrar mensajes toast de confirmación      | Mostrar notificaciones flotantes indicando éxito o error tras acciones clave.                 | 2  | Done   |
+| US05       | Reducción de tiempo de carga | TK11  | Medir tiempos de carga actuales             | Utilizar herramientas como Lighthouse o Web Vitals para registrar métricas iniciales.         | 2  | Done       |
+|            |                              | TK12  | Optimizar carga de recursos estáticos       | Aplicar lazy loading, compresión de imágenes y carga diferida de scripts.                     | 3  | Done |
+|            |                              | TK13  | Minimizar bundle y dependencias             | Eliminar dependencias innecesarias y dividir el bundle en partes.                             | 3  | Done       |
+
+
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
