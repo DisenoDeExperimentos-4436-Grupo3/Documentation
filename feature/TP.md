@@ -3756,6 +3756,17 @@ Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los 
 
 ##### 8.3.4.1. Diseño de Entrevistas.
 
+1. ¿Qué te pareció la opción del **modo oscuro** en la aplicación? ¿Te resultó útil para reducir la fatiga visual?
+2. ¿Notaste que la aplicación **recordó el tema oscuro** seleccionado entre sesiones? ¿Consideras útil esta funcionalidad?
+3. ¿Qué opinas de la opción para **cambiar el idioma a inglés**? ¿Pudiste entender mejor las funcionalidades con esta traducción?
+4. ¿Fue fácil encontrar y cambiar el **idioma de la aplicación**? ¿Qué mejorarías del proceso?
+5. ¿Cómo calificarías el nuevo **panel visual de avance** con gráficas y barras de progreso? ¿Te ayudó a entender el estado del proyecto?
+6. ¿Consideras útil ver el **porcentaje de avance** actualizado automáticamente en el panel? ¿Te gustaría más detalle o visualización?
+7. ¿Qué te parecieron los **íconos y animaciones** al completar acciones como guardar, enviar o cancelar? ¿Te ayudaron a confirmar tus acciones?
+8. ¿Los mensajes de **éxito o error** que aparecen después de realizar una acción te fueron claros y oportunos?
+9. ¿Notaste una **mejora en la velocidad de carga** de la aplicación respecto a versiones anteriores? ¿La navegación fue más fluida?
+10. De todas las **mejoras implementadas** (modo oscuro, traducción, feedback visual, rendimiento), ¿cuál crees que tuvo mayor impacto en tu experiencia como usuario?
+
 ##### 8.3.4.2. Registro de Entrevistas.
 
 ### 8.4. Experiment Aftermath & Analysis
