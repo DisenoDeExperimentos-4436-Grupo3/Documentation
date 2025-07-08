@@ -3892,6 +3892,24 @@ Estas conclusiones respaldan decisiones de desarrollo para el siguiente Sprint y
 
 #### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+####  Encuesta de Google Forms
+
+Se utilizó una encuesta estructurada y distribuida mediante **Google Forms** para recopilar retroalimentación directa de los usuarios sobre las mejoras implementadas. Esta encuesta tuvo como objetivo **validar hipótesis planteadas** en torno a funcionalidades clave como el modo oscuro, la traducción al inglés, el panel visual de avance, el feedback visual y las mejoras de rendimiento.
+
+A través de esta herramienta, se logró evaluar de forma efectiva la experiencia de usuario posterior a la implementación, recogiendo datos cuantitativos y cualitativos que **respaldan las decisiones de diseño y desarrollo tomadas** en esta fase.
+
+Los resultados obtenidos sirvieron como base para:
+- Confirmar la utilidad y aceptación de las nuevas funcionalidades.
+- Detectar oportunidades de mejora en usabilidad e internacionalización.
+- Priorizar el backlog de mejoras para los próximos sprints.
+- Fomentar una cultura de aprendizaje continuo centrado en el usuario.
+
+La encuesta fue aplicada a una muestra de **25 participantes** de diversos perfiles y rangos de edad, lo que permitió obtener una visión representativa sobre la efectividad de las nuevas características de la aplicación.
+
+Link de la encuesta: https://forms.gle/B59FiSoAzxJEDk788
+
+![encuesta](/assets/TF/Encuesta_Google.PNG)
+
 ### 8.6. To-Be Software Platform Pre-launch
 
 #### 8.6.1. About-the-Product Intro Video
