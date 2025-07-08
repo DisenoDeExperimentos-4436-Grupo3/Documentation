@@ -2489,26 +2489,18 @@ Esta sección presenta las evidencias del desarrollo del frontend de la aplicaci
 
 **Screenshots de la Aplicación Móvil:**
 
-*   **Pantalla de Inicio de Sesión :**
-    ![Login Screen Mobile Mock](../assets/TP1-mobile/sign-in.jpg) 
-*   **Pantalla de Registro :**
-    ![Sign Up Screen Mobile Mock](../assets/TP1-mobile/register.jpg)
-*   **Formulario para "Crear" User Story :**
-    ![Create User Story Mobile Local](../assets/TP1-mobile/add-US.jpg)
-*    **Formulario para "Crear" Epics :**
-    ![Create epics Local](../assets/TP1-mobile/add-epic.jpg)
-*    **Formulario para "Crear" issues :**
-    ![Create issues Local](../assets/TP1-mobile/add-issues.jpg)
-*    **Formulario para "Crear" miembros :**
-    ![Create members Local](../assets/TP1-mobile/add-members.jpg)
-*   **Formulario para "Crear" Reuniones :**
-    ![Create epics Local](../assets/TP1-mobile/add-members.jpg)
-*   **Lista de Epics:**
-    ![Issues List Mobile Mock](../assets/TP1-mobile/epics.jpg)
-*   **Lista de Issues:**
-    ![Issues List Mobile Mock](../assets/TP1-mobile/issues.jpg)
-*   **Lista de Miembros:**
-    ![Issues List Mobile Mock](../assets/TP1-mobile/members-2.jpg)
+*   **Pantalla de Inicio o Home :**
+    ![Login Screen Mobile Mock](../assets/TF/mobile1.jpg) 
+*   **Pantalla que muestra las epics :**
+    ![Sign Up Screen Mobile Mock](../assets/TF/mobile2.jpg)
+*   **Pantalla que muestra las User Story :**
+    ![Create User Story Mobile Local](../assets/TF/mobile3.jpg)
+*    **Pantalla que muestra las Tasks :**
+    ![Create epics Local](../assets/TF/mobile4.jpg)
+*    **Pantalla que muestra los sprints :**
+    ![Create issues Local](../assets/TF/mobile5.jpg)
+*    **Pantalla que muestra los miembros del equipo :**
+    ![Create members Local](../assets/TF/mobile6.jpg)
 
 ### 5.2.4 Acuerdo de Servicio - SaaS
 
