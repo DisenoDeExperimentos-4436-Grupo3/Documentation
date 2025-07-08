@@ -3875,6 +3875,19 @@ Estas conclusiones respaldan decisiones de desarrollo para el siguiente Sprint y
 
 #### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+| Prioridad | Pregunta                                                                                                     |
+|-----------|--------------------------------------------------------------------------------------------------------------|
+| 1         | ¿Es necesario seguir mejorando el rendimiento si la mayoría de usuarios ya nota una carga rápida?            |
+| 2         | ¿Deberían agregarse más idiomas además del inglés para ampliar el alcance internacional de la aplicación?   |
+| 3         | ¿El contenido traducido necesita mayor claridad o naturalidad en ciertos módulos técnicos?                  |
+| 3         | ¿La visibilidad del panel de avance ayuda realmente al monitoreo por parte de los usuarios no técnicos?     |
+| 5         | ¿Mejorará la experiencia del usuario seguir ampliando el feedback visual con más animaciones o estados?     |
+| 5         | ¿Sería beneficioso permitir que el usuario elija cuánto tiempo permanecen los mensajes de confirmación?     |
+| 5         | ¿Debería integrarse un selector automático de modo oscuro basado en horario o sistema operativo?            |
+| 8         | ¿Es el modo oscuro una funcionalidad clave que debería permanecer activa por defecto en próximas versiones? |
+| 8         | ¿Aumentará la satisfacción del usuario si el idioma, modo y configuración visual se guardan entre sesiones? |
+
+
 ### 8.5. Continuous Learning
 
 #### 8.5.1. Shareback Session Artifacts: Learning Workflow
