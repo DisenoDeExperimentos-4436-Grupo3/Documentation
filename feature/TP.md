@@ -3027,19 +3027,39 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 1. Entrevista 1: <br>
    Datos del entrevistado <br>
-   Nombre:   <br>
-   Apellidos:  <br>
-   Edad:  <br>
-   Distrito:  <br>
+   Nombre: Carlos  <br>
+   Apellidos: Rincon <br>
+   Edad: 25 <br>
+   Distrito: San Isidro <br>
 
-![Foto de entrevista 1](/assets...)
+![Foto de entrevista 1](/assets/TF/Entrevista1.1.PNG)
 
-URL: [Link de entrevista](https...)
+URL: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/EeYOA67esJdPjpU5vZ8Pg8IBzW5CBuI7Vmi8au4srqrvpA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GyIy2u)
 
-Inicio: 0:0<br>
-Duracion:  
+Inicio: 0:13<br>
+Duracion: 2:21
 
 Resumen:<br>
+
+Carlos encontró la aplicación clara, intuitiva y fácil de usar. Destacó el diseño limpio, la efectividad en la gestión de tareas y métricas, y la facilidad para colaborar en equipo. Aunque tuvo una leve confusión en un punto, la resolvió sin problemas. Considera que la herramienta se adapta bien a su forma de trabajo y estaría dispuesto a usarla en un proyecto real por su capacidad de organización.
+
+2. Entrevista 2: <br>
+   Datos del entrevistado <br>
+   Nombre: Joao  <br>
+   Apellidos: Pedro <br>
+   Edad: 23 <br>
+   Distrito: Magdalena <br>
+
+![Foto de entrevista 1](/assets/TF/Entrevista1.2.PNG)
+
+URL: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216035_upc_edu_pe/ERPaxqaWO2xEpLzZc8ZW-H0BgeDltJXMFCfNRliqdHecZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UnwQC2)
+
+Inicio: 0:09<br>
+Duracion: 2:16
+
+Resumen:<br>
+
+Joao destacó que la aplicación es clara, fácil de navegar y visualmente atractiva. Valoró el enfoque hacia startups y la gestión de tareas y tableros, considerando el flujo de trabajo fluido e intuitivo. Mencionó una pequeña duda con los permisos, pero en general la experiencia fue positiva. Afirmó que la herramienta se adapta bien a su forma de trabajo y estaría dispuesto a usarla en proyectos reales por su potencial de crecimiento y colaboración efectiva.
 
 **Segmento 2: Equipo de Desarrollo de Software**
 
