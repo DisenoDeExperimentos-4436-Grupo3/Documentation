@@ -3773,6 +3773,106 @@ Iteración Basada en Datos: Las decisiones de producto se fundamentarán en los 
 
 #### 8.4.1. Analysis and Interpretation of Results
 
+### Análisis de Datos Demográficos
+
+- **Rango de edad:**  
+  El grupo de edad **18–24 años** fue el más representado, con **52% de los participantes**. Le siguieron los grupos **25–30 (24%)**, **31–40 (12%)**, y **41 o más (12%)**.  
+  Esto sugiere que la plataforma *Managewise* atrae principalmente a un público joven, lo cual es positivo para validar características modernas como modo oscuro o animaciones, que este grupo valora más.
+
+![form graph1](/assets/TF/8.4.1_Edad.png)
+
+- **Duración de uso del producto:**  
+  La mayoría de los usuarios (64%) indicó que usó el producto por al menos **3 horas**, mientras que un 36% reportó uso de **1 hora**.  
+  Esto indica que los participantes tuvieron suficiente tiempo para experimentar con las mejoras implementadas y brindar retroalimentación válida.
+
+  ![form graph2](/assets/TF/8.4.1_Tiempo.png)
+
+---
+
+### Evaluación del Modo Oscuro
+
+- El **100%** de los participantes encontró la función **útil o muy útil**.
+- Además, **el 100% afirmó que la aplicación recordó correctamente la selección de tema oscuro entre sesiones**.  
+
+Este resultado demuestra una alta aceptación de la funcionalidad, y confirma que se implementó correctamente tanto en la interfaz como en la persistencia de configuración.
+
+**Recomendación:** Mantener esta función y explorar cambios automáticos según el sistema operativo o el horario del día.
+
+![form graph2](/assets/TF/8.4.1_Modo_oscuro.png)
+
+---
+
+### Traducción al Inglés
+
+- El **100%** de los usuarios pudo cambiar el idioma fácilmente.
+- El **80%** describió las traducciones como **claras o muy claras**, mientras que un **20%** las consideró **regulares**.
+
+**Recomendación:** Mejorar algunas frases técnicas y explorar la incorporación de nuevos idiomas en el futuro (francés, portugués, etc.).
+
+![form graph3](/assets/TF/8.4.1_Traduccion.png)
+
+---
+
+### Panel Visual de Avance
+
+- El **84%** de los participantes calificó esta funcionalidad como **útil o muy útil**.
+- Fue marcada como una de las mejoras más significativas por varios usuarios.
+
+**Recomendación:** Agregar interactividad al panel, como la posibilidad de hacer clic para ver tareas o historias asociadas a cada métrica.
+
+![form graph4](/assets/TF/8.4.1_Panel_Visual.png)
+
+---
+
+### Feedback Visual (Íconos y Animaciones)
+
+- El **96%** respondió que **"Siempre"** los íconos y animaciones le ayudaron a confirmar acciones.
+- Solo un **4%** marcó "Casi siempre".
+
+Esto evidencia una experiencia de usuario más fluida y clara gracias a esta implementación.
+
+**Recomendación:** Mejorar la duración o personalización de los mensajes de feedback (ej. diferenciarlos por tipo de acción).
+
+![form graph5](/assets/TF/8.4.1_Visual.png)
+
+---
+
+### Rendimiento y Velocidad de Carga
+
+- **76%** notó una mejora en la velocidad de carga:
+  - 32%: *Sí, significativamente*
+  - 44%: *Sí, ligeramente*
+- El 24% restante no notó diferencia.
+
+**Recomendación:** Continuar optimizando el rendimiento, especialmente en secciones con mayor peso o en dispositivos móviles.
+
+![form graph6](/assets/TF/8.4.1_Tiempo_Carga.png)
+
+---
+
+### Funcionalidad más significativa para los usuarios
+
+Selección basada en múltiples opciones (Pregunta 10):
+
+- **Modo oscuro**: 84%
+- **Traducción al inglés**: 72%
+- **Feedback visual (íconos y mensajes)**: 60%
+- **Panel visual**: 56%
+- **Rendimiento / velocidad de carga**: 48%
+
+**Recomendación:** Las funcionalidades visuales y personalizadas tienen gran impacto. Invertir en mejorar aún más estas áreas será bien recibido por los usuarios.
+
+---
+
+### Conclusión general
+
+Las respuestas reflejan una **validación fuerte** de las funcionalidades implementadas durante el Sprint 1.  
+Los usuarios reconocen el valor del **modo oscuro**, las **traducciones claras**, el **rendimiento optimizado** y los **elementos visuales de interacción**.  
+Aunque existen detalles menores por refinar, en general, la percepción de valor y calidad es **altamente positiva**.
+
+Estas conclusiones respaldan decisiones de desarrollo para el siguiente Sprint y justifican la continuación de mejoras en experiencia de usuario e internacionalización.
+
+
 #### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 ### 8.5. Continuous Learning
